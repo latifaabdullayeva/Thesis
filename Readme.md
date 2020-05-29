@@ -1,5 +1,4 @@
-# Project Title
-Understanding Autonomous Device Behavior in a Social Internet of Things environment though Personality Traits
+# Understanding Autonomous Device Behavior in a Social Internet of Things environment though Personality Traits
 
 * The source code repository of a project is at [GitHub](https://github.com/latifaabdullayeva/AutonomousSystemThesis)
 
