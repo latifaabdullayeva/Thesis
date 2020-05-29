@@ -1,0 +1,116 @@
+\input{sections/c0/header}
+% for Block diagrams (start)
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{makecell}
+\usepackage{tabu, booktabs}
+% for Block diagrams (end)
+\usepackage{appendix}
+
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{pdfpages}
+
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{caption}
+
+\begin{document}
+\lstset{language=Java, basicstyle=\footnotesize}
+
+\renewcommand{\thepage}{\roman{page}}
+\newcommand{\monthword}[1]{\ifcase#1\or January\or February\or March\or April\or
+                                        May\or June\or July\or August\or
+                                        September\or October\or November\or December\fi} 
+
+\input{sections/c0/titlepage}
+\input{sections/c0/secondpage}
+\clearpage
+\input{sections/c0/declaration}
+\clearpage
+\input{sections/c0/acks}
+\clearpage
+\input{sections/c0/abstract}
+
+\clearpage
+
+\begingroup
+  \pagestyle{plain}
+
+\setcounter{tocdepth}{2}
+  \addtocontents{toc}{\protect\thispagestyle{plain}}
+  \addtocontents{toc}{\protect\vspace{-.45cm}}
+  \tableofcontents
+  \clearpage
+\endgroup 
+
+\pagestyle{fancy}
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+
+\input{sections/introduction}
+\input{sections/relatedWork}
+\input{sections/concept}
+\input{sections/implementation}
+\input{sections/userstudy}
+\input{sections/results}
+\input{sections/discussions}
+\input{sections/conclusion}
+
+\appendix
+\input{sections/appendices}
+
+~\cite{weiser2002computer}
+~\cite{hupfeld2000spatially}
+~\cite{tan2010future}
+~\cite{ashton2009internet}
+~\cite{madakam2015internet}
+~\cite{chung2018explorations}
+~\cite{atzori2010internet}
+~\cite{atzori2011siot}
+~\cite{atzori2012social}
+~\cite{okada2016autonomous}
+
+~\cite{hall1963system}
+~\cite{hall1910hidden}
+~\cite{vermeulen2015proxemic}
+~\cite{ledo2015proxemic}
+~\cite{ballendat2010proxemic}
+~\cite{soro2018social}
+~\cite{spadafora2016designing}
+~\cite{matthews2003personality}
+
+~\cite{luscher1971luscher}
+~\cite{cerrato2012meaning}
+~\cite{schaie1964color}
+~\cite{bagherianrelationship}
+~\cite{kirst2011investigating}
+~\cite{ramanaiah1993neo}
+~\cite{lefevre1981assertiveness}
+~\cite{costa1988catalog}
+~\cite{costa2008revised}
+
+%  !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!
+
+%Bitte stelle sicher, dass die Bibliographie konsistent ist! Darunter fallen:
+%- Konferenzen sollen immer gleich heißen, wenn sie von der gleichen Serie stammen. 
+%- Wenn ein Titel capitalized dargestellt ist, sollen alle Titel so dargestellt werden.
+%- Die gleiche Menge an Informationen soll in jedem Eintrag vorhanden sein. Du hast 1x den Verlag mit angegeben? Dann soll der Verlag überall erscheinen. Oder einmal eine DOI mit angegeben? Dann bitte überall eine DOI mitangeben.
+%- Bitte prüfe vor jeder Abgabe die Konsistenz des Verzeichnisses. 
+
+%HINWEIS: Der bibliographystyle darf geändert werden. 
+
+	\cleardoublepage
+\begingroup
+	\phantomsection
+  \pagestyle{plain}
+  \bibliographystyle{SIGCHI-Reference-Format}
+   \phantomsection
+	\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+	\interlinepenalty=10000 %prevents bibtex that are one two pages.
+	\bibliography{references}\emph{}	
+	\vfill
+  \clearpage
+\endgroup 
+\end{document}
