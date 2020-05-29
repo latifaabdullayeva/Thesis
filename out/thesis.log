@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  29 MAY 2020 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  29 MAY 2020 18:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1974,6 +1974,10 @@ Overfull \hbox (1.05746pt too wide) in paragraph at lines 672--672
 []|\T1/ppl/m/n/10.95 (-20) 11.169| 
  []
 
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.10 on input line 674.
+
 [42] [43]
 Overfull \hbox (1.05746pt too wide) in paragraph at lines 804--804
 []|\T1/ppl/m/n/10.95 (-20) 24.008| 
@@ -1993,6 +1997,10 @@ Overfull \hbox (1.05746pt too wide) in paragraph at lines 806--806
 Overfull \hbox (1.05746pt too wide) in paragraph at lines 807--807
 []|\T1/ppl/m/n/10.95 (-20) 46.603| 
  []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.12 on input line 810.
 
 [44] [45]
 Overfull \hbox (1.05746pt too wide) in paragraph at lines 937--937
@@ -2024,7 +2032,16 @@ Overfull \hbox (1.05746pt too wide) in paragraph at lines 941--941
 []|\T1/ppl/m/n/10.95 (-20) 37.725| 
  []
 
-[46] [47] [48]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.14 on input line 943.
+
+[46] [47]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.16 on input line 1079.
+
+[48]
 Overfull \hbox (15.67958pt too wide) in alignment at lines 1110--1123
  [] [] [] [] [] [] [] 
  []
@@ -2295,14 +2312,16 @@ Package pdftex.def Info: ./images/Study2(M-T).pdf  used on input line 556.
 
 ] [84] [85])
 [86]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
-
 (/Users/latifaabdullayeva/Desktop/Thesis_Template_DE_EN/Thesis/out/thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3919E974F4914DF8F8DBB7E2CBDD4378;4601.
+(rerunfilecheck)             Checksum: <no file>.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2312,7 +2331,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
 Here is how much of TeX's memory you used:
  26051 strings out of 492649
  491164 string characters out of 6129622
- 660227 words of memory out of 5000000
+ 660188 words of memory out of 5000000
  28929 multiletter control sequences out of 15000+600000
  51392 words of font info for 192 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2328,7 +2347,7 @@ ts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
 1/urw/palatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb>
 Output written on /Users/latifaabdullayeva/Desktop/Thesis_Template_DE_EN/Thesis
-/out/thesis.pdf (94 pages, 444064 bytes).
+/out/thesis.pdf (94 pages, 444164 bytes).
 PDF statistics:
  1156 PDF objects out of 1200 (max. 8388607)
  1014 compressed objects within 11 object streams
