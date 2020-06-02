@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  31 MAY 2020 20:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 JUN 2020 21:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1230,13 +1230,14 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 
 ] [3]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 25.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 107.
+
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
  [4] [5]
 [6] [7] [8]) (./sections/concept.tex [9] [10
 
@@ -1751,17 +1752,12 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 167--168
  []
 
 [34]
-<./images/Study1(M-L)copy.pdf, id=713, 867.24pt x 939.51pt>
-File: ./images/Study1(M-L)copy.pdf Graphic file (type pdf)
-<use ./images/Study1(M-L)copy.pdf>
-Package pdftex.def Info: ./images/Study1(M-L)copy.pdf  used on input line 175.
-(pdftex.def)             Requested size: 390.2544pt x 422.77559pt.
-
-Overfull \hbox (6.1422pt too wide) in paragraph at lines 175--176
- [][] 
- []
-
-[35] [36 <./images/Study1(M-L)copy.pdf>]
+<./images/Study1(M-L).pdf, id=713, 597.50786pt x 845.04686pt>
+File: ./images/Study1(M-L).pdf Graphic file (type pdf)
+<use ./images/Study1(M-L).pdf>
+Package pdftex.def Info: ./images/Study1(M-L).pdf  used on input line 175.
+(pdftex.def)             Requested size: 328.63033pt x 464.7772pt.
+ [35] [36 <./images/Study1(M-L).pdf>]
 Overfull \hbox (1.05746pt too wide) in paragraph at lines 255--255
 []|\T1/ppl/m/n/10.95 (-20) 23.566| 
  []
@@ -2191,17 +2187,12 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 289--290
 []|\T1/ppl/m/n/10.95 (-20) 4.0| 
  []
 
-<./images/Study2(M-L).pdf, id=754, 1156.32pt x 867.24pt>
+<./images/Study2(M-L).pdf, id=961, 845.04686pt x 597.50786pt>
 File: ./images/Study2(M-L).pdf Graphic file (type pdf)
 <use ./images/Study2(M-L).pdf>
 Package pdftex.def Info: ./images/Study2(M-L).pdf  used on input line 297.
-(pdftex.def)             Requested size: 404.71806pt x 303.53854pt.
-
-Overfull \hbox (20.60587pt too wide) in paragraph at lines 297--298
- [][] 
- []
-
-[38] [39 <./images/Study2(M-L).pdf>] [40]
+(pdftex.def)             Requested size: 380.26758pt x 268.87605pt.
+[38] [39 <./images/Study2(M-L).pdf, page is rotated 90 degrees>]
 Overfull \hbox (2.16266pt too wide) in paragraph at lines 398--398
 []|\T1/ppl/m/n/10.95 (-20) Conscientiousness| 
  []
@@ -2221,7 +2212,7 @@ Overfull \hbox (1.05746pt too wide) in paragraph at lines 400--400
 []|\T1/ppl/m/n/10.95 (-20) 25.838| 
  []
 
-
+[40]
 Overfull \hbox (2.07996pt too wide) in paragraph at lines 421--421
 []|\T1/ppl/b/n/10.95 Min| 
  []
@@ -2461,12 +2452,17 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 423--424
 []|\T1/ppl/m/n/10.95 (-20) 4.7| 
  []
 
-<./images/Study1(M-S).pdf, id=793, 722.7pt x 722.7pt>
+<./images/Study1(M-S).pdf, id=1208, 845.04686pt x 597.50786pt>
 File: ./images/Study1(M-S).pdf Graphic file (type pdf)
 <use ./images/Study1(M-S).pdf>
 Package pdftex.def Info: ./images/Study1(M-S).pdf  used on input line 431.
-(pdftex.def)             Requested size: 325.21199pt x 325.21199pt.
-[41] [42 <./images/Study1(M-S).pdf>]
+(pdftex.def)             Requested size: 464.7772pt x 328.63033pt.
+
+Overfull \hbox (80.66501pt too wide) in paragraph at lines 431--432
+ [][] 
+ []
+
+[41] [42 <./images/Study1(M-S).pdf, page is rotated 90 degrees>]
 Overfull \hbox (6.90009pt too wide) in paragraph at lines 492--492
 []|\T1/ppl/m/n/10.95 (-20) Sophisticated| 
  []
@@ -2736,12 +2732,12 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 515--516
 []|\T1/ppl/m/n/10.95 (-20) 4.7| 
  []
 
-<./images/Study2(M-S).pdf, id=819, 1156.32pt x 722.7pt>
+<./images/Study2(M-S).pdf, id=1301, 845.04686pt x 597.50786pt>
 File: ./images/Study2(M-S).pdf Graphic file (type pdf)
 <use ./images/Study2(M-S).pdf>
 Package pdftex.def Info: ./images/Study2(M-S).pdf  used on input line 523.
-(pdftex.def)             Requested size: 381.58678pt x 238.49173pt.
-[43] [44 <./images/Study2(M-S).pdf>]
+(pdftex.def)             Requested size: 380.26758pt x 268.87605pt.
+[43] [44 <./images/Study2(M-S).pdf, page is rotated 90 degrees>]
 Overfull \hbox (1.05746pt too wide) in paragraph at lines 615--615
 []|\T1/ppl/m/n/10.95 (-20) 19.767| 
  []
@@ -3297,11 +3293,11 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 648--649
  []
 
 [45]
-<./images/Study1(M-M).pdf, id=859, 722.7pt x 867.24pt>
+<./images/Study1(M-M).pdf, id=1467, 597.50786pt x 845.04686pt>
 File: ./images/Study1(M-M).pdf Graphic file (type pdf)
 <use ./images/Study1(M-M).pdf>
 Package pdftex.def Info: ./images/Study1(M-M).pdf  used on input line 656.
-(pdftex.def)             Requested size: 325.21199pt x 390.2544pt.
+(pdftex.def)             Requested size: 328.63033pt x 464.7772pt.
  [46]
 
 LaTeX Warning: Reference `fig:' on page 47 undefined on input line 671.
@@ -3325,6 +3321,10 @@ Overfull \hbox (1.05746pt too wide) in paragraph at lines 731--731
 Overfull \hbox (1.05746pt too wide) in paragraph at lines 732--732
 []|\T1/ppl/m/n/10.95 (-20) 46.603| 
  []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.11 on input line 735.
 
 
 Overfull \hbox (2.07996pt too wide) in paragraph at lines 752--752
@@ -3732,12 +3732,12 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 763--764
  []
 
 [48]
-<./images/Study2(M-M).pdf, id=891, 1156.32pt x 794.97pt>
+<./images/Study2(M-M).pdf, id=1703, 845.04686pt x 597.50786pt>
 File: ./images/Study2(M-M).pdf Graphic file (type pdf)
 <use ./images/Study2(M-M).pdf>
 Package pdftex.def Info: ./images/Study2(M-M).pdf  used on input line 771.
-(pdftex.def)             Requested size: 381.58678pt x 262.34091pt.
- [49 <./images/Study2(M-M).pdf>]
+(pdftex.def)             Requested size: 380.26758pt x 268.87605pt.
+ [49 <./images/Study2(M-M).pdf, page is rotated 90 degrees>] [50]
 Overfull \hbox (1.05746pt too wide) in paragraph at lines 860--860
 []|\T1/ppl/m/n/10.95 (-20) 28.841| 
  []
@@ -3767,7 +3767,11 @@ Overfull \hbox (1.05746pt too wide) in paragraph at lines 864--864
 []|\T1/ppl/m/n/10.95 (-20) 37.725| 
  []
 
-[50]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.13 on input line 866.
+
+
 Overfull \hbox (2.07996pt too wide) in paragraph at lines 883--883
 []|\T1/ppl/b/n/10.95 Min| 
  []
@@ -4172,17 +4176,22 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 894--895
 []|\T1/ppl/m/n/10.95 (-20) 3.8| 
  []
 
-<./images/Study1(M-T).pdf, id=925, 867.24pt x 867.24pt>
+<./images/Study1(M-T).pdf, id=1941, 845.04686pt x 597.50786pt>
 File: ./images/Study1(M-T).pdf Graphic file (type pdf)
 <use ./images/Study1(M-T).pdf>
 Package pdftex.def Info: ./images/Study1(M-T).pdf  used on input line 902.
-(pdftex.def)             Requested size: 390.2544pt x 390.2544pt.
+(pdftex.def)             Requested size: 464.7772pt x 328.63033pt.
 
-Overfull \hbox (6.1422pt too wide) in paragraph at lines 902--903
+Overfull \hbox (80.66501pt too wide) in paragraph at lines 902--903
  [][] 
  []
 
-[51] [52 <./images/Study1(M-T).pdf>]
+[51] [52 <./images/Study1(M-T).pdf, page is rotated 90 degrees>]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.15 on input line 987.
+
+
 Overfull \hbox (2.07996pt too wide) in paragraph at lines 1004--1004
 []|\T1/ppl/b/n/10.95 Min| 
  []
@@ -4588,23 +4597,23 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 1015--1016
  []
 
 [53]
-<./images/Study2(M-T).pdf, id=957, 1156.32pt x 722.7pt>
+<./images/Study2(M-T).pdf, id=2180, 845.04686pt x 597.50786pt>
 File: ./images/Study2(M-T).pdf Graphic file (type pdf)
 <use ./images/Study2(M-T).pdf>
 Package pdftex.def Info: ./images/Study2(M-T).pdf  used on input line 1023.
-(pdftex.def)             Requested size: 381.58678pt x 238.49173pt.
-) (./sections/discussions.tex [54 <./images/Study2(M-T).pdf>] [55
+(pdftex.def)             Requested size: 380.26758pt x 268.87605pt.
+) (./sections/discussions.tex [54 <./images/Study2(M-T).pdf, page is rotated 90
+ degrees>] [55
 
 
-] [56]
-[57] [58] [59] [60] [61]) (./sections/conclusion.tex [62] [63] [64
+] [56] [57] [58] [59] [60] [61]) (./sections/conclusion.tex
+[62] [63
 
 
-] [65]
-[66] [67]) (./sections/appendices.tex [68] [69
+] [64] [65] [66]) (./sections/appendices.tex [67] [68
 
 
-] [70]
+] [69]
 Overfull \hbox (7.53166pt too wide) in alignment at lines 155--170
  [] [] [] [] [] [] [] 
  []
@@ -4729,7 +4738,7 @@ Overfull \hbox (18.5246pt too wide) in alignment at lines 272--273
  [] [] [] [] [] [] [] 
  []
 
-[71] [72] [73]
+[70] [71] [72]
 Overfull \hbox (15.67958pt too wide) in alignment at lines 491--504
  [] [] [] [] [] [] [] 
  []
@@ -4759,16 +4768,16 @@ Overfull \hbox (15.67958pt too wide) in alignment at lines 552--561
  [] [] [] [] [] [] [] 
  []
 
-[74]
+[73]
 Overfull \hbox (42.69435pt too wide) in paragraph at lines 567--618
  [] 
  []
 
-[75]
+[74]
 Overfull \vbox (51.05411pt too high) has occurred while \output is active []
 
 
-[76]
+[75]
 Overfull \hbox (42.69435pt too wide) in paragraph at lines 627--678
  [] 
  []
@@ -4777,7 +4786,7 @@ Overfull \hbox (42.69435pt too wide) in paragraph at lines 627--678
 Overfull \vbox (51.05411pt too high) has occurred while \output is active []
 
 
-[77]
+[76]
 Overfull \hbox (6.90009pt too wide) in paragraph at lines 700--700
 []|\T1/ppl/m/n/10.95 (-20) Sophisticated| 
  []
@@ -4872,16 +4881,16 @@ Overfull \hbox (56.92073pt too wide) in paragraph at lines 737--772
  [] 
  []
 
-[78]
+[77]
 Overfull \hbox (42.69435pt too wide) in paragraph at lines 780--831
  [] 
  []
 
-[79]
+[78]
 Overfull \vbox (51.05411pt too high) has occurred while \output is active []
 
 
-[80]
+[79]
 Overfull \hbox (42.69435pt too wide) in paragraph at lines 839--890
  [] 
  []
@@ -4890,7 +4899,7 @@ Overfull \hbox (42.69435pt too wide) in paragraph at lines 839--890
 Overfull \vbox (51.05411pt too high) has occurred while \output is active []
 
 
-[81]
+[80]
 Overfull \hbox (49.96616pt too wide) in paragraph at lines 898--949
  [] 
  []
@@ -4899,7 +4908,7 @@ Overfull \hbox (49.96616pt too wide) in paragraph at lines 898--949
 Overfull \vbox (51.05411pt too high) has occurred while \output is active []
 
 
-[82]
+[81]
 Overfull \hbox (42.69435pt too wide) in paragraph at lines 957--1008
  [] 
  []
@@ -4908,16 +4917,19 @@ Overfull \hbox (42.69435pt too wide) in paragraph at lines 957--1008
 Overfull \vbox (51.05411pt too high) has occurred while \output is active []
 
 
-[83]) [84
+[82]) [83
 
 
-] (./thesis.bbl [85
+] (./thesis.bbl [84
 
 
-] [86] [87]) [88]
+] [85] [86]) [87]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
- (./thesis.aux)
+(./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
@@ -4932,13 +4944,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 26066 strings out of 492649
- 490616 string characters out of 6129622
- 684643 words of memory out of 5000000
- 28937 multiletter control sequences out of 15000+600000
+ 26086 strings out of 492649
+ 491225 string characters out of 6129622
+ 685765 words of memory out of 5000000
+ 28958 multiletter control sequences out of 15000+600000
  51392 words of font info for 192 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,67p,2160b,748s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,67p,2113b,748s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
@@ -4949,10 +4961,10 @@ ist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fon
 ts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
 1/urw/palatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb>
-Output written on thesis.pdf (96 pages, 451196 bytes).
+Output written on thesis.pdf (95 pages, 3390147 bytes).
 PDF statistics:
- 1222 PDF objects out of 1440 (max. 8388607)
- 1078 compressed objects within 11 object streams
- 263 named destinations out of 1000 (max. 500000)
+ 2651 PDF objects out of 2984 (max. 8388607)
+ 2138 compressed objects within 22 object streams
+ 262 named destinations out of 1000 (max. 500000)
  21566 words of extra memory for PDF output out of 24883 (max. 10000000)
 
