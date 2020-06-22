@@ -3,6 +3,8 @@ Understanding Autonomous Device Behavior in a Social Internet of Things environm
 
 * The source code repository of a project is at [GitHub](https://github.com/latifaabdullayeva/AutonomousSystemThesis)
 
+* The presentation for thesis is at[GitHub](https://github.com/latifaabdullayeva/AutonomousSystemThesis/tree/master/Thesis%20Presentation)
+
 # Building the document
 
 # Tools
