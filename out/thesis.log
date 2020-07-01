@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  8 JUN 2020 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  1 JUL 2020 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1229,15 +1229,15 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 63.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 56.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
 
-Overfull \hbox (2.10478pt too wide) in paragraph at lines 67--68
+Overfull \hbox (2.10478pt too wide) in paragraph at lines 60--61
 []\T1/ppl/m/n/10.95 (-20) Sophisticated, con-tem-po-rary, un-pre-ten-tious mu-s
 ic for Mascot-Speakers
  []
@@ -1250,7 +1250,7 @@ ic for Mascot-Speakers
 
 
 ] [13]
-Overfull \hbox (2.43768pt too wide) in paragraph at lines 42--58
+Overfull \hbox (2.43768pt too wide) in paragraph at lines 101--116
  [][] 
  []
 
@@ -1259,7 +1259,7 @@ Overfull \hbox (2.43768pt too wide) in paragraph at lines 42--58
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15] [16] [17] [18] [19] [20]
-Overfull \hbox (2.43768pt too wide) in paragraph at lines 198--222
+Overfull \hbox (2.43768pt too wide) in paragraph at lines 446--479
  [][] 
  []
 
@@ -1278,13 +1278,13 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 File: ./images/RplotDemographicsFields.pdf Graphic file (type pdf)
 <use ./images/RplotDemographicsFields.pdf>
 Package pdftex.def Info: ./images/RplotDemographicsFields.pdf  used on input li
-ne 9.
+ne 17.
 (pdftex.def)             Requested size: 157.08661pt x 118.39114pt.
 <./images/RplotDemographicsStudyLevel.pdf, id=656, 332.77805pt x 267.43233pt>
 File: ./images/RplotDemographicsStudyLevel.pdf Graphic file (type pdf)
 <use ./images/RplotDemographicsStudyLevel.pdf>
 Package pdftex.def Info: ./images/RplotDemographicsStudyLevel.pdf  used on inpu
-t line 16.
+t line 24.
 (pdftex.def)             Requested size: 149.74873pt x 120.34343pt.
  [27
 
@@ -1294,28 +1294,28 @@ t line 16.
 File: ./images/RplotDemographicsDeviceUse.pdf Graphic file (type pdf)
 <use ./images/RplotDemographicsDeviceUse.pdf>
 Package pdftex.def Info: ./images/RplotDemographicsDeviceUse.pdf  used on input
- line 25.
+ line 33.
 (pdftex.def)             Requested size: 145.62318pt x 111.0378pt.
 <./images/RplotDemographicsDeviceUseInHours.pdf, id=672, 751.80875pt x 426.5937
 5pt>
 File: ./images/RplotDemographicsDeviceUseInHours.pdf Graphic file (type pdf)
 <use ./images/RplotDemographicsDeviceUseInHours.pdf>
 Package pdftex.def Info: ./images/RplotDemographicsDeviceUseInHours.pdf  used o
-n input line 34.
+n input line 42.
 (pdftex.def)             Requested size: 338.3108pt x 191.96541pt.
  [28 <./images/RplotDemographicsStudyLevel.pdf> <./images/RplotDemographicsDevi
 ceUse.pdf>]
-Overfull \hbox (2.10431pt too wide) in paragraph at lines 63--63
+Overfull \hbox (2.10431pt too wide) in paragraph at lines 71--71
 []|\T1/ppl/m/n/10.95 (-20) Rock&Roll| 
  []
 
 
-Overfull \hbox (0.75092pt too wide) in paragraph at lines 44--67
+Overfull \hbox (0.75092pt too wide) in paragraph at lines 52--75
  [][] 
  []
 
 [29 <./images/RplotDemographicsDeviceUseInHours.pdf>] [30] [31]
-Overfull \hbox (10.87881pt too wide) in paragraph at lines 115--116
+Overfull \hbox (10.87881pt too wide) in paragraph at lines 123--124
 []\T1/ppl/m/n/10.95 (-20) For Mascot-Tablet case-study, there are five vari-abl
 e: yel-low, or-ange, turquoise,
  []
@@ -4942,7 +4942,7 @@ Here is how much of TeX's memory you used:
  28967 multiletter control sequences out of 15000+600000
  51392 words of font info for 192 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,67p,2113b,748s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,67p,1013b,748s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
@@ -4954,7 +4954,7 @@ ts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
 1/urw/palatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb>
 Output written on /Users/latifaabdullayeva/Desktop/Thesis_Template_DE_EN/Thesis
-/out/thesis.pdf (98 pages, 3401281 bytes).
+/out/thesis.pdf (98 pages, 3400813 bytes).
 PDF statistics:
  2694 PDF objects out of 2984 (max. 8388607)
  2178 compressed objects within 22 object streams
