@@ -6,52 +6,59 @@
 The rapid development of the area of Information Technology led to the
 emergence of a new paradigm known as "Internet of Things".
 IoT adds a new dimension by focusing not only on the interaction between
-human and devices but also between devices themselves.
+humans and devices but also on devices themselves.
 However, the concept of IoT does not ensure the effective discovery of
 objects and better reaction to the states of other objects.
-In recent IoT products, users play a key role for interaction between objects.
-A new paradigm "Social Internet of Things" (SIoT) introduces more autonomous interaction between "things"
-by applying the notion of Social Relationship of things rather than explicit users' instructions.
+In recent IoT products, users play a key role in the interaction between objects.
+A new paradigm "Social Internet of Things" (SIoT) introduces more autonomous
+interaction between "things" by applying the notion of Social Relationship of
+things rather than explicit users' instructions.
 However, the ambition of having autonomous interaction of things increases
-the complexity of a system without having user in mind.
-Throughout this paper "things" based on SIoT concept will be called "social things" or "social devices" for convenience.
+the complexity of a system without having users in mind.
+Throughout this paper, "things" based on the SIoT concept will be called
+"social things" or "social devices" for convenience.
 
-Social things interacting with each other act without making visible to the user the decisions made by a system.
-Thus, it is unrealistic to assume that the autonomous decisions made by social things
-will always be in line with users' expectations.
-Given this problem, we are motivated to find and investigate on the approach that will take user's context into account.
-We propose the system that achieves the cooperation of social things where
-things are assigned with unique personalities.
-A user being able to configure personality of social device, will be ensured about
-consistent behavior of devices, moreover, the services provided by these devices will remain dynamic.
+Social things interacting with each other act without making visible to the
+user the decisions made by a system.
+Thus, it is unrealistic to assume that the autonomous decisions made by
+social things will always be in line with users' expectations.
+Given this problem, we are motivated to find and investigate the approach
+that will take the user's context into account.
+We propose the system that achieves the cooperation of social things
+where things are assigned with unique personalities.
+A user being able to configure the personality of the social device will be ensured about
+the consistent behavior of devices, moreover, the services provided by these devices will remain dynamic.
 We assume that personality with preset case-studies will increase user's
-awareness of a system and serve as an interface inside SIoT environment.
+awareness of a system and serve as an interface inside the SIoT environment.
 
-Our prototype is inspired by the "Autonomous Cooperation of Social Things" paper ~\cite{okada2016autonomous},
-where authors achieve the interaction between mascot and bench as case studies
-by representing to cooperation among private and public things.
-More detailed description of a system and its contribution we describe in section ~\ref{sec:Autonomous interaction of things}.
+Our prototype is inspired by the "Autonomous Cooperation of Social Things"
+paper ~\cite{okada2016autonomous},
+where authors achieve the interaction between mascot and bench as case
+studies by representing to cooperation among private and public things.
+A more detailed description of a system and its contribution we describe
+in section ~\ref{sec: Autonomous interaction of things}.
 In addition, authors introduce social things concept where things have unique personalities.
-However, they do not use personality from design perspective.
-In their prototype mascot interact with a bench
-which shows only static behavior on user's position in a space.
-We are planning to apply personality as a design process, and bring it to the behavior of social
-thing where they will react to each other dynamically based on the personality of social device.
+However, they do not use personality from a design perspective.
+In their prototype mascot interact with a bench which shows only static behavior on the user's position in space.
+We are planning to apply personality as a design process, and bring it to the
+behavior of social thing where they will react to each other dynamically based on the personality of social device.
 Thus, we envision that the concept of personality with preset actions will influence
-not only the interaction between social things but also between user and social things.
+not only the interaction between social things but also between the user and social things.
 
 \section{Research Goals}
 \label{sec:research-goals}
-As we mentioned in previous section [~\ref{sec:motivation}], in prototype introduced by
-paper~\cite{okada2016autonomous}, social devices have static behavior when we consider it from user perspective.
+As we mentioned in the previous section ~\ref{sec: motivation}, in prototype introduced
+by paper ~\cite{okada2016autonomous}, social devices have static behavior when we consider it from a user perspective.
 Users are not able to configure devices or input some information and see the output accordingly.
-Considering the role of the human in the SIoT, in our prototype, personality with preset actions
-serve as an interface for interaction between user and its environment including social devices.
-Therefore, as an input, we use the configuration of Mascot's personality and proximity information of user's movements.
-As an output, we use actions that all social things in the environment displays (i.e change of light,
-vibration, music play and screen color change) based on the personality information that user configured.
+Considering the role of the human in the SIoT, in our prototype, personality with preset
+actions serves as an interface for interaction between user and its environment including social devices.
+Therefore, as an input, we use the configuration of Mascot's personality and proximity
+information of the user's movements.
+As an output, we use actions that all social things in the environment display
+(i.e change of light, vibration, music play, and screen color change) based
+on the personality information that the user configured.
 
-To wrap it up, we extended the system introduced in paper~\cite{okada2016autonomous} by adding:
+To wrap it up, we extended the system introduced in a paper~\cite{okada2016autonomous} by adding:
 \begin{itemize}
     \item more case studies: Mascot-Lamp, Mascot-Speakers, Mascot-Mascot and Mascot-Tablet interactions
     \item preset actions for each case-study:
