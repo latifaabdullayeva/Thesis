@@ -2,8 +2,8 @@
 \label{ch:related-work}
 This chapter presents the background and current works related to our research and is organised as follows.
 Sections ~\ref{sec:Ubiquitous Computing}, ~\ref{sec:Internet of Things}, and ~\ref{sec:Social Internet of Things}
-provide an introduction of basic concepts related to our prototype. T
-hen, in section ~\ref{sec:Autonomous interaction of things}, we present a system that inspired us to expand it.
+provide an introduction of basic concepts related to our prototype.
+Then, in section ~\ref{sec:Autonomous interaction of things}, we present a system that inspired us to expand it.
 Starting from section ~\ref{sec:The Theory of Proxemics}, we discuss some methodologies
 that help us to expand the existing system.
 
@@ -17,7 +17,7 @@ in “The computer for the 21st Century” ~\cite{weiser2002computer}.
 In this paper, the author touched two issues related to the concept of
 Ubiquitous Computing such as the location and scale.
 
-\par The traditional computers which existed before the introduction of this
+The traditional computers which existed before the introduction of this
 paradigm had no idea about their location.
 The location-aware system may have information about how far or close it is from other
 objects and may even later be able to adapt its behaviour accordingly.
@@ -30,7 +30,7 @@ while standing in front of the person who participates in the conversation, rath
 With the help of the concept of Ubiquitous Computing, the prototype presented in our
 research uses the location information in order to select a communication partner.
 
-\par Another issue related to the concept of Ubiquitous Computing is the scale,
+Another issue related to the concept of Ubiquitous Computing is the scale,
 that is, systems of various sizes serve different purposes.
 In the context of our prototype, mascot, tablet, lamp, and speakers are all in
 different sizes and, therefore, perform different tasks.
@@ -48,7 +48,7 @@ connectivity for everyone, we will have connectivity for anything ~\cite{tan2010
 Thus, in comparison to Ubiquitous technologies, IoT focuses not only on the interaction
 between humans and devices but also between the devices themselves.
 
-\par The idea of IoT was first proposed by Kevin Ashton in 1999 ~\cite{ashton2009internet}
+The idea of IoT was first proposed by Kevin Ashton in 1999 ~\cite{ashton2009internet}
 by linking the idea of RFID (Radio Frequency Identification) to the topic of the Internet.
 We can characterize IoT as one big network where all devices can share information about their status with
 each other allowing to achieve deeper automation and integration within a system.
@@ -73,15 +73,19 @@ for our research for proximity sensing.
 In addition to these technologies which are considered as a pillar for communication between
 objects, the more detailed description of their usage can be found in the Implementation chapter (see chapter 4).
 
-\par An example of research work in the area of IoT may be “Explorations on Reciprocal
+An example of research work in the area of IoT may be “Explorations on Reciprocal
 Interplay in Things Ecology”~\cite{chung2018explorations} where the authors are trying to
 stimulate scientists to a more detailed discussion on designing qualities of IoT devices.
-For that, Chung et al. conducted the HiddenLocal workshop (HWL) in order to explore and design
+For that, Chung et al conducted the HiddenLocal workshop (HWL) in order to explore and design
 IoT systems, where they take into account reciprocal interplay believing that it makes the
 design of IoT systems more dynamic.
 As a starting point, authors show 7 perceptual qualities as follows: focus the senses;
-show explorative behaviour; subtleness of movement; react to the external event;
-recognize explorative behaviour subject; reflex contextual noise; remember and anticipate perception over time.
+show explorative behaviour;
+subtleness of movement;
+react to the external event;
+recognize explorative behaviour subject;
+reflex contextual noise;
+remember and anticipate perception over time.
 Authors believe that these perceptual qualities are a good approach for designed explorative
 features of devices and therefore for the things-to-things interaction.
 
@@ -94,7 +98,7 @@ One of them is that people still cannot be sure about the privacy of the transfe
 through IoT technologies.
 Another issue is network navigability which must ensure that the discovery of objects can be
 performed effectively and better reaction to the state changes of objects.
-Atzori et al. ~\cite{atzori2011siot} formalized a new paradigm of Social Internet of Things (SIoT)
+Atzori et al ~\cite{atzori2011siot} formalized a new paradigm of Social Internet of Things (SIoT)
 where the interaction among smart objects is based on the notion of Social
 Relationship of things rather than their owners.
 Thus, the application of this concept to the IoT can lead to the improvement
@@ -102,14 +106,15 @@ of the network navigability and scalability.
 The architectural model of SIoT describes the establishment of the social relationships
 among objects in a fashion that is relatively similar to the human social network relationship.
 
-\par Applying new paradigm to the IoT concept can lead to the following advantages: 
+Applying new paradigm to the IoT concept can lead to the following advantages:
 \begin{itemize}
-  \item establishing the level of trustworthiness by leveraging relationship types and by supporting services usable among things that are “friends”;
+  \item establishing the level of trustworthiness by leveraging relationship types and by
+        supporting services usable among things that are “friends”;
   \item improvements in network navigability; 
-  \item a guarantee of the higher scalability and efficiency; ~\cite{atzori2012social};
+  \item a guarantee of the higher scalability and efficiency ~\cite{atzori2012social};
 \end{itemize}
 
-\par By integrating social networking concept to the Internet of Things, intelligent things
+By integrating social networking concept to the Internet of Things, intelligent things
 establish a connection with other peers in an autonomous way by exploiting things' social relationships.
 An exemplary connection between smart things that we also refer as "social things" in our
 study may be Mascot-Mascot, Mascot-Tablet, Mascot-Lamp and Mascot-Speakers interactions.
@@ -133,20 +138,22 @@ This approach allows objects to have their own social circle similar to human so
 This broadcast information calls certain functions that affect the behaviour of objects,
 thus, allowing objects to be aware of the status of other objects and the surrounding environment.
 
-\par The concept of Social Things which is also an essential for our prototype helps the objects to know: own goals;
+The concept of Social Things which is also an essential for our prototype helps the objects to know: own goals;
 what to do with the received information;
 and what actions need to be taken to achieve these goals.
 In our work, goals and the combination of actions that will be triggered
 depending on the received information, are all predefined.
 
-\par As a case study, the authors developed a system with two devices.
+As a case study, the authors developed a system with two devices.
 One of them is Mascot (which is a small keychain of three colours:
 red, green and blue) presented in the form of a personal object that the user can carry with him everywhere.
 Another device is a Bench with built-in lamps presented as a more static device for public use.
 Moreover, in the prototype described in that work, two scenarios are considered:
 \begin{itemize}
-  \item \textbf{Mascot - Mascot} interaction, as one mascot approaches another, they both start to blink where the intensity of blink depends on the distance objects are from each other.
-  \item \textbf{Mascot - Bench} interaction, as Mascot goes close to the bench, the lights start to change their colors based on the color of mascot that is approaching.
+  \item \textbf{Mascot - Mascot} interaction, as one mascot approaches another, they both start to blink where the
+        intensity of blink depends on the distance objects are from each other.
+  \item \textbf{Mascot - Bench} interaction, as Mascot goes close to the bench, the lights
+        start to change their colors based on the color of mascot that is approaching.
 \end{itemize}
 The biggest contribution of this paper was to introduce the autonomously cooperative
 system where mascot and bench represented as a private and public thing.
@@ -162,32 +169,36 @@ we are planning to look at more detailed divisions.
 
 \section{The Theory of Proxemics}
 \label{sec:The Theory of Proxemics}
-Edward Hall ~\cite{hall1963system} ~\cite{hall1910hidden} conceptualized the idea of a
+Edward Hall ~\cite{hall1963system,hall1910hidden} conceptualized the idea of a
 personal space bubble by creating a whole system of notation in order to understand
 and record how people navigate shared space.
 He correlated physical distance to social distance.
 According to these papers, Hall identified four distances which are measured horizontally:
 \begin{itemize}
   \item \textbf{Intimate distance} which varies from 0 to 45 cm is a distance used for romantic partners and family members.
-  \item \textbf{Personal distance} varies from 46 to 122 cm is a space bubble which allows your extended family members and close friends to enter this zone.
+  \item \textbf{Personal distance} varies from 46 to 122 cm is a space bubble which allows your extended family
+        members and close friends to enter this zone.
   \item \textbf{Social distance} varies from 122 to 370 cm is often used for acquaintances and colloquies
-  \item \textbf{Public distance}, having a range of 370 cm and more, is often used in public speaking situation and with strangers you want to maintain your distance from.
+  \item \textbf{Public distance}, having a range of 370 cm and more, is often used in public speaking
+        situation and with strangers you want to maintain your distance from.
 \end{itemize}
 
 He also analyzed vertical distances, for example, the difference in vertical distance
 between people can reflect the degree of dominance.
 However, in our study we focus only on horizontal distances.
 
-\par Nowadays, there are many studies in which Proxemics has been used to design interactions.
-For example, Jo Vermeulen et al. in their work ~\cite{vermeulen2015proxemic} used zones to
+Nowadays, there are many studies in which Proxemics has been used to design interactions.
+For example, Jo Vermeulen et al in their work ~\cite{vermeulen2015proxemic} used zones to
 interact with vertical interactive displays where they suggested floor display as an auxiliary device.
 The contributions of using the secondary display are the following: it provides peripheral
-information about tracking status of a user; it shows interaction zones;
-it invites the user to interact with the main display; it suggests possible interaction steps.
+information about tracking status of a user;
+it shows interaction zones;
+it invites the user to interact with the main display;
+it suggests possible interaction steps.
 This kind of floor visualization with continuous feedback about proximity gives the user
 more control over their interaction with the system.
 
-\par Another example system using Proxemics is Remote Controls system introduced by
+Another example system using Proxemics is Remote Controls system introduced by
 Ledo et.al in their ~\cite{ledo2015proxemic} paper.
 Remote control devices were created in such a way that people could
 control appliances from a certain distance.
@@ -207,11 +218,12 @@ transitioning between different control interfaces.
 Ubicomp, which they use as short for Ubiquitous Computing, may be a starting point for
 developing a new type of remote control interface within our increasingly complex world.
 
-\par In addition, Ballendat, Nicolai Marquardt, and Saul Greenberg in their
+In addition, Ballendat, Nicolai Marquardt, and Saul Greenberg in their
 paper~\cite{ballendat2010proxemic} introduce proxemic-aware interactive media player system,
 where they consider information regarding nearby people and devices in order to mediate the interaction.
 They cover a small space Ubicomp environment considering the relationships of people to devices;
-devices to devices; and non-digital objects to people and devices.
+devices to devices;
+and non-digital objects to people and devices.
 The system reacts to a person’s presence, distance and orientation regarding the display.
 Proxemic interaction also considers a person’s relationship to nearby objects.
 The authors propose different cases, for example, the video displaying on the screen pauses
@@ -227,7 +239,7 @@ In spite of all these problems, the authors, as well as we believe that proxemic
 become an important factor in the embodiment of the interaction between social objects
 where they can meet the social expectations of people.
 
-\par In our research, we are planning to extend the autonomous system, which was
+In our research, we are planning to extend the autonomous system, which was
 described in section ~\ref{sec:Autonomous interaction of things}, by categorizing devices
 according to the theory of Proxemics using only horizontal measurements.
 Our goal is to cover all four categories of Proxemics which are represented by four
@@ -239,13 +251,13 @@ These relationships will help us to conceptualize their interactions, come up wi
 \section{Interaction design for SIoT}
 \label{sec:Interaction design for SIoT}
 
-\par The following paper ~\cite{soro2018social} motivated us to apply a concept of
+The following paper ~\cite{soro2018social} motivated us to apply a concept of
 personality in the context of social devices.
 An example use of Personality as a method to design an interactive object’s behaviour
 was proposed in “Designing the Behaviour of Interactive Objects” ~\cite{spadafora2016designing}.
 The author came to the conclusion that in order to design a more stable and understandable
 for user behaviour of a device, it is necessary to add inner logic to which we can refer.
-Marco et al. proposed to apply the concept of metaphor, which represents human stereotypes
+Marco et al proposed to apply the concept of metaphor, which represents human stereotypes
 of personality in order to visualise the inner logic.
 Their system was based on a Big Five Personality Traits model, and thus,
 by assigning these personalities to objects, users could describe its behaviour more easily.
@@ -294,18 +306,22 @@ model which is also known as Big Five Personality Traits and the OCEAN model.
 Moreover, their concept formed a basis for the widely used NEO-Personality
 Inventory-Revised (NEO-PI-R) measurement scale.
 
-\par The OCEAN model consists of the following features: Openness to experience,
+The OCEAN model consists of the following features: Openness to experience,
 Conscientiousness, Extroversion, Agreeableness and Neuroticism.
 The authors lists the facets associated with each of these five domains:
 
 \begin{itemize}
-  \item  \textbf{Openness to experience}: creativity, innovative quality; quick receptivity to new and abstract ideas, high intelligence and openness to novelty;
+  \item  \textbf{Openness to experience}: creativity, innovative quality;
+          quick receptivity to new and abstract ideas, high intelligence and openness to novelty;
   \item  \textbf{Conscientiousness}: organized, well-prepared, discipline, likes planned action more than spontaneity, more focused.
-  \item  \textbf{Extroversion}: energetic, assertive personality, like to be the center of attention, like to dominate, feel comfortable around people;
-  \item  \textbf{Agreeableness}: friendliness, compassion for other people, interested in people, sympathize with the feelings of others, soft-hearted;
-  \item  \textbf{Neuroticism}:  irritability, more hostile towards others, most often feel anxiety when they are surrounded by others, frequent mood swings, emotionally unstable;
+  \item  \textbf{Extroversion}: energetic, assertive personality, like to be the center of attention,
+          like to dominate, feel comfortable around people;
+  \item  \textbf{Agreeableness}: friendliness, compassion for other people, interested in people,
+          sympathize with the feelings of others, soft-hearted;
+  \item  \textbf{Neuroticism}:  irritability, more hostile towards others, most often feel anxiety
+          when they are surrounded by others, frequent mood swings, emotionally unstable;
   \end{itemize}
   
-\par We assigned a set of personalities to dynamic objects each of which is described in the above-mentioned list.
+We assigned a set of personalities to dynamic objects each of which is described in the above-mentioned list.
 In addition, in spite of the fact that people usually have a combination of these
 five traits, we are going to consider only extreme cases.
