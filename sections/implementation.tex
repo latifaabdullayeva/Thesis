@@ -6,17 +6,30 @@
 
 \chapter{Implementation}
 \label{ch:implementation}
+This chapter is structured in the following way.
+In section~\ref{sec:prototype-presentation} we will take a look at the project structure and
+how all components communicate with each other.
+Section~\ref{sec:configuration} describes how the project can be deployed and configured.
+Section~\ref{sec:system-architecture} covers system architecture, namely the
+communication protocols, frameworks and APIs that are used in the prototype.
 
-In this study, we implemented a prototype that achieves the autonomous interaction of social things by providing them with user-predefined parameters such as the personality of a Mascot. Further, given these parameters, Mascot starts to influence the state of other devices.
+\section{Prototype Presentation}
+\label{sec:prototype-presentation}
 
-The chapter is structured in the following way: In section ------, we give an overview of the prototype from the user perspective which includes two subsections: one explains steps the user takes and how it affects the state of other devices, and the other describes the limitations that users have when using the prototype. Section ------ introduces the architecture of the prototype, namely, the workflow of the devices-server and server-APIs interactions. Section  ------ describes the software and hardware that were used to implement the prototype, more specifically, it gives an overview of each implemented application, the list of used frameworks and APIs and the hardware requirements that the prototype needs to meet.
+\section{Configuration}
+\label{sec:configuration}
 
-\section{Overview of the prototype}
+\section{System Architecture}
+\label{sec:system-architecture}
 
-\subsection{User-side description of a system}
-When the user runs the application for the first time, it displays the form that the user has to fill in order to configure his Mascot. For that, the user needs to follow the steps: he can choose the beacon ID that will help this application to measure the distance between devices; he can give his Mascot a custom name; he is required to choose one out of five personalities displayed on the screen.
 
-\subsection{User restrictions}
+
+
+
+
+
+
+
 
 \begin{figure}
 \centering
@@ -40,45 +53,6 @@ When the user runs the application for the first time, it displays the form that
     \path [line] (evaluate4) -- (evaluate5); 
     \path [line] (evaluate5) -- (evaluate6);
     \path [line] (evaluate6) -- (stop);
-  
 \end{tikzpicture}
 \caption{The interaction between Android Mascot application with a server with the libraries and APIs that it is using}
 \end{figure}
-
-	
-\begin{table}
-\centering
-\begin{tabular}{ | m{8em} | m{6em}| m{17em} | } 
-\hline
- Column name & Column type & Description \\ 
-\hline 
-device id & d & unique auto-generated value \\
-\hline 
-beacon uuid & d & the ID of beacon that user assigned to its device \\
-\hline 
-device type & d & which can be Mascot, Lamp, or Tablet) \\
-\hline 
-device name & d & a custom given name for only Mascots \\
-\hline 
-device personality & d & the personality that the user decided to attach for Mascot. This column is a foreign key of the “personality id” column in “Personality” table \\
-\hline
-\end{tabular}
-\caption{Devices Table}
-\end{table}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   

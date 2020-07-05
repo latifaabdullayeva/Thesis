@@ -17,9 +17,9 @@
 \BOOKMARK [1][-]{section.3.4}{Identifying the music preferences based on the personality traits}{chapter.3}% 17
 \BOOKMARK [1][-]{section.3.5}{Identifying the color based on personality traits}{chapter.3}% 18
 \BOOKMARK [0][-]{chapter.4}{ Implementation}{}% 19
-\BOOKMARK [1][-]{section.4.1}{Overview of the prototype}{chapter.4}% 20
-\BOOKMARK [2][-]{subsection.4.1.1}{User-side description of a system}{section.4.1}% 21
-\BOOKMARK [2][-]{subsection.4.1.2}{User restrictions}{section.4.1}% 22
+\BOOKMARK [1][-]{section.4.1}{Prototype Presentation}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Configuration}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.3}{System Architecture}{chapter.4}% 22
 \BOOKMARK [0][-]{chapter.5}{ User Study}{}% 23
 \BOOKMARK [1][-]{section.5.1}{Participants}{chapter.5}% 24
 \BOOKMARK [1][-]{section.5.2}{Procedure and Tasks}{chapter.5}% 25
@@ -62,4 +62,4 @@
 \BOOKMARK [1][-]{section.8.4}{Future work}{chapter.8}% 62
 \BOOKMARK [0][-]{appendix.A}{ Tables and Figures}{}% 63
 \BOOKMARK [0][-]{appendix.B}{ Questionnaires of the User Study}{}% 64
-\BOOKMARK [0][-]{section*.41}{Literaturverzeichnis}{}% 65
+\BOOKMARK [0][-]{section*.40}{Literaturverzeichnis}{}% 65
