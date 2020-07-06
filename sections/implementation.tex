@@ -119,12 +119,9 @@ The structure of the whole system is demonstrated in Figure~\ref{lst:library-str
 \label{sec:configuration}
 The \textbf{\emph{AutonomousSystemThesis}} can be configured in the following way.
 
-\noindent To run the server, we pass the following arguments in the terminal:
-\begin{lstlisting}[frame=single]
-    $ mvn spring-boot:run -e -X
-    -Dspring-boot.run.arguments=
-    --hueUsername=EECidAmJSgSiUYK9AMNhilF0vRpuW7EOSZ9QXO0D,
-    --hueIPAddress=192.168.0.100
+To run the server, we pass the following arguments in the terminal:
+\begin{lstlisting}
+    @\textcolor{green!40!black}{mvn spring-boot:run -e -X -Dspring-boot.run.arguments= --hueUsername=EECidAmJSgSiUYK9AMNhilF0vRpuW7EOSZ9QXO0D, --hueIPAddress=192.168.0.100}@
 \end{lstlisting}
 
 Here, \emph{hueIPAddress} is a IP address assigned to our Philips Hue bridge.
@@ -253,6 +250,7 @@ The figure describes the interaction between two phones and step by step request
         \node [block, below of=evaluate5] (evaluate6) {Get from a server the personality of an approaching Mascot};
         \node [block, below of=evaluate6] (stop) {Vibrates the phone based on the personality vibration level of approaching Mascot};
         % Draw edges
+        % \node[...,fill=black,...]
         \path [line] (init) -- (identify);
         \path [line] (identify) -- (evaluate);
         \path [line] (evaluate) -- (evaluate2);
@@ -304,8 +302,8 @@ NSD API helps our server to broadcast its existence.
 services that clients are interested in.
 
 The specification that we have given to the terminal are:
-\begin{lstlisting}[frame=single]
-    $ dns-sd -R mythesis _socialiot._tcp local 8080
+\begin{lstlisting}
+    @\textcolor{green!40!black}{dns-sd -R mythesis \_socialiot.\_tcp local 8080}@
 \end{lstlisting}
 In these specifications, \textbf{\emph{mythesis}} is a service name;
 \textbf{\emph{\_socialiot.\_tcp}} is a service type;

@@ -42,93 +42,101 @@
 \vspace {-.175cm}
 \contentsline {chapter}{\numberline {4} Implementation}{24}{chapter.4}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {4.1}Prototype Presentation}{24}{section.4.1}
+\contentsline {section}{\numberline {4.1}User Documentation}{24}{section.4.1}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {4.2}Configuration}{24}{section.4.2}
+\contentsline {section}{\numberline {4.2}Project Presentation}{25}{section.4.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {4.3}System Architecture}{24}{section.4.3}
+\contentsline {section}{\numberline {4.3}Configuration}{25}{section.4.3}
+\vspace {-.05cm}
+\contentsline {section}{\numberline {4.4}System Architecture}{26}{section.4.4}
+\vspace {-.05cm}
+\contentsline {subsection}{\numberline {4.4.1}Module descriptions}{26}{subsection.4.4.1}
+\vspace {-.05cm}
+\contentsline {subsection}{\numberline {4.4.2}Software Stacks}{28}{subsection.4.4.2}
+\vspace {-.05cm}
+\contentsline {section}{\numberline {4.5}Technical Requirements and Hardware}{30}{section.4.5}
 \vspace {-.175cm}
-\contentsline {chapter}{\numberline {5} User Study}{26}{chapter.5}
+\contentsline {chapter}{\numberline {5} User Study}{31}{chapter.5}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {5.1}Participants}{26}{section.5.1}
+\contentsline {section}{\numberline {5.1}Participants}{31}{section.5.1}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {5.2}Procedure and Tasks}{28}{section.5.2}
+\contentsline {section}{\numberline {5.2}Procedure and Tasks}{33}{section.5.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {5.3}Design of experiments}{30}{section.5.3}
+\contentsline {section}{\numberline {5.3}Design of experiments}{35}{section.5.3}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {5.4}Apparatus and Materials}{31}{section.5.4}
+\contentsline {section}{\numberline {5.4}Apparatus and Materials}{36}{section.5.4}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {5.5}Design of a study}{31}{section.5.5}
+\contentsline {section}{\numberline {5.5}Design of a study}{36}{section.5.5}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {5.6}Measures}{32}{section.5.6}
+\contentsline {section}{\numberline {5.6}Measures}{37}{section.5.6}
 \vspace {-.175cm}
-\contentsline {chapter}{\numberline {6} Results}{33}{chapter.6}
+\contentsline {chapter}{\numberline {6} Results}{38}{chapter.6}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.1}Analysis of Mascot-Lamp interaction}{33}{section.6.1}
+\contentsline {section}{\numberline {6.1}Analysis of Mascot-Lamp interaction}{38}{section.6.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.1.1}Analysis of within personality trait study}{34}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.1}Analysis of within personality trait study}{39}{subsection.6.1.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.1.2}Analysis of within lighting color study}{37}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}Analysis of within lighting color study}{42}{subsection.6.1.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.2}Analysis of Mascot-Speakers interaction}{40}{section.6.2}
+\contentsline {section}{\numberline {6.2}Analysis of Mascot-Speakers interaction}{45}{section.6.2}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.2.1}Analysis of within personality trait study}{41}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}Analysis of within personality trait study}{46}{subsection.6.2.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.2.2}Analysis of within music category study}{43}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.2}Analysis of within music category study}{48}{subsection.6.2.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.3}Analysis of Mascot-Mascot interaction}{45}{section.6.3}
+\contentsline {section}{\numberline {6.3}Analysis of Mascot-Mascot interaction}{50}{section.6.3}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.3.1}Analysis of within personality trait study}{45}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.1}Analysis of within personality trait study}{50}{subsection.6.3.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.3.2}Analysis of within vibration level study}{48}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}Analysis of within vibration level study}{53}{subsection.6.3.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.4}Analysis of Mascot-Tablet interaction}{51}{section.6.4}
+\contentsline {section}{\numberline {6.4}Analysis of Mascot-Tablet interaction}{56}{section.6.4}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.4.1}Analysis of within personality trait study}{51}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.1}Analysis of within personality trait study}{56}{subsection.6.4.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.4.2}Analysis of within screen color study}{53}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.2}Analysis of within screen color study}{58}{subsection.6.4.2}
 \vspace {-.175cm}
-\contentsline {chapter}{\numberline {7} Discussions}{56}{chapter.7}
+\contentsline {chapter}{\numberline {7} Discussions}{61}{chapter.7}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {7.1}Mascot-Lamp interaction}{56}{section.7.1}
+\contentsline {section}{\numberline {7.1}Mascot-Lamp interaction}{61}{section.7.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {7.1.1}Discussion for the first study}{56}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.1}Discussion for the first study}{61}{subsection.7.1.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {7.1.2}Discussion for the second study}{57}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.2}Discussion for the second study}{62}{subsection.7.1.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {7.2}Mascot-Speakers interaction}{58}{section.7.2}
+\contentsline {section}{\numberline {7.2}Mascot-Speakers interaction}{63}{section.7.2}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {7.2.1}Discussion for the first study}{58}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.1}Discussion for the first study}{63}{subsection.7.2.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {7.2.2}Discussion for the second study}{59}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.2}Discussion for the second study}{64}{subsection.7.2.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {7.3}Mascot-Mascot interaction}{59}{section.7.3}
+\contentsline {section}{\numberline {7.3}Mascot-Mascot interaction}{64}{section.7.3}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {7.3.1}Discussion for the first study}{59}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.1}Discussion for the first study}{64}{subsection.7.3.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {7.3.2}Discussion for the second study}{60}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.2}Discussion for the second study}{65}{subsection.7.3.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {7.4}Mascot-Tablet interaction}{61}{section.7.4}
+\contentsline {section}{\numberline {7.4}Mascot-Tablet interaction}{66}{section.7.4}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {7.4.1}Discussion for the first study}{61}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.1}Discussion for the first study}{66}{subsection.7.4.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {7.4.2}Discussion for the second study}{62}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.2}Discussion for the second study}{67}{subsection.7.4.2}
 \vspace {-.175cm}
-\contentsline {chapter}{\numberline {8} Conclusion}{64}{chapter.8}
+\contentsline {chapter}{\numberline {8} Conclusion}{69}{chapter.8}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {8.1}Overview}{64}{section.8.1}
+\contentsline {section}{\numberline {8.1}Overview}{69}{section.8.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {8.1.1}The birth of the idea}{64}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.1}The birth of the idea}{69}{subsection.8.1.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {8.1.2}Overview of the results}{65}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.2}Overview of the results}{70}{subsection.8.1.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {8.2}Contributions and findings}{66}{section.8.2}
+\contentsline {section}{\numberline {8.2}Contributions and findings}{71}{section.8.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {8.3}Limitations}{67}{section.8.3}
+\contentsline {section}{\numberline {8.3}Limitations}{72}{section.8.3}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {8.4}Future work}{68}{section.8.4}
+\contentsline {section}{\numberline {8.4}Future work}{73}{section.8.4}
 \vspace {-.175cm}
-\contentsline {chapter}{\numberline {A} Tables and Figures}{69}{appendix.A}
+\contentsline {chapter}{\numberline {A} Tables and Figures}{74}{appendix.A}
 \vspace {-.175cm}
-\contentsline {chapter}{\numberline {B} Questionnaires of the User Study}{84}{appendix.B}
-\contentsline {chapter}{Literaturverzeichnis}{85}{section*.40}
+\contentsline {chapter}{\numberline {B} Questionnaires of the User Study}{89}{appendix.B}
+\contentsline {chapter}{Literaturverzeichnis}{90}{section*.42}
