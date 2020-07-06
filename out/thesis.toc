@@ -52,7 +52,7 @@
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {4.4.1}Module descriptions}{26}{subsection.4.4.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {4.4.2}Software Stacks}{28}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Software Stacks}{29}{subsection.4.4.2}
 \vspace {-.05cm}
 \contentsline {section}{\numberline {4.5}Technical Requirements and Hardware}{30}{section.4.5}
 \vspace {-.175cm}
@@ -72,7 +72,7 @@
 \vspace {-.175cm}
 \contentsline {chapter}{\numberline {6} Results}{38}{chapter.6}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.1}Analysis of Mascot-Lamp interaction}{38}{section.6.1}
+\contentsline {section}{\numberline {6.1}Analysis of Mascot-Lamp interaction}{39}{section.6.1}
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {6.1.1}Analysis of within personality trait study}{39}{subsection.6.1.1}
 \vspace {-.05cm}
@@ -139,4 +139,4 @@
 \contentsline {chapter}{\numberline {A} Tables and Figures}{74}{appendix.A}
 \vspace {-.175cm}
 \contentsline {chapter}{\numberline {B} Questionnaires of the User Study}{89}{appendix.B}
-\contentsline {chapter}{Literaturverzeichnis}{90}{section*.42}
+\contentsline {chapter}{Literaturverzeichnis}{90}{section*.43}

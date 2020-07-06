@@ -1,0 +1,24 @@
+\BOOKMARK [0][-]{chapter.1}{ Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Research Goals}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Outline of Thesis}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{ Related Work}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Ubiquitous Computing}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Internet of Things}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Social Internet of Things}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.4}{Autonomous interaction of things}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.5}{The Theory of Proxemics}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.6}{Interaction design for SIoT}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.7}{Definition of Personality Traits}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{ Concept}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Identifying case studies and actions}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Identifying personality traits}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{Identifying the vibration level based on the personality traits}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.4}{Identifying the music preferences based on the personality traits}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.5}{Identifying the color based on personality traits}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{ Implementation}{}% 19
+\BOOKMARK [1][-]{section.4.1}{User Documentation}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Project Presentation}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.3}{Configuration}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.4}{System Architecture}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.4.1}{Module descriptions}{section.4.4}% 24

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  6 JUL 2020 09:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  6 JUL 2020 13:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1010,6 +1010,12 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/forest/forest.sty
 Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
 
@@ -1286,29 +1292,766 @@ Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 \forest@externalize@max@outer@n=\count355
 \forest@externalize@inner@n=\count356
 )
-(./thesis.aux)
-Runaway argument?
-{\contentsline {table}{\numberline {3.4}{\ignorespaces Color 
-./thesis.tex:22: File ended while scanning use of \@writefile.
-<inserted text> 
-                \par 
-l.22 \begin{document}
-                     
+No file thesis.aux.
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 42.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+\AtBeginShipoutBox=\box117
+Package hyperref Info: Link coloring ON on input line 42.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count357
+)
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
+\@outlinefile=\write5
+\openout5 = `thesis.out'.
+
+LaTeX Info: Redefining \microtypecontext on input line 42.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count358
+\scratchdimen=\dimen313
+\scratchbox=\box118
+\nofMPsegments=\count359
+\nofMParguments=\count360
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count361
+\MPscratchDim=\dimen314
+\MPnumerator=\count362
+\makeMPintoPDFobject=\count363
+\everyMPtoPDFconversion=\toks65
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count364
+
+ABD: EveryShipout initializing macros
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(./sections/c0/titlepage.tex
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 19.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+<images/c0/uds_owl.png, id=7, 583.61433pt x 654.52075pt>
+File: images/c0/uds_owl.png Graphic file (type png)
+<use images/c0/uds_owl.png>
+Package pdftex.def Info: images/c0/uds_owl.png  used on input line 21.
+(pdftex.def)             Requested size: 71.03699pt x 79.66771pt.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 37.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 37.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 21.14815pt on input line 37.
+ [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/c0/uds_owl.png>]) (./sections/c0/secondpage.tex
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--27
+
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \clearpage
+                [1] [2] (./sections/c0/declaration.tex
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
+) [3
+
+]
+(./sections/c0/acks.tex) [4
+
+] (./sections/c0/abstract.tex) [5
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 76.32187pt on input line 67.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <89.7898> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 67.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 76.32187pt on input line 67.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 67.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 9.30756pt on input line 67.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 67.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 21.14815pt on input line 67.
+\tf@toc=\write6
+\openout6 = `thesis.toc'.
+
+ [6
+
+
+]
+(./sections/introduction.tex
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 25.44061pt on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <29.92993> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 25.44061pt on input line 1.
+
+
+LaTeX Warning: Citation `okada2016autonomous' on page 1 undefined on input line
+ 35.
+
+
+LaTeX Warning: Reference `sec: Autonomous interaction of things' on page 1 unde
+fined on input line 39.
+
+[1
+
+
+
+]
+
+LaTeX Warning: Reference `sec: motivation' on page 2 undefined on input line 50
+.
+
+
+LaTeX Warning: Citation `okada2016autonomous' on page 2 undefined on input line
+ 51.
+
+
+LaTeX Warning: Citation `okada2016autonomous' on page 2 undefined on input line
+ 61.
+
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 63.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+
+Overfull \hbox (2.10478pt too wide) in paragraph at lines 67--68
+[]\T1/ppl/m/n/10.95 (-20) Sophisticated, con-tem-po-rary, un-pre-ten-tious mu-s
+ic for Mascot-Speakers
+ []
+
+
+LaTeX Warning: Reference `ch:concept' on page 2 undefined on input line 73.
+
+[2]
+
+LaTeX Warning: Reference `ch:introduction' on page 3 undefined on input line 89
+.
+
+
+LaTeX Warning: Reference `ch:related-work' on page 3 undefined on input line 90
+.
+
+
+LaTeX Warning: Reference `ch:concept' on page 3 undefined on input line 93.
+
+
+LaTeX Warning: Reference `ch:implementation' on page 3 undefined on input line 
+97.
+
+
+LaTeX Warning: Reference `ch:user-study' on page 3 undefined on input line 101.
+
+
+
+LaTeX Warning: Reference `ch:results' on page 3 undefined on input line 103.
+
+
+LaTeX Warning: Reference `ch:discussions' on page 3 undefined on input line 105
+.
+
+
+LaTeX Warning: Reference `ch:conclusion' on page 3 undefined on input line 106.
+
+
+) (./sections/relatedWork.tex [3]
+
+LaTeX Warning: Reference `sec:Ubiquitous Computing' on page 4 undefined on inpu
+t line 4.
+
+
+LaTeX Warning: Reference `sec:Internet of Things' on page 4 undefined on input 
+line 4.
+
+
+LaTeX Warning: Reference `sec:Social Internet of Things' on page 4 undefined on
+ input line 4.
+
+
+LaTeX Warning: Reference `sec:Autonomous interaction of things' on page 4 undef
+ined on input line 6.
+
+
+LaTeX Warning: Reference `sec:The Theory of Proxemics' on page 4 undefined on i
+nput line 7.
+
+
+LaTeX Warning: Citation `weiser2002computer' on page 4 undefined on input line 
+16.
+
+
+LaTeX Warning: Citation `hupfeld2000spatially' on page 4 undefined on input lin
+e 25.
+
+[4
+
+
+]
+
+LaTeX Warning: Citation `tan2010future' on page 5 undefined on input line 47.
+
+
+LaTeX Warning: Citation `ashton2009internet' on page 5 undefined on input line 
+51.
+
+
+LaTeX Warning: Citation `madakam2015internet' on page 5 undefined on input line
+ 55.
+
+
+LaTeX Warning: Citation `chung2018explorations' on page 5 undefined on input li
+ne 77.
+
+[5]
+
+LaTeX Warning: Citation `atzori2010internet' on page 6 undefined on input line 
+94.
+
+
+LaTeX Warning: Citation `atzori2011siot' on page 6 undefined on input line 101.
+
+
+
+LaTeX Warning: Citation `atzori2012social' on page 6 undefined on input line 11
+4.
+
+[6]
+
+LaTeX Warning: Citation `okada2016autonomous' on page 7 undefined on input line
+ 133.
+
+
+LaTeX Warning: Reference `sec:The Theory of Proxemics' on page 7 undefined on i
+nput line 167.
+
+[7]
+
+LaTeX Warning: Citation `hall1963system' on page 8 undefined on input line 172.
+
+
+
+LaTeX Warning: Citation `hall1910hidden' on page 8 undefined on input line 172.
+
+
+
+LaTeX Warning: Citation `vermeulen2015proxemic' on page 8 undefined on input li
+ne 191.
+
+
+LaTeX Warning: Citation `ledo2015proxemic' on page 8 undefined on input line 20
+2.
+
+[8]
+
+LaTeX Warning: Citation `ballendat2010proxemic' on page 9 undefined on input li
+ne 222.
+
+
+LaTeX Warning: Reference `sec:Autonomous interaction of things' on page 9 undef
+ined on input line 243.
+
+
+LaTeX Warning: Citation `soro2018social' on page 9 undefined on input line 254.
+
+
+
+LaTeX Warning: Citation `spadafora2016designing' on page 9 undefined on input l
+ine 257.
+
+[9]
+
+LaTeX Warning: Citation `matthews2003personality' on page 10 undefined on input
+ line 302.
+
+[10]) (./sections/concept.tex [11]
+
+LaTeX Warning: Reference `sec:Identifying case studies and actions' on page 12 
+undefined on input line 5.
+
+
+LaTeX Warning: Reference `sec:Identifying personality traits' on page 12 undefi
+ned on input line 7.
+
+
+LaTeX Warning: Reference `sec:Identifying the vibration level based on the pers
+onality traits' on page 12 undefined on input line 9.
+
+
+LaTeX Warning: Reference `sec:Identifying the vibration level based on the pers
+onality traits' on page 12 undefined on input line 12.
+
+
+LaTeX Warning: Reference `sec:Identifying the music preferences based on the pe
+rsonality traits' on page 12 undefined on input line 14.
+
+
+LaTeX Warning: Reference `sec:Identifying the color based on personality traits
+' on page 12 undefined on input line 16.
+
+
+LaTeX Warning: Citation `okada2016autonomous' on page 12 undefined on input lin
+e 22.
+
+[12
+
+
+]
+
+LaTeX Warning: Reference `sec:Identifying the vibration level based on the pers
+onality traits' on page 13 undefined on input line 81.
+
+
+LaTeX Warning: Reference `sec:Identifying the music preferences based on the pe
+rsonality traits' on page 13 undefined on input line 82.
+
+
+LaTeX Warning: Reference `sec:Identifying the color based on personality traits
+' on page 13 undefined on input line 83.
+
+
+LaTeX Warning: Reference `sec:Definition of Personality Traits' on page 13 unde
+fined on input line 90.
+
+
+LaTeX Warning: Citation `costa2008revised' on page 13 undefined on input line 9
+3.
+
+
+LaTeX Warning: Reference `table:personality' on page 13 undefined on input line
+ 97.
+
+[13] (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 101.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Overfull \hbox (2.43768pt too wide) in paragraph at lines 101--116
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `table:personality' on page 14 undefined on input line
+ 120.
+
+
+LaTeX Warning: Citation `costa2008revised' on page 14 undefined on input line 1
+25.
+
+
+LaTeX Warning: Citation `paunonen2001big' on page 14 undefined on input line 12
+8.
+
+
+LaTeX Warning: Reference `table:personality' on page 14 undefined on input line
+ 138.
+
+[14]
+
+LaTeX Warning: Citation `bagherianrelationship' on page 15 undefined on input l
+ine 158.
+
+
+LaTeX Warning: Citation `kirst2011investigating' on page 15 undefined on input 
+line 158.
+
+
+LaTeX Warning: Citation `ramanaiah1993neo' on page 15 undefined on input line 1
+58.
+
+
+LaTeX Warning: Citation `lefevre1981assertiveness' on page 15 undefined on inpu
+t line 158.
+
+
+LaTeX Warning: Citation `bagherianrelationship' on page 15 undefined on input l
+ine 164.
+
+
+LaTeX Warning: Reference `table:assertiveness' on page 15 undefined on input li
+ne 167.
+
+
+LaTeX Warning: Citation `bagherianrelationship' on page 15 undefined on input l
+ine 167.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `table:assertiveness' on page 15 undefined on input li
+ne 194.
+
+
+LaTeX Warning: Citation `kirst2011investigating' on page 15 undefined on input 
+line 200.
+
+
+LaTeX Warning: Citation `ramanaiah1993neo' on page 15 undefined on input line 2
+00.
+
+
+LaTeX Warning: Citation `lefevre1981assertiveness' on page 15 undefined on inpu
+t line 200.
+
+[15]
+
+LaTeX Warning: Citation `costa1988catalog' on page 16 undefined on input line 2
+20.
+
+
+LaTeX Warning: Citation `matthews2003personality' on page 16 undefined on input
+ line 226.
+
+
+LaTeX Warning: Reference `table:2' on page 16 undefined on input line 231.
+
+[16]
+
+LaTeX Warning: Citation `matthews2003personality' on page 17 undefined on input
+ line 281.
+
+
+LaTeX Warning: Reference `table:2' on page 17 undefined on input line 282.
+
+
+LaTeX Warning: Reference `table:2' on page 17 undefined on input line 285.
+
+[17]
+
+LaTeX Warning: Citation `boer2011shared' on page 18 undefined on input line 317
+.
+
+
+LaTeX Warning: Citation `rentfrow2007content' on page 18 undefined on input lin
+e 317.
+
+
+LaTeX Warning: Citation `rentfrow2006message' on page 18 undefined on input lin
+e 318.
+
+
+LaTeX Warning: Citation `schafer2009functions' on page 18 undefined on input li
+ne 322.
+
+
+LaTeX Warning: Citation `george2007association' on page 18 undefined on input l
+ine 322.
+
+
+LaTeX Warning: Citation `zweigenhaft2008re' on page 18 undefined on input line 
+322.
+
+
+LaTeX Warning: Citation `dunn2012toward' on page 18 undefined on input line 322
+.
+
+
+LaTeX Warning: Citation `rentfrow2011structure' on page 18 undefined on input l
+ine 324.
+
+
+LaTeX Warning: Citation `rentfrow2003re' on page 18 undefined on input line 329
+.
+
+
+LaTeX Warning: Citation `rentfrow2011structure' on page 18 undefined on input l
+ine 334.
+
+[18]
+
+LaTeX Warning: Citation `george2007association' on page 19 undefined on input l
+ine 341.
+
+
+LaTeX Warning: Citation `schafer2009functions' on page 19 undefined on input li
+ne 342.
+
+
+LaTeX Warning: Citation `schafer2017can' on page 19 undefined on input line 372
+.
+
+
+LaTeX Warning: Citation `bonneville2013music' on page 19 undefined on input lin
+e 372.
+
+
+LaTeX Warning: Citation `fricke2017personality' on page 19 undefined on input l
+ine 372.
+
+
+LaTeX Warning: Citation `greenberg2016song' on page 19 undefined on input line 
+372.
+
+
+LaTeX Warning: Citation `langmeyer2012music' on page 19 undefined on input line
+ 372.
+
+[19]
+
+LaTeX Warning: Citation `zuckerman1988lies' on page 20 undefined on input line 
+415.
+
+[20]
+
+LaTeX Warning: Citation `luscher1971luscher' on page 21 undefined on input line
+ 436.
+
+
+LaTeX Warning: Citation `cerrato2012meaning' on page 21 undefined on input line
+ 438.
+
+
+LaTeX Warning: Reference `table:color' on page 21 undefined on input line 440.
+
+
+LaTeX Warning: Citation `luscher1971luscher' on page 21 undefined on input line
+ 441.
+
+
+LaTeX Warning: Citation `cerrato2012meaning' on page 21 undefined on input line
+ 441.
+
+
+LaTeX Warning: Citation `schaie1964color' on page 21 undefined on input line 44
+1.
+
+
+Overfull \hbox (2.43768pt too wide) in paragraph at lines 446--479
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `table:personality' on page 21 undefined on input line
+ 483.
+
+
+LaTeX Warning: Citation `alschuler1943easel' on page 21 undefined on input line
+ 485.
+
+
+LaTeX Warning: Citation `schaie1961scaling' on page 21 undefined on input line 
+485.
+
+
+LaTeX Warning: Citation `costa1988catalog' on page 21 undefined on input line 4
+88.
+
+
+LaTeX Warning: Reference `table:color' on page 21 undefined on input line 496.
+
+
+LaTeX Warning: Reference `table:color' on page 21 undefined on input line 499.
+
+[21]
+
+LaTeX Warning: Reference `table:color' on page 22 undefined on input line 503.
+
+
+LaTeX Warning: Citation `costa1988catalog' on page 22 undefined on input line 5
+07.
+
+
+LaTeX Warning: Citation `cerrato2012meaning' on page 22 undefined on input line
+ 517.
+
+[22]
+
+LaTeX Warning: Reference `table:color' on page 23 undefined on input line 525.
+
+
+LaTeX Warning: Citation `costa1988catalog' on page 23 undefined on input line 5
+27.
+
+) (./sections/implementation.tex [23]
+
+LaTeX Warning: Reference `sec:user-documentation' on page 24 undefined on input
+ line 10.
+
+
+LaTeX Warning: Reference `sec:project-presentation' on page 24 undefined on inp
+ut line 11.
+
+
+LaTeX Warning: Reference `sec:configuration' on page 24 undefined on input line
+ 12.
+
+
+LaTeX Warning: Reference `sec:system-architecture' on page 24 undefined on inpu
+t line 13.
+
+
+LaTeX Warning: Reference `sec:technical-requirements-and-hardware' on page 24 u
+ndefined on input line 15.
+
+[24
+
+
+]
+
+LaTeX Warning: Reference `lst:library-structure' on page 25 undefined on input 
+line 53.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 111.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 120.
+ [25]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 142.
+ [26]
+
+LaTeX Warning: Reference `lst:library-structure-server' on page 27 undefined on
+ input line 173.
+
+
+LaTeX Warning: Reference `fig:Workflow' on page 27 undefined on input line 237.
+
+
+[27]
+
+./sections/implementation.tex:278: Package pgfkeys Error: I do not know the key
+ '/tikz/maximum width', to which you passed '3cm', and I am going to ignore it.
+ Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.278     \node (dec1) [decision, below of=in1]
+                                                {Checks if all inputs are va...
+
 ? 
-./thesis.tex:22: Emergency stop.
-<inserted text> 
-                \par 
-l.22 \begin{document}
-                     
+./sections/implementation.tex:278: Emergency stop.
+ ...                                              
+                                                  
+l.278     \node (dec1) [decision, below of=in1]
+                                                {Checks if all inputs are va...
 End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
- 40307 strings out of 492649
- 864195 string characters out of 6129622
- 972486 words of memory out of 5000000
- 43748 multiletter control sequences out of 15000+600000
- 531341 words of font info for 24 fonts, out of 8000000 for 9000
+ 43271 strings out of 492649
+ 910935 string characters out of 6129622
+ 1017231 words of memory out of 5000000
+ 46350 multiletter control sequences out of 15000+600000
+ 580829 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,1n,67p,10358b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-./thesis.tex:22:  ==> Fatal error occurred, no output PDF file produced!
+ 141i,12n,176p,10358b,1940s stack positions out of 5000i,500n,10000p,200000b,80000s
+./sections/implementation.tex:278:  ==> Fatal error occurred, no output PDF fil
+e produced!
