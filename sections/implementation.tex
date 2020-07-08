@@ -7,7 +7,7 @@
 \chapter{Implementation}
 \label{ch:implementation}
 This chapter is structured in the following way.
-In section~\ref{sec:user-documentation} we assist end users to use the system.
+In Section~\ref{sec:user-documentation} we assist end users to use the system.
 In section~\ref{sec:project-presentation} we will take a look at the project structure.
 Section~\ref{sec:configuration} describes how the project can be deployed and configured.
 Section~\ref{sec:system-architecture} covers system architecture, namely the
@@ -19,12 +19,12 @@ requirements and hardware used in our system.
 \section{User Documentation}
 \label{sec:user-documentation}
 When the user runs the application for the first time, it displays the form that the
-user has to fill in order to configure his Phone.
+user has to fill in order to configure his phone.
 For that, the user needs to follow the steps:
 
 \begin{itemize}
     \item user can choose the beacon ID that will help this application to measure the distance between devices;
-    \item user can give his Mascot a custom name;
+    \item user can give his mascot a custom name;
     \item user is required to choose one out of five personalities displayed on the screen.
 \end{itemize}
 
@@ -38,7 +38,7 @@ movements and sends this information to a server.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Project Presentation}
 \label{sec:project-presentation}
-The project consists of client side which are two Android applications for Phone and Tablet;
+The project consists of client side which are two Android applications for phone and tablet;
 and server side which maintains the decision point for the whole system.
 
 The "AutonomousSystemThesis" is structured in three directories:
@@ -46,7 +46,7 @@ The "AutonomousSystemThesis" is structured in three directories:
 \begin{itemize}
     \item MyMascotApp: Android application that can initialise the phone and measure the distance
             from phone and to all beacon tags located in the room.
-    \item MyTabletApp: Android application that is responsible for initialisation of Tablet and polls data from server
+    \item MyTabletApp: Android application that is responsible for initialisation of tablet and polls data from server
     \item server: allows the managements of all devices and beacons and maintains the decision point
 \end{itemize}
 
@@ -100,9 +100,9 @@ The structure of the whole system is demonstrated in Figure~\ref{lst:library-str
         }
         [
         [AutonomousSystemThesis
-        [MyMascotApp, label=right:- Android application for Mascot
+        [MyMascotApp, label=right:- Android application for mascot
         ]
-        [MyTabletApp, label=right:- Android application for Tablet
+        [MyTabletApp, label=right:- Android application for tablet
         ]
         [server, label=right:- Server application for devices management
         ]
@@ -165,8 +165,8 @@ All devices communicate with each other through the server that makes the main d
         distances and get requests of required data from database.
     \item Server checks with if else statements whether the distance of all devices match the preset
         algorithm based on Proxemics theory
-    \item In case if user reaches Lamp, server requests Philips Hue API to turn the according light color retrieved from database
-    \item In case if user reaches Speakers, play audio files concurrently with the help of Audio File Play
+    \item In case if user reaches lamp, server requests Philips Hue API to turn the according light color retrieved from database
+    \item In case if user reaches speakers, play audio files concurrently with the help of Audio File Play
         utility such as \emph{afplay}
 \end{itemize}
 
@@ -220,9 +220,9 @@ before computing xy={l=15pt},
 }
 [
 [Server
-[Controller, label=right:- Handling requests from clients
+[controller, label=right:- Handling requests from clients
 ]
-[Database, label=right:- Database management system using PostgreSQL
+[database, label=right:- Database management system using PostgreSQL
 ]
 [ServerApplication.java, file, label=right:
 ]
@@ -265,6 +265,7 @@ text width=4cm, text centered, draw=black, fill=green!30]
         \draw [arrow] (dec1.east) -- ++(2em,0) node[above] {no} -- ++(2em,0) |- (in1.east);
         \draw [arrow] (dec1) -- node[anchor=east] {yes} (pro1);
         \draw [arrow] (pro1) -- (pro2);
+        \draw [arrow] (pro2) -- (pro3);
         \draw [arrow] (pro3) -- (dec2);
         \draw [arrow] (dec2.east) -- ++(2em,0) node[above] {no} -- ++(2em,0) |- (pro2.east);
         \draw [arrow] (dec2) -- node[anchor=east] {yes} (pro4);
@@ -302,7 +303,7 @@ In the following part I would like to describe the use of some libraries.
 Beacon tags are broadcast-only which communicate by signaling their proximity to our Android applications.
 With the help of AltBeacon Library, \emph{MyMascotApp} can detect beacon tags located in the room
 and use this information to measure the distance from itself to nearby beacons.
-The accuracy precision that \emph{MyMascotApp} can measure the distance is around 0.5 meters
+The accuracy precision that \emph{MyMascotApp} can measure the distance is around .5 meters
 with a 10 second margin for new positions.
 
 \textbf{NSD API} (Network Service Discovery) is an Android implementation of Multicast DNS using DNS-SD mechanism.
@@ -334,7 +335,7 @@ need to be connected to the same network.
 \section{Technical Requirements and Hardware}
 \label{sec:technical-requirements-and-hardware}
 The system comprises of the following devices: the phone with an attached beacon tag,
-the lamp with a beacon tag, the tablet with a beacon tag and Speakers with beacon tag.
+the lamp with a beacon tag, the tablet with a beacon tag and speakers with beacon tag.
 With the help of beacon tags that are located right near all devices, Android applications
 will be able to measure the distance from themselves to all other devices.
 
@@ -343,7 +344,7 @@ In addition, the following pre-requirements are need to be met:
     \item Philips Hue lamps is that all lamps in the system needs to be connected to the same local network.
     \item For Android application to detect beacon tags, the location and Bluetooth permissions should be granted.
     \item For Android application the operating system in order to use Bluetooth BLE should be higher than 6+.
-    \item Server should be run on MacBook, since \emph{afplay} utility supported by command-line system in MascOS
+    \item Server should be run on MacBook, since \emph{afplay} utility supported by command-line system in macOS
 \end{itemize}
 
 % 1. Terminal NSD command.

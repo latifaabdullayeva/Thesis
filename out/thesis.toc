@@ -26,7 +26,7 @@
 \vspace {-.05cm}
 \contentsline {section}{\numberline {2.6}Interaction design for SIoT}{10}{section.2.6}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {2.7}Definition of Personality Traits}{10}{section.2.7}
+\contentsline {section}{\numberline {2.7}Definition of personality traits}{10}{section.2.7}
 \vspace {-.175cm}
 \contentsline {chapter}{\numberline {3} Concept}{12}{chapter.3}
 \vspace {-.05cm}
@@ -72,25 +72,25 @@
 \vspace {-.175cm}
 \contentsline {chapter}{\numberline {6} Results}{38}{chapter.6}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.1}Analysis of Mascot-Lamp interaction}{39}{section.6.1}
+\contentsline {section}{\numberline {6.1}Analysis of mascot-speakers interaction}{38}{section.6.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.1.1}Analysis of within personality trait study}{39}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.1}Analysis of within personality trait study}{40}{subsection.6.1.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.1.2}Analysis of within lighting color study}{42}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}Analysis of within music category study}{42}{subsection.6.1.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.2}Analysis of Mascot-Speakers interaction}{45}{section.6.2}
+\contentsline {section}{\numberline {6.2}Analysis of mascot-lamp interaction}{44}{section.6.2}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.2.1}Analysis of within personality trait study}{46}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}Analysis of within personality trait study}{44}{subsection.6.2.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.2.2}Analysis of within music category study}{48}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.2}Analysis of within lighting color study}{47}{subsection.6.2.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.3}Analysis of Mascot-Mascot interaction}{50}{section.6.3}
+\contentsline {section}{\numberline {6.3}Analysis of mascot-mascot interaction}{50}{section.6.3}
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {6.3.1}Analysis of within personality trait study}{50}{subsection.6.3.1}
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {6.3.2}Analysis of within vibration level study}{53}{subsection.6.3.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.4}Analysis of Mascot-Tablet interaction}{56}{section.6.4}
+\contentsline {section}{\numberline {6.4}Analysis of mascot-tablet interaction}{56}{section.6.4}
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {6.4.1}Analysis of within personality trait study}{56}{subsection.6.4.1}
 \vspace {-.05cm}
@@ -98,25 +98,25 @@
 \vspace {-.175cm}
 \contentsline {chapter}{\numberline {7} Discussions}{61}{chapter.7}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {7.1}Mascot-Lamp interaction}{61}{section.7.1}
+\contentsline {section}{\numberline {7.1}Mascot-lamp interaction}{61}{section.7.1}
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {7.1.1}Discussion for the first study}{61}{subsection.7.1.1}
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {7.1.2}Discussion for the second study}{62}{subsection.7.1.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {7.2}Mascot-Speakers interaction}{63}{section.7.2}
+\contentsline {section}{\numberline {7.2}Mascot-speakers interaction}{63}{section.7.2}
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {7.2.1}Discussion for the first study}{63}{subsection.7.2.1}
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {7.2.2}Discussion for the second study}{64}{subsection.7.2.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {7.3}Mascot-Mascot interaction}{64}{section.7.3}
+\contentsline {section}{\numberline {7.3}Mascot-mascot interaction}{64}{section.7.3}
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {7.3.1}Discussion for the first study}{64}{subsection.7.3.1}
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {7.3.2}Discussion for the second study}{65}{subsection.7.3.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {7.4}Mascot-Tablet interaction}{66}{section.7.4}
+\contentsline {section}{\numberline {7.4}Mascot-tablet interaction}{66}{section.7.4}
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {7.4.1}Discussion for the first study}{66}{subsection.7.4.1}
 \vspace {-.05cm}
@@ -135,8 +135,4 @@
 \contentsline {section}{\numberline {8.3}Limitations}{72}{section.8.3}
 \vspace {-.05cm}
 \contentsline {section}{\numberline {8.4}Future work}{73}{section.8.4}
-\vspace {-.175cm}
-\contentsline {chapter}{\numberline {A} Tables and Figures}{74}{appendix.A}
-\vspace {-.175cm}
-\contentsline {chapter}{\numberline {B} Questionnaires of the User Study}{89}{appendix.B}
-\contentsline {chapter}{Literaturverzeichnis}{90}{section*.43}
+\contentsline {chapter}{Bibliography}{74}{section*.43}

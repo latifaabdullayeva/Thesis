@@ -16,6 +16,9 @@
 \usepackage{lscape}
 \usepackage{caption}
 
+\usepackage{fixltx2e}
+\usepackage[bottom]{footmisc}
+
 \usepackage{listings}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{backcolour}{rgb}{245,247,248}
@@ -100,7 +103,7 @@ numberstyle=\tiny\color{codegray}
   \pagestyle{plain}
   \bibliographystyle{SIGCHI-Reference-Format}
    \phantomsection
-	\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+	\addcontentsline{toc}{chapter}{Bibliography}
 	\interlinepenalty=10000 %prevents bibtex that are one two pages.
 	\bibliography{references}\emph{}	
 	\vfill
