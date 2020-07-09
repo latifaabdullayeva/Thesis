@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  9 JUL 2020 19:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  9 JUL 2020 19:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4748,6 +4748,9 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
@@ -4825,7 +4828,7 @@ bi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 Output written on /Users/latifaabdullayeva/Desktop/Thesis_Template_DE_EN/Thesis
-/out/thesis.pdf (84 pages, 3452429 bytes).
+/out/thesis.pdf (84 pages, 3452676 bytes).
 PDF statistics:
  2762 PDF objects out of 2984 (max. 8388607)
  2232 compressed objects within 23 object streams

@@ -96,7 +96,7 @@
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {6.4.2}The analysis of the within screen color study.}{54}{subsection.6.4.2}
 \vspace {-.175cm}
-\contentsline {chapter}{\numberline {7} Discussions}{58}{chapter.7}
+\contentsline {chapter}{\numberline {7} Discussions (in progress)}{58}{chapter.7}
 \vspace {-.05cm}
 \contentsline {section}{\numberline {7.1}Mascot-lamp interaction}{58}{section.7.1}
 \vspace {-.05cm}
@@ -122,7 +122,7 @@
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {7.4.2}Discussion for the second study}{64}{subsection.7.4.2}
 \vspace {-.175cm}
-\contentsline {chapter}{\numberline {8} Conclusion}{66}{chapter.8}
+\contentsline {chapter}{\numberline {8} Conclusion (in progress)}{66}{chapter.8}
 \vspace {-.05cm}
 \contentsline {section}{\numberline {8.1}Overview}{66}{section.8.1}
 \vspace {-.05cm}
