@@ -52,7 +52,7 @@
 \vspace {-.05cm}
 \contentsline {subsection}{\numberline {4.4.1}Module descriptions}{26}{subsection.4.4.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {4.4.2}Software Stacks}{29}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Software Stacks}{28}{subsection.4.4.2}
 \vspace {-.05cm}
 \contentsline {section}{\numberline {4.5}Technical Requirements and Hardware}{30}{section.4.5}
 \vspace {-.175cm}

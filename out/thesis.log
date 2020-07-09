@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  9 JUL 2020 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  9 JUL 2020 19:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1578,7 +1578,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 111.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 44.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1587,26 +1587,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 120.
  [25]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 142.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 140.
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 142.
  [26]
-[27] [28] [29]
-Overfull \hbox (6.24901pt too wide) in paragraph at lines 347--348
-[]\T1/ppl/m/n/10.95 (-20) Server should be run on Mac-Book, since \T1/ppl/m/it/
-10.95 (-20) af-play \T1/ppl/m/n/10.95 (-20) util-ity sup-ported by command-
- []
-
-) (./sections/userstudy.tex [30]
-<./images/RplotDemographicsFields.pdf, id=706, 349.08458pt x 263.0939pt>
+[27] [28]
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 316.
+ [29]) (./sections/userstudy.tex [30]
+<./images/RplotDemographicsFields.pdf, id=709, 349.08458pt x 263.0939pt>
 File: ./images/RplotDemographicsFields.pdf Graphic file (type pdf)
 <use ./images/RplotDemographicsFields.pdf>
 Package pdftex.def Info: ./images/RplotDemographicsFields.pdf  used on input li
 ne 18.
 (pdftex.def)             Requested size: 157.08661pt x 118.39114pt.
-<./images/RplotDemographicsStudyLevel.pdf, id=707, 332.77805pt x 267.43233pt>
+<./images/RplotDemographicsStudyLevel.pdf, id=710, 332.77805pt x 267.43233pt>
 File: ./images/RplotDemographicsStudyLevel.pdf Graphic file (type pdf)
 <use ./images/RplotDemographicsStudyLevel.pdf>
 Package pdftex.def Info: ./images/RplotDemographicsStudyLevel.pdf  used on inpu
@@ -1616,22 +1613,22 @@ t line 25.
 
 
  <./images/RplotDemographicsFields.pdf>]
-<./images/RplotDemographicsDeviceUse.pdf, id=721, 323.61009pt x 246.75296pt>
+<./images/RplotDemographicsDeviceUse.pdf, id=724, 323.61009pt x 246.75296pt>
 File: ./images/RplotDemographicsDeviceUse.pdf Graphic file (type pdf)
 <use ./images/RplotDemographicsDeviceUse.pdf>
 Package pdftex.def Info: ./images/RplotDemographicsDeviceUse.pdf  used on input
  line 35.
 (pdftex.def)             Requested size: 145.62318pt x 111.0378pt.
-<./images/RplotDemographicsDeviceUseInHours.pdf, id=723, 751.80875pt x 426.5937
+<./images/RplotDemographicsDeviceUseInHours.pdf, id=726, 751.80875pt x 426.5937
 5pt>
 File: ./images/RplotDemographicsDeviceUseInHours.pdf Graphic file (type pdf)
 <use ./images/RplotDemographicsDeviceUseInHours.pdf>
 Package pdftex.def Info: ./images/RplotDemographicsDeviceUseInHours.pdf  used o
 n input line 50.
 (pdftex.def)             Requested size: 338.3108pt x 191.96541pt.
-
-[32 <./images/RplotDemographicsStudyLevel.pdf> <./images/RplotDemographicsDevic
-eUse.pdf>] [33 <./images/RplotDemographicsDeviceUseInHours.pdf>] [34] [35]
+ [32 <./images/RplotDemographicsStudyLevel.pdf> <./images/RplotDemographicsDevi
+ceUse.pdf>] [33 <./images/RplotDemographicsDeviceUseInHours.pdf>]
+[34] [35]
 Overfull \hbox (8.13028pt too wide) in paragraph at lines 215--217
 []\T1/ppl/m/n/10.95 (-20) For mascot-tablet case-study, there are five vari-abl
 e: yel-low, or-ange, turquoise,
@@ -1641,7 +1638,7 @@ e: yel-low, or-ange, turquoise,
 
 
 ]
-<./images/StatSt12.pdf, id=787, 587.07741pt x 147.96489pt>
+<./images/StatSt12.pdf, id=790, 587.07741pt x 147.96489pt>
 File: ./images/StatSt12.pdf Graphic file (type pdf)
 <use ./images/StatSt12.pdf>
 Package pdftex.def Info: ./images/StatSt12.pdf  used on input line 72.
@@ -1886,7 +1883,7 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 163--164
 []|\T1/ppl/m/n/10.95 (-20) 4.7| 
  []
 
-<./images/Study1(M-S).pdf, id=819, 602.50093pt x 597.50786pt>
+<./images/Study1(M-S).pdf, id=822, 602.50093pt x 597.50786pt>
 File: ./images/Study1(M-S).pdf Graphic file (type pdf)
 <use ./images/Study1(M-S).pdf>
 Package pdftex.def Info: ./images/Study1(M-S).pdf  used on input line 177.
@@ -2131,7 +2128,7 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 252--253
 []|\T1/ppl/m/n/10.95 (-20) 4.7| 
  []
 
-<./images/Study2(M-S).pdf, id=854, 845.04686pt x 541.52931pt>
+<./images/Study2(M-S).pdf, id=858, 845.04686pt x 541.52931pt>
 File: ./images/Study2(M-S).pdf Graphic file (type pdf)
 <use ./images/Study2(M-S).pdf>
 Package pdftex.def Info: ./images/Study2(M-S).pdf  used on input line 266.
@@ -2542,7 +2539,7 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 385--386
 []|\T1/ppl/m/n/10.95 (-20) 4.0| 
  []
 
-<./images/Study1(M-L).pdf, id=1095, 597.50786pt x 652.68507pt>
+<./images/Study1(M-L).pdf, id=1098, 597.50786pt x 652.68507pt>
 File: ./images/Study1(M-L).pdf Graphic file (type pdf)
 <use ./images/Study1(M-L).pdf>
 Package pdftex.def Info: ./images/Study1(M-L).pdf  used on input line 399.
@@ -2952,7 +2949,7 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 508--509
 []|\T1/ppl/m/n/10.95 (-20) 4.0| 
  []
 
-<./images/Study2(M-L).pdf, id=1350, 809.78107pt x 597.50786pt>
+<./images/Study2(M-L).pdf, id=1353, 809.78107pt x 597.50786pt>
 File: ./images/Study2(M-L).pdf Graphic file (type pdf)
 <use ./images/Study2(M-L).pdf>
 Package pdftex.def Info: ./images/Study2(M-L).pdf  used on input line 522.
@@ -3487,7 +3484,7 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 634--635
 []|\T1/ppl/m/n/10.95 (-20) 4.0| 
  []
 
-<./images/Study1(M-M).pdf, id=1601, 597.50786pt x 728.69408pt>
+<./images/Study1(M-M).pdf, id=1604, 597.50786pt x 728.69408pt>
 File: ./images/Study1(M-M).pdf Graphic file (type pdf)
 <use ./images/Study1(M-M).pdf>
 Package pdftex.def Info: ./images/Study1(M-M).pdf  used on input line 646.
@@ -3897,7 +3894,7 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 746--747
 []|\T1/ppl/m/n/10.95 (-20) 4.0| 
  []
 
-<./images/Study2(M-M).pdf, id=1634, 845.04686pt x 590.93239pt>
+<./images/Study2(M-M).pdf, id=1637, 845.04686pt x 590.93239pt>
 File: ./images/Study2(M-M).pdf Graphic file (type pdf)
 <use ./images/Study2(M-M).pdf>
 Package pdftex.def Info: ./images/Study2(M-M).pdf  used on input line 759.
@@ -4308,7 +4305,7 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 867--868
 []|\T1/ppl/m/n/10.95 (-20) 3.8| 
  []
 
-<./images/Study1(M-T).pdf, id=2095, 638.87964pt x 597.50786pt>
+<./images/Study1(M-T).pdf, id=2098, 638.87964pt x 597.50786pt>
 File: ./images/Study1(M-T).pdf Graphic file (type pdf)
 <use ./images/Study1(M-T).pdf>
 Package pdftex.def Info: ./images/Study1(M-T).pdf  used on input line 879.
@@ -4718,7 +4715,7 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 983--984
 []|\T1/ppl/m/n/10.95 (-20) 3.8| 
  []
 
-<./images/Study2(M-T).pdf, id=2338, 810.66309pt x 597.50786pt>
+<./images/Study2(M-T).pdf, id=2341, 810.66309pt x 597.50786pt>
 File: ./images/Study2(M-T).pdf Graphic file (type pdf)
 <use ./images/Study2(M-T).pdf>
 Package pdftex.def Info: ./images/Study2(M-T).pdf  used on input line 996.
@@ -4754,15 +4751,18 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 43947 strings out of 492649
- 923160 string characters out of 6129622
- 1039949 words of memory out of 5000000
- 46711 multiletter control sequences out of 15000+600000
- 586589 words of font info for 229 fonts, out of 8000000 for 9000
+ 43950 strings out of 492649
+ 923198 string characters out of 6129622
+ 1040185 words of memory out of 5000000
+ 46710 multiletter control sequences out of 15000+600000
+ 587835 words of font info for 233 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  141i,12n,176p,10358b,1940s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exis
 t, replaced by a fixed one
@@ -4816,18 +4816,19 @@ e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2
 018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/u
-rw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pala
-tino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/u
-plr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.
-pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+xmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/ur
+w/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palat
+ino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/upl
+bi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 Output written on /Users/latifaabdullayeva/Desktop/Thesis_Template_DE_EN/Thesis
-/out/thesis.pdf (84 pages, 3446085 bytes).
+/out/thesis.pdf (84 pages, 3452429 bytes).
 PDF statistics:
- 2756 PDF objects out of 2984 (max. 8388607)
- 2227 compressed objects within 23 object streams
- 263 named destinations out of 1000 (max. 500000)
- 28287 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 2762 PDF objects out of 2984 (max. 8388607)
+ 2232 compressed objects within 23 object streams
+ 264 named destinations out of 1000 (max. 500000)
+ 29311 words of extra memory for PDF output out of 29859 (max. 10000000)
 

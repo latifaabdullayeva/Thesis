@@ -1,37 +1,37 @@
-\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
-    text width=30em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20,
+text width=30em, text centered, rounded corners, minimum height=4em]
 \tikzstyle{line} = [draw, -latex']
 \tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
-    minimum height=2em]
+minimum height=2em]
 
 \chapter{Implementation}
 \label{ch:implementation}
 This chapter is structured in the following way.
 In Section~\ref{sec:user-documentation} we assist end users to use the system.
-In section~\ref{sec:project-presentation} we will take a look at the project structure.
+In Section~\ref{sec:project-presentation} we will take a look at the project structure.
 Section~\ref{sec:configuration} describes how the project can be deployed and configured.
 Section~\ref{sec:system-architecture} covers system architecture, namely the
 communication protocols, frameworks and APIs that are used in the prototype.
-Finally, in section~\ref{sec:technical-requirements-and-hardware}, we describe technical
-requirements and hardware used in our system.
+Finally, in Section~\ref{sec:technical-requirements-and-hardware}, we describe technical
+requirements and hardware used in the system.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{User Documentation}
 \label{sec:user-documentation}
-When the user runs the application for the first time, it displays the form that the
+When a user runs the android application for the first time, it displays the form that a
 user has to fill in order to configure his phone.
 For that, the user needs to follow the steps:
 
 \begin{itemize}
-    \item user can choose the beacon ID that will help this application to measure the distance between devices;
-    \item user can give his mascot a custom name;
-    \item user is required to choose one out of five personalities displayed on the screen.
+    \item User can choose the beacon ID that will help this application to measure the distance between devices.
+    \item User can give his mascot a custom name.
+    \item User is required to choose one out of five personalities displayed on the screen.
 \end{itemize}
 
 After pressing the next button, such information as beacon ID,
-the type, name and the personality of device send as post request to server and saved in database.
+the type, name and the personality of th device send as post request to the server and saved in the database.
 Starting from here, user can put his phone into pocket and interact the environment by walking
-around and approaching other devices such as other phones, lamp, speakers and tablet.
+around and approaching other devices such as other phones, lamps, speakers and tablets.
 The application start to measure the distance to all other beacons according to the users's
 movements and sends this information to a server.
 
@@ -41,13 +41,13 @@ movements and sends this information to a server.
 The project consists of client side which are two Android applications for phone and tablet;
 and server side which maintains the decision point for the whole system.
 
-The "AutonomousSystemThesis" is structured in three directories:
+The \texttt{AutonomousSystemThesis} consists of three directories:
 
 \begin{itemize}
-    \item MyMascotApp: Android application that can initialise the phone and measure the distance
-            from phone and to all beacon tags located in the room.
-    \item MyTabletApp: Android application that is responsible for initialisation of tablet and polls data from server
-    \item server: allows the managements of all devices and beacons and maintains the decision point
+    \item \texttt{MyMascotApp}: The android application registers the phone in the system and measures the distance
+    from phone and to all beacon tags located in the room.
+    \item \texttt{MyTabletApp}: The android application that is registering the tablet in the system and displaying colors according to the personality of approaching mascot
+    \item \texttt{server}: allows the managements of all devices and beacons and maintains the decision point
 \end{itemize}
 
 The structure of the whole system is demonstrated in Figure~\ref{lst:library-structure}.
@@ -117,125 +117,122 @@ The structure of the whole system is demonstrated in Figure~\ref{lst:library-str
 
 \section{Configuration}
 \label{sec:configuration}
-The \textbf{\emph{AutonomousSystemThesis}} can be configured in the following way.
+The \texttt{AutonomousSystemThesis} can be configured in the following way.
 
 To run the server, we pass the following arguments in the terminal:
 \begin{lstlisting}
-    @\textcolor{green!40!black}{mvn spring-boot:run -e -X -Dspring-boot.run.arguments= --hueUsername=EECidAmJSgSiUYK9AMNhilF0vRpuW7EOSZ9QXO0D, --hueIPAddress=192.168.0.100}@
+    @\textcolor{green!40!black}{mvn spring-boot:run -e -X -Dspring-boot.run.arguments= --hueUsername=<hue\_username>, --hueIPAddress=<hue\_ip\_address>}@
 \end{lstlisting}
 
 Here, \emph{hueIPAddress} is a IP address assigned to our Philips Hue bridge.
 Since you will have your own smart lamps, you will need to discover the IP address of your bridge.
 The more detailed instruction of how to discover IP address and username of your bridge you can
-find in official Philips Hue Documentation:
-
-\url{https://developers.meethue.com/develop/get-started-2/}
+find in official Philips Hue Documentation:\footnote{\url{https://developers.meethue.com/develop/get-started-2/}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{System Architecture}
 \label{sec:system-architecture}
-For multi-device support we used centralised architecture, where all devices inform server about their real-time state.
-Subsequently, server change the states of all other devices accordingly.
+For multi-device support used centralised architecture, where all devices inform the server about their state in real-time.
+Subsequently, server changes the states of all other devices accordingly.
 Moreover, centralised system has a simpler design which excludes any consensus problem.
 All devices communicate with each other through the server that makes the main decision.
 
 \subsection{Module descriptions}
 \label{subsec:module-descriptions}
-\textbf{\emph{MyMascotApp}} is an Android application that has the following functionalities:
+\textbf{\texttt{MyMascotApp}} is an Android application that has the following features:
 \begin{itemize}
-    \item The application initialises the phone in the system, namely the ID of a beacon that it is attached,
-        mascot custom name and the personality of a mascot.
-    \item The application measures the distance from itself to all other beacons in the system.
+    \item The application registers the phone in the system, namely the ID of a beacon that it is attached,
+    mascot custom name and the personality of a mascot.
+    \item The application measures the distance from the device (phone) to all other beacons in the system.
     \item The application vibrates the phone with the vibration duration that server sent to it.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{\emph{MyTabletApp}} is an Android application that has the following functionalities:
+\textbf{\texttt{MyTabletApp}} is an Android application that has the following functionalities:
 \begin{itemize}
-    \item The application initialises the tablet in the system, namely ID of a beacon that it is attached.
-    \item Every second tablet application polls data from server, where as a response it gets specific color code.
+    \item The application registers the tablet in the system, namely ID of a beacon that it is attached to it.
+    \item Every second, the tablet application polls data from the server, where as a response it gets specific color code.
     \item The application changes the background color of a screen to a color that it retrieved from server.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{\emph{server}} is an server application that has the following functionalities:
+\textbf{\texttt{server}} is an server application that has the following features:
 \begin{itemize}
-    \item Server application generates a database that consists of three tables (devices, distances and personality)
-    \item Server implements controllers that handle the client requests such as post requests of device initialisation,
-        distances and get requests of required data from database.
-    \item Server checks with if else statements whether the distance of all devices match the preset
-        algorithm based on Proxemics theory
-    \item In case if user reaches lamp, server requests Philips Hue API to turn the according light color retrieved from database
-    \item In case if user reaches speakers, play audio files concurrently with the help of Audio File Play
-        utility such as \emph{afplay}
+    \item Manages a database that consists of three tables (devices, distances and personality).
+    \item Implements controllers that handle the client requests such as post requests of device initialisation,
+    distances and get requests of required data from database.
+    \item Server checks with if else statements whether the distance of all devices falls into the predefined distance range of the Proxemics theory.
+    \item When the user reaches the lamp, the server requests Philips Hue API to change color based on the personality retrieved from the database.
+    \item When the user approaches speakers, play audio files concurrently using the Audio File Play
+    utility ors \texttt{afplay}.
 \end{itemize}
 
 The structure of the server application is demonstrated in Figure~\ref{lst:library-structure-server}.
 
 \begin{figure}[!htbp]
-\definecolor{folderbg}{RGB}{124, 166, 198}
-\definecolor{folderborder}{RGB}{110, 144, 169}
+    \definecolor{folderbg}{RGB}{124, 166, 198}
+    \definecolor{folderborder}{RGB}{110, 144, 169}
 
-\def\Size{4pt}
-\tikzset{
-folder/.pic={
-\filldraw[draw=folderborder, top color=folderbg!50, bottom color=folderbg]
-(-1.05*\Size, 0.2\Size+5pt) rectangle ++(.75*\Size, -0.2\Size-5pt);
-\filldraw[draw=folderborder, top color=folderbg!50, bottom color=folderbg]
-(-1.15*\Size, -\Size) rectangle (1.15*\Size, \Size);
-},
-file/.pic={
-\filldraw[draw=folderborder, top color=folderbg!5, bottom color=folderbg!10]
-(-\Size, .4*\Size+5pt) coordinate(a) |- (\Size, -1.2*\Size) coordinate(b) -- ++(0, 1.6*\Size) coordinate(c) -- ++(-5pt, 5pt) coordinate(d) -- cycle(d) |- (c);
-},
-}
+    \def\Size{4pt}
+    \tikzset{
+    folder/.pic={
+    \filldraw[draw=folderborder, top color=folderbg!50, bottom color=folderbg]
+    (-1.05*\Size, 0.2\Size+5pt) rectangle ++(.75*\Size, -0.2\Size-5pt);
+    \filldraw[draw=folderborder, top color=folderbg!50, bottom color=folderbg]
+    (-1.15*\Size, -\Size) rectangle (1.15*\Size, \Size);
+    },
+    file/.pic={
+    \filldraw[draw=folderborder, top color=folderbg!5, bottom color=folderbg!10]
+    (-\Size, .4*\Size+5pt) coordinate(a) |- (\Size, -1.2*\Size) coordinate(b) -- ++(0, 1.6*\Size) coordinate(c) -- ++(-5pt, 5pt) coordinate(d) -- cycle(d) |- (c);
+    },
+    }
 
-\centering
-\begin{forest}
-for tree={
-font=\ttfamily,
-grow'=0,
-child anchor=west,
-parent anchor=south,
-anchor=west,
-calign=first,
-inner xsep=8pt,
-edge path={
-\noexpand\path [draw, \forestoption{edge}]
-(!u.south west) +(7.5pt,0) |- (.child anchor) pic {folder} \forestoption{edge label};
-},
-file/.style={
-edge path={
-\noexpand\path [draw, \forestoption{edge}]
-(!u.south west) +(7.5pt, 0) |- (.child anchor) pic {file} \forestoption{edge label};
-},
-},
-before typesetting nodes={
-if n=1
-{insert before={[,phantom]}}
-{},
-},
-fit=band,
-before computing xy={l=15pt},
-}
-[
-[Server
-[controller, label=right:- Handling requests from clients
-]
-[database, label=right:- Database management system using PostgreSQL
-]
-[ServerApplication.java, file, label=right:
-]
-]
-]
-\end{forest}
+    \centering
+    \begin{forest}
+        for tree={
+        font=\ttfamily,
+        grow'=0,
+        child anchor=west,
+        parent anchor=south,
+        anchor=west,
+        calign=first,
+        inner xsep=8pt,
+        edge path={
+        \noexpand\path [draw, \forestoption{edge}]
+        (!u.south west) +(7.5pt,0) |- (.child anchor) pic {folder} \forestoption{edge label};
+        },
+        file/.style={
+        edge path={
+        \noexpand\path [draw, \forestoption{edge}]
+        (!u.south west) +(7.5pt, 0) |- (.child anchor) pic {file} \forestoption{edge label};
+        },
+        },
+        before typesetting nodes={
+        if n=1
+        {insert before={[,phantom]}}
+        {},
+        },
+        fit=band,
+        before computing xy={l=15pt},
+        }
+        [
+        [Server
+        [controller, label=right:- Responsible for handling the client requests.
+        ]
+        [database, label=right:- Database management system using PostgreSQL\@.
+        ]
+        [ServerApplication.java, file, label=right:
+        ]
+        ]
+        ]
+    \end{forest}
 
-\caption{The folder structure of the server application}
-\label{lst:library-structure-server}
+    \caption{The folder structure of the server application}
+    \label{lst:library-structure-server}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The communication between devices and the workflow of the system is described in Figure~\ref{fig:Workflow}.
-The figure describes the interaction between two phones and step by step requests that client and server do.
+The figure describes the interaction between two phones and step by step including requests that client and server send each other.
 \tikzstyle{startstop} = [rectangle, minimum width=3cm, minimum height=1cm,
 text width=8cm, text centered, draw=black, fill=orange!30]
 \tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm,
@@ -247,24 +244,22 @@ text width=4cm, text centered, draw=black, fill=green!30]
 \tikzstyle{arrow} = [thick,->,>=stealth]
 
 \begin{figure}[H]
-\centering
+    \centering
     \begin{tikzpicture}[node distance=1.7cm]
-        \node (start) [startstop] {Client looks for a server using NSD API};
-        \node (pro) [process, below of=start] {Client looks for beacon tags using ALtBeacon Library};
+        \node (start) [startstop] {Client searches for a server using NSD API};
+        \node (pro) [process, below of=start] {Client looks for beacon tags using AltBeacon Library};
         \node (in1) [io, below of=pro] {Client registers device};
-        \node (dec1) [decision, below of=in1, yshift=-0.5cm] {Checks if all inputs are valid};
-        \node (pro1) [process, below of=dec1, yshift=-0.5cm] {Client sends request to server};
-        \node (pro2) [process, below of=pro1] {Client measures distance to all beacon tags};
+        \node (dec1) [decision, below of=in1, yshift=-0.5cm] {Server checks if all inputs are valid};
+        \node (pro2) [process, below of=dec1, yshift=-0.5cm] {Client starts measuring the distance to all beacon tags};
         \node (pro3) [process, below of=pro2] {Client sends distance information to server};
-        \node (dec2) [decision, below of=pro3, yshift=-0.5cm] {Checks distance < 45cm};
-        \node (pro4) [process, below of=dec2, yshift=-0.5cm] {Client invokes/gets vibration level from server};
+        \node (dec2) [decision, below of=pro3, yshift=-0.5cm] {Server checks distance < 45cm};
+        \node (pro4) [process, below of=dec2, yshift=-0.5cm] {Client gets vibration level from server};
         \node (pro5) [process, below of=pro4] {Client triggers vibration with specific duration};
         \draw [arrow] (start) -- (pro);
         \draw [arrow] (pro) -- (in1);
         \draw [arrow] (in1) -- (dec1);
         \draw [arrow] (dec1.east) -- ++(2em,0) node[above] {no} -- ++(2em,0) |- (in1.east);
-        \draw [arrow] (dec1) -- node[anchor=east] {yes} (pro1);
-        \draw [arrow] (pro1) -- (pro2);
+        \draw [arrow] (dec1) -- node[anchor=east] {yes} (pro2);
         \draw [arrow] (pro2) -- (pro3);
         \draw [arrow] (pro3) -- (dec2);
         \draw [arrow] (dec2.east) -- ++(2em,0) node[above] {no} -- ++(2em,0) |- (pro2.east);
@@ -272,51 +267,52 @@ text width=4cm, text centered, draw=black, fill=green!30]
         \draw [arrow] (pro4) -- (pro5);
 
     \end{tikzpicture}
-\caption{The interaction between two phones and a server with the libraries and APIs that it is using}
-\label{fig:Workflow}
+    \caption{The interaction between two phones and a server with the libraries and APIs that it is using}
+    \label{fig:Workflow}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Software Stacks}
 \label{subsec:software-stacks}
 
-We used the following programming languages, frameworks and APIs to implement our system.
+The following programming languages, frameworks and APIs were used to implement the system.
 
-For Client applications:
+For the client applications:
 \begin{itemize}
-    \item Android application
-    \item Alt Beacon Library
-    \item NSD API (Network Service Discovery)
+    \item Android framework with Java language.
+    \begin{itemize}
+        \item NSD API (Network Service Discovery)
+    \end{itemize}
+    \item AltBeacon Library.
 \end{itemize}
 
-For server side:
+For the server side:
 \begin{itemize}
-    \item Java
-    \item Spring Framework
-    \item Philips Hue API
-    \item Music Playback component
+    \item Spring Framework with Java language.
+    \item DNS-SD\@.
+    \item Philips Hue API\@.
+    \item Music Playback component.
 \end{itemize}
 
-In the following part I would like to describe the use of some libraries.
-
-\textbf{AltBeacon Library} (Android Beacon Library) is a library that provides APIs to interact with beacon tags.
-Beacon tags are broadcast-only which communicate by signaling their proximity to our Android applications.
-With the help of AltBeacon Library, \emph{MyMascotApp} can detect beacon tags located in the room
-and use this information to measure the distance from itself to nearby beacons.
-The accuracy precision that \emph{MyMascotApp} can measure the distance is around .5 meters
+\textbf{AltBeacon Library} is a library that provides APIs to interact with beacon tags.
+Beacon tags are broadcast-only which communicate by signaling their proximity to the Android applications.
+With the help of AltBeacon Library, \texttt{MyMascotApp} detects beacon tags nearby
+and use this information to measure the distance.
+The accuracy precision that \texttt{MyMascotApp} can measure the distance is around .5 meters
 with a 10 second margin for new positions.
 
-\textbf{NSD API} (Network Service Discovery) is an Android implementation of Multicast DNS using DNS-SD mechanism.
-In order to make requests our Android applications need to know the network location,
-namely IP address and port of services.
-NSD API helps our server to broadcast its existence.
-\emph{NSDHelper.java} module allows our client-applications to find an HTTP server in the local network that supports
+\textbf{NSD API} (Network Service Discovery) is an Android implementation of Multicast DNS\@.
+In order to make requests the Android applications need to know the IP address and port of services.
+NSD API helps the client to discover the server.
+\texttt{NSDHelper.java} module allows the client-applications to find an HTTP server in the local network that supports
 services that clients are interested in.
 
+\textbf{DNS-SD}.
 The specification that we have given to the terminal are:
 \begin{lstlisting}
     @\textcolor{green!40!black}{dns-sd -R mythesis \_socialiot.\_tcp local 8080}@
 \end{lstlisting}
+
 In these specifications, \textbf{\emph{mythesis}} is a service name;
 \textbf{\emph{\_socialiot.\_tcp}} is a service type;
 \textbf{\emph{8080}} is a port number with domain type \textbf{\emph{local}}.
@@ -328,23 +324,23 @@ to the Hue bridge through specific API\@.
 All philips hue lamps in the system needs to be connected to the Philips Hue Bridge which in turns help them
 to communicate with each other via internet.
 
-The important note for the implementation part is that all devices i.e.\ Philips Hue Bridge, server, phones and tablet
-need to be connected to the same network.
+The important note for the implementation part is that all devices such as Philips Hue Bridge, server, phones and tablet
+have to be connected to the same network.
 
 
 \section{Technical Requirements and Hardware}
 \label{sec:technical-requirements-and-hardware}
 The system comprises of the following devices: the phone with an attached beacon tag,
 the lamp with a beacon tag, the tablet with a beacon tag and speakers with beacon tag.
-With the help of beacon tags that are located right near all devices, Android applications
+Using the beacon tags that are located right near all devices, Android applications
 will be able to measure the distance from themselves to all other devices.
 
-In addition, the following pre-requirements are need to be met:
+Additionally, the following pre-requisites have to be met:
 \begin{itemize}
-    \item Philips Hue lamps is that all lamps in the system needs to be connected to the same local network.
-    \item For Android application to detect beacon tags, the location and Bluetooth permissions should be granted.
-    \item For Android application the operating system in order to use Bluetooth BLE should be higher than 6+.
-    \item Server should be run on MacBook, since \emph{afplay} utility supported by command-line system in macOS
+    \item Philips Hue lamps to be connected to the local network.
+    \item The android application with the location and the Bluetooth permissions granted.
+    \item The android application the operating system in order to use Bluetooth BLE should be higher than 6+.
+    \item The server must be running on macOS to use \texttt{afplay} utility.
 \end{itemize}
 
 % 1. Terminal NSD command.
