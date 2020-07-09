@@ -780,30 +780,31 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count146
 \pgfmatrixcurrentcolumn=\count147
 \pgf@matrix@numberofcolumns=\count148
-)
-\tikz@expandcount=\count149
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.code.tex
-File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code
+.tex:590: Interruption.
+l.590 
+            \expandafter\ifx\csname pgf@matrix@node@visited@\pgf@matrix@node...
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
-)
+? 
+/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code
+.tex:590: Emergency stop.
+l.590 
+            \expandafter\ifx\csname pgf@matrix@node@visited@\pgf@matrix@node...
+End of file on the terminal!
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
-shapes.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
-
-))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+ 
+Here is how much of TeX's memory you used:
+ 17860 strings out of 492649
+ 321784 string characters out of 6129622
+ 422243 words of memory out of 5000000
+ 21459 multiletter control sequences out of 15000+600000
+ 4709 words of font info for 16 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,1n,47p,417b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
+/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code
+.tex:590:  ==> Fatal error occurred, no output PDF file produced!
+1a (rcs-revision 1.1)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
 shapes.misc.code.tex
@@ -1030,22 +1031,7 @@ Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
 
-Package footmisc Info: Declaring symbol style lamport* on input line 903.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
-.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/forest/forest.sty
-Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryfit.code.tex
-File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
+12 v3.0.1a (rcs-revision 1.5)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
@@ -1055,15 +1041,15 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 ctions.code.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
 e.tex)
-\pgf@intersect@solutions=\count174
+\pgf@intersect@solutions=\count173
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks51
-\pgfopts@list@add@b@toks=\toks52
+\pgfopts@list@add@a@toks=\toks50
+\pgfopts@list@add@b@toks=\toks51
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count175
+\etb@tempcnta=\count174
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/elocalloc/elocalloc.sty
 Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
@@ -1080,24 +1066,24 @@ Package: expl3 2018/03/05 L3 programming layer (loader)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/03/05 L3 programming layer (code)
-\c_max_int=\count176
-\l_tmpa_int=\count177
-\l_tmpb_int=\count178
-\g_tmpa_int=\count179
-\g_tmpb_int=\count180
-\g__intarray_font_int=\count181
-\g__prg_map_int=\count182
-\c_log_iow=\count183
-\l_iow_line_count_int=\count184
-\l__iow_line_target_int=\count185
-\l__iow_one_indent_int=\count186
-\l__iow_indent_int=\count187
-\c_zero_dim=\dimen277
-\c_max_dim=\dimen278
-\l_tmpa_dim=\dimen279
-\l_tmpb_dim=\dimen280
-\g_tmpa_dim=\dimen281
-\g_tmpb_dim=\dimen282
+\c_max_int=\count175
+\l_tmpa_int=\count176
+\l_tmpb_int=\count177
+\g_tmpa_int=\count178
+\g_tmpb_int=\count179
+\g__intarray_font_int=\count180
+\g__prg_map_int=\count181
+\c_log_iow=\count182
+\l_iow_line_count_int=\count183
+\l__iow_line_target_int=\count184
+\l__iow_one_indent_int=\count185
+\l__iow_indent_int=\count186
+\c_zero_dim=\dimen276
+\c_max_dim=\dimen277
+\l_tmpa_dim=\dimen278
+\l_tmpb_dim=\dimen279
+\g_tmpa_dim=\dimen280
+\g_tmpb_dim=\dimen281
 \c_zero_skip=\skip150
 \c_max_skip=\skip151
 \l_tmpa_skip=\skip152
@@ -1110,43 +1096,60 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count188
-\c__fp_leading_shift_int=\count189
-\c__fp_middle_shift_int=\count190
-\c__fp_trailing_shift_int=\count191
-\c__fp_big_leading_shift_int=\count192
-\c__fp_big_middle_shift_int=\count193
-\c__fp_big_trailing_shift_int=\count194
-\c__fp_Bigg_leading_shift_int=\count195
-\c__fp_Bigg_middle_shift_int=\count196
-\c__fp_Bigg_trailing_shift_int=\count197
-\c__fp_rand_size_int=\count198
-\c__fp_rand_four_int=\count199
-\c__fp_rand_eight_int=\count266
-\l__sort_length_int=\count267
-\l__sort_min_int=\count268
-\l__sort_top_int=\count269
-\l__sort_max_int=\count270
-\l__sort_true_max_int=\count271
-\l__sort_block_int=\count272
-\l__sort_begin_int=\count273
-\l__sort_end_int=\count274
-\l__sort_A_int=\count275
-\l__sort_B_int=\count276
-\l__sort_C_int=\count277
-\l__tl_build_start_index_int=\count278
-\l__tl_build_index_int=\count279
-\l__tl_analysis_normal_int=\count280
-\l__tl_analysis_index_int=\count281
-\l__tl_analysis_nesting_int=\count282
-\l__tl_analysis_type_int=\count283
-\l__regex_internal_a_int=\count284
-\l__regex_internal_b_int=\count285
-\l__regex_internal_c_int=\count286
-\l__regex_balance_int=\count287
-\l__regex_group_level_int=\count288
-\l__regex_mode_int=\count289
-\c__regex_cs_in_class_mode_int=\count290
+\l_keys_choice_int=\count187
+\c__fp_leading_shift_int=\count188
+\c__fp_middle_shift_int=\count189
+\c__fp_trailing_shift_int=\count190
+\c__fp_big_leading_shift_int=\count191
+\c__fp_big_middle_shift_int=\count192
+\c__fp_big_trailing_shift_int=\count193
+\c__fp_Bigg_leading_shift_int=\count194
+\c__fp_Bigg_middle_shift_int=\count195
+\c__fp_Bigg_trailing_shift_int=\count196
+\c__fp_rand_size_int=\count197
+\c__fp_rand_four_int=\count198
+\c__fp_rand_eight_int=\count199
+\l__sort_length_int=\count266
+\l__sort_min_int=\count267
+\l__sort_top_int=\count268
+\l__sort_max_int=\count269
+\l__sort_true_max_int=\count270
+\l__sort_block_int=\count271
+\l__sort_begin_int=\count272
+\l__sort_end_int=\count273
+\l__sort_A_int=\count274
+\l__sort_B_int=\count275
+\l__sort_C_int=\count276
+\l__tl_build_start_index_int=\count277
+\l__tl_build_index_int=\count278
+\l__tl_analysis_normal_int=\count279
+\l__tl_analysis_index_int=\count280
+\l__tl_analysis_nesting_int=\count281
+\l__tl_analysis_type_int=\count282
+
+/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex:17807: Int
+erruption.
+l.17807 
+             \exp_not:N \__int_value:w \exp_not:N \__int_eval:w - 1 +
+? 
+/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex:17807: Eme
+rgency stop.
+l.17807 
+             \exp_not:N \__int_value:w \exp_not:N \__int_eval:w - 1 +
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 31260 strings out of 492649
+ 602514 string characters out of 6129622
+ 711373 words of memory out of 5000000
+ 34700 multiletter control sequences out of 15000+600000
+ 4709 words of font info for 16 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,1n,67p,10358b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex:17807:  ==
+> Fatal error occurred, no output PDF file produced!
+t=\count290
 \c__regex_cs_mode_int=\count291
 \l__regex_catcodes_int=\count292
 \l__regex_default_catcodes_int=\count293
