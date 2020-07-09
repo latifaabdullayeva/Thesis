@@ -72,29 +72,29 @@
 \vspace {-.175cm}
 \contentsline {chapter}{\numberline {6} Results}{38}{chapter.6}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.1}Analysis of mascot-speakers interaction}{38}{section.6.1}
+\contentsline {section}{\numberline {6.1}The analysis of the mascot-speakers interaction.}{38}{section.6.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.1.1}Analysis of within personality trait study}{40}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.1}The analysis of the within personality trait study.}{40}{subsection.6.1.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.1.2}Analysis of within music category study}{41}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}The analysis of the within music category study.}{41}{subsection.6.1.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.2}Analysis of mascot-lamp interaction}{43}{section.6.2}
+\contentsline {section}{\numberline {6.2}The analysis of the mascot-lamp interaction.}{43}{section.6.2}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.2.1}Analysis of within personality trait study}{43}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}The analysis of the within personality trait study.}{43}{subsection.6.2.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.2.2}Analysis of within lighting color study}{45}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.2}The analysis of the within lighting color study.}{45}{subsection.6.2.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.3}Analysis of mascot-mascot interaction}{47}{section.6.3}
+\contentsline {section}{\numberline {6.3}The analysis of the mascot-mascot interaction.}{48}{section.6.3}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.3.1}Analysis of within personality trait study}{49}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.1}The analysis of the within personality trait study.}{48}{subsection.6.3.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.3.2}Analysis of within vibration level study}{50}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}The analysis of the within vibration level study.}{50}{subsection.6.3.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {6.4}Analysis of mascot-tablet interaction}{52}{section.6.4}
+\contentsline {section}{\numberline {6.4}The analysis of the mascot-tablet interaction.}{52}{section.6.4}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.4.1}Analysis of within personality trait study}{52}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.1}The analysis of the within personality trait study.}{52}{subsection.6.4.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {6.4.2}Analysis of within screen color study}{55}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.2}The analysis of the within screen color study.}{54}{subsection.6.4.2}
 \vspace {-.175cm}
 \contentsline {chapter}{\numberline {7} Discussions}{58}{chapter.7}
 \vspace {-.05cm}
@@ -135,4 +135,6 @@
 \contentsline {section}{\numberline {8.3}Limitations}{69}{section.8.3}
 \vspace {-.05cm}
 \contentsline {section}{\numberline {8.4}Future work}{70}{section.8.4}
-\contentsline {chapter}{Bibliography}{71}{section*.43}
+\vspace {-.175cm}
+\contentsline {chapter}{\numberline {A} Tables and Figures}{71}{appendix.A}
+\contentsline {chapter}{Bibliography}{72}{section*.43}
