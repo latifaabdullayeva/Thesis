@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  17 JUL 2020 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  17 JUL 2020 21:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2183,32 +2183,34 @@ File: ./images/M_S_Study_1_Extrav.pdf Graphic file (type pdf)
 <use ./images/M_S_Study_1_Extrav.pdf>
 Package pdftex.def Info: ./images/M_S_Study_1_Extrav.pdf  used on input line 18
 6.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
 <./images/M_S_Study_1_Agreeab.pdf, id=899, 361.35pt x 361.35pt>
 File: ./images/M_S_Study_1_Agreeab.pdf Graphic file (type pdf)
 <use ./images/M_S_Study_1_Agreeab.pdf>
 Package pdftex.def Info: ./images/M_S_Study_1_Agreeab.pdf  used on input line 1
 92.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
 <./images/M_S_Study_1_Consc.pdf, id=900, 361.35pt x 361.35pt>
 File: ./images/M_S_Study_1_Consc.pdf Graphic file (type pdf)
 <use ./images/M_S_Study_1_Consc.pdf>
 Package pdftex.def Info: ./images/M_S_Study_1_Consc.pdf  used on input line 198
 .
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
 <./images/M_S_Study_1_Neurot.pdf, id=901, 361.35pt x 361.35pt>
 File: ./images/M_S_Study_1_Neurot.pdf Graphic file (type pdf)
 <use ./images/M_S_Study_1_Neurot.pdf>
 Package pdftex.def Info: ./images/M_S_Study_1_Neurot.pdf  used on input line 20
 4.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
 <./images/M_S_Study_1_Open.pdf, id=902, 361.35pt x 361.35pt>
 File: ./images/M_S_Study_1_Open.pdf Graphic file (type pdf)
 <use ./images/M_S_Study_1_Open.pdf>
 Package pdftex.def Info: ./images/M_S_Study_1_Open.pdf  used on input line 210.
 
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-[43]
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+[43] [44 <./images/M_S_Study_1_Extrav.pdf> <./images/M_S_Study_1_Agreeab.pdf> <
+./images/M_S_Study_1_Consc.pdf> <./images/M_S_Study_1_Neurot.pdf> <./images/M_S
+_Study_1_Open.pdf>]
 Overfull \hbox (2.07996pt too wide) in paragraph at lines 282--282
 []|\T1/ppl/b/n/10.95 Min| 
  []
@@ -2448,22 +2450,23 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 284--285
 []|\T1/ppl/m/n/10.95 (-20) 4.7| 
  []
 
-<./images/M_S_Study_2_Sop.pdf, id=920, 361.35pt x 361.35pt>
+<./images/M_S_Study_2_Sop.pdf, id=949, 361.35pt x 361.35pt>
 File: ./images/M_S_Study_2_Sop.pdf Graphic file (type pdf)
 <use ./images/M_S_Study_2_Sop.pdf>
 Package pdftex.def Info: ./images/M_S_Study_2_Sop.pdf  used on input line 296.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_S_Study_2_Con.pdf, id=921, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_S_Study_2_Con.pdf, id=950, 361.35pt x 361.35pt>
 File: ./images/M_S_Study_2_Con.pdf Graphic file (type pdf)
 <use ./images/M_S_Study_2_Con.pdf>
 Package pdftex.def Info: ./images/M_S_Study_2_Con.pdf  used on input line 302.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_S_Study_2_Unp.pdf, id=922, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_S_Study_2_Unp.pdf, id=951, 361.35pt x 361.35pt>
 File: ./images/M_S_Study_2_Unp.pdf Graphic file (type pdf)
 <use ./images/M_S_Study_2_Unp.pdf>
 Package pdftex.def Info: ./images/M_S_Study_2_Unp.pdf  used on input line 308.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-[44]
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+[45] [46 <./images/M_S_Study_2_Sop.pdf> <./images/M_S_Study_2_Con.pdf> <./image
+s/M_S_Study_2_Unp.pdf>]
 Overfull \hbox (2.07996pt too wide) in paragraph at lines 416--416
 []|\T1/ppl/b/n/10.95 Min| 
  []
@@ -2868,37 +2871,39 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 427--428
 []|\T1/ppl/m/n/10.95 (-20) 4.0| 
  []
 
-<./images/M_L_Study_1_Extrav.pdf, id=947, 361.35pt x 361.35pt>
+<./images/M_L_Study_1_Extrav.pdf, id=995, 361.35pt x 361.35pt>
 File: ./images/M_L_Study_1_Extrav.pdf Graphic file (type pdf)
 <use ./images/M_L_Study_1_Extrav.pdf>
 Package pdftex.def Info: ./images/M_L_Study_1_Extrav.pdf  used on input line 43
 9.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_L_Study_1_Agreeab.pdf, id=948, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_L_Study_1_Agreeab.pdf, id=996, 361.35pt x 361.35pt>
 File: ./images/M_L_Study_1_Agreeab.pdf Graphic file (type pdf)
 <use ./images/M_L_Study_1_Agreeab.pdf>
 Package pdftex.def Info: ./images/M_L_Study_1_Agreeab.pdf  used on input line 4
 45.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_L_Study_1_Consc.pdf, id=949, 597.50786pt x 594.82504pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_L_Study_1_Consc.pdf, id=997, 597.50786pt x 594.82504pt>
 File: ./images/M_L_Study_1_Consc.pdf Graphic file (type pdf)
 <use ./images/M_L_Study_1_Consc.pdf>
 Package pdftex.def Info: ./images/M_L_Study_1_Consc.pdf  used on input line 451
 .
-(pdftex.def)             Requested size: 172.8493pt x 172.06825pt.
-<./images/M_L_Study_1_Neurot.pdf, id=950, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 152.95358pt.
+<./images/M_L_Study_1_Neurot.pdf, id=998, 361.35pt x 361.35pt>
 File: ./images/M_L_Study_1_Neurot.pdf Graphic file (type pdf)
 <use ./images/M_L_Study_1_Neurot.pdf>
 Package pdftex.def Info: ./images/M_L_Study_1_Neurot.pdf  used on input line 45
 7.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_L_Study_1_Open.pdf, id=951, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_L_Study_1_Open.pdf, id=999, 361.35pt x 361.35pt>
 File: ./images/M_L_Study_1_Open.pdf Graphic file (type pdf)
 <use ./images/M_L_Study_1_Open.pdf>
 Package pdftex.def Info: ./images/M_L_Study_1_Open.pdf  used on input line 463.
 
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-[45] [46]
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+[47] [48 <./images/M_L_Study_1_Extrav.pdf> <./images/M_L_Study_1_Agreeab.pdf> <
+./images/M_L_Study_1_Consc.pdf> <./images/M_L_Study_1_Neurot.pdf> <./images/M_L
+_Study_1_Open.pdf>] [49]
 Overfull \hbox (2.07996pt too wide) in paragraph at lines 561--561
 []|\T1/ppl/b/n/10.95 Min| 
  []
@@ -3303,34 +3308,36 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 572--573
 []|\T1/ppl/m/n/10.95 (-20) 4.0| 
  []
 
-<./images/M_L_Study_2_Yel.pdf, id=978, 361.35pt x 361.35pt>
+<./images/M_L_Study_2_Yel.pdf, id=1060, 361.35pt x 361.35pt>
 File: ./images/M_L_Study_2_Yel.pdf Graphic file (type pdf)
 <use ./images/M_L_Study_2_Yel.pdf>
 Package pdftex.def Info: ./images/M_L_Study_2_Yel.pdf  used on input line 584.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_L_Study_2_Oran.pdf, id=979, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_L_Study_2_Oran.pdf, id=1061, 361.35pt x 361.35pt>
 File: ./images/M_L_Study_2_Oran.pdf Graphic file (type pdf)
 <use ./images/M_L_Study_2_Oran.pdf>
 Package pdftex.def Info: ./images/M_L_Study_2_Oran.pdf  used on input line 590.
 
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_L_Study_2_Turq.pdf, id=980, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_L_Study_2_Turq.pdf, id=1062, 361.35pt x 361.35pt>
 File: ./images/M_L_Study_2_Turq.pdf Graphic file (type pdf)
 <use ./images/M_L_Study_2_Turq.pdf>
 Package pdftex.def Info: ./images/M_L_Study_2_Turq.pdf  used on input line 596.
 
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_L_Study_2_Blr.pdf, id=981, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_L_Study_2_Blr.pdf, id=1063, 361.35pt x 361.35pt>
 File: ./images/M_L_Study_2_Blr.pdf Graphic file (type pdf)
 <use ./images/M_L_Study_2_Blr.pdf>
 Package pdftex.def Info: ./images/M_L_Study_2_Blr.pdf  used on input line 602.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_L_Study_2_Pin.pdf, id=982, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_L_Study_2_Pin.pdf, id=1064, 361.35pt x 361.35pt>
 File: ./images/M_L_Study_2_Pin.pdf Graphic file (type pdf)
 <use ./images/M_L_Study_2_Pin.pdf>
 Package pdftex.def Info: ./images/M_L_Study_2_Pin.pdf  used on input line 608.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-[47] [48]
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+[50] [51 <./images/M_L_Study_2_Yel.pdf> <./images/M_L_Study_2_Oran.pdf> <./imag
+es/M_L_Study_2_Turq.pdf> <./images/M_L_Study_2_Blr.pdf> <./images/M_L_Study_2_P
+in.pdf>]
 Overfull \hbox (2.32167pt too wide) in paragraph at lines 707--707
 []|\T1/ppl/m/n/10.95 (-20) L1| 
  []
@@ -3860,37 +3867,37 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 720--721
 []|\T1/ppl/m/n/10.95 (-20) 4.0| 
  []
 
-<./images/M_M_Study_1_Extrav.pdf, id=1014, 361.35pt x 361.35pt>
+<./images/M_M_Study_1_Extrav.pdf, id=1117, 361.35pt x 361.35pt>
 File: ./images/M_M_Study_1_Extrav.pdf Graphic file (type pdf)
 <use ./images/M_M_Study_1_Extrav.pdf>
 Package pdftex.def Info: ./images/M_M_Study_1_Extrav.pdf  used on input line 73
 2.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_M_Study_1_Agreeab.pdf, id=1015, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_M_Study_1_Agreeab.pdf, id=1118, 361.35pt x 361.35pt>
 File: ./images/M_M_Study_1_Agreeab.pdf Graphic file (type pdf)
 <use ./images/M_M_Study_1_Agreeab.pdf>
 Package pdftex.def Info: ./images/M_M_Study_1_Agreeab.pdf  used on input line 7
 38.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_M_Study_1_Consc.pdf, id=1016, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_M_Study_1_Consc.pdf, id=1119, 361.35pt x 361.35pt>
 File: ./images/M_M_Study_1_Consc.pdf Graphic file (type pdf)
 <use ./images/M_M_Study_1_Consc.pdf>
 Package pdftex.def Info: ./images/M_M_Study_1_Consc.pdf  used on input line 744
 .
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_M_Study_1_Neurot.pdf, id=1017, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_M_Study_1_Neurot.pdf, id=1120, 361.35pt x 361.35pt>
 File: ./images/M_M_Study_1_Neurot.pdf Graphic file (type pdf)
 <use ./images/M_M_Study_1_Neurot.pdf>
 Package pdftex.def Info: ./images/M_M_Study_1_Neurot.pdf  used on input line 75
 0.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_M_Study_1_Open.pdf, id=1018, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_M_Study_1_Open.pdf, id=1121, 361.35pt x 361.35pt>
 File: ./images/M_M_Study_1_Open.pdf Graphic file (type pdf)
 <use ./images/M_M_Study_1_Open.pdf>
 Package pdftex.def Info: ./images/M_M_Study_1_Open.pdf  used on input line 756.
 
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-[49]
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+[52]
 Overfull \hbox (2.07996pt too wide) in paragraph at lines 845--845
 []|\T1/ppl/b/n/10.95 Min| 
  []
@@ -4295,32 +4302,36 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 856--857
 []|\T1/ppl/m/n/10.95 (-20) 4.0| 
  []
 
-<./images/M_M_Study_2_L1.pdf, id=1039, 361.35pt x 361.35pt>
+<./images/M_M_Study_2_L1.pdf, id=1142, 361.35pt x 361.35pt>
 File: ./images/M_M_Study_2_L1.pdf Graphic file (type pdf)
 <use ./images/M_M_Study_2_L1.pdf>
 Package pdftex.def Info: ./images/M_M_Study_2_L1.pdf  used on input line 868.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_M_Study_2_L2.pdf, id=1040, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_M_Study_2_L2.pdf, id=1143, 361.35pt x 361.35pt>
 File: ./images/M_M_Study_2_L2.pdf Graphic file (type pdf)
 <use ./images/M_M_Study_2_L2.pdf>
 Package pdftex.def Info: ./images/M_M_Study_2_L2.pdf  used on input line 874.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_M_Study_2_L3.pdf, id=1041, 597.50786pt x 586.63104pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_M_Study_2_L3.pdf, id=1144, 597.50786pt x 586.63104pt>
 File: ./images/M_M_Study_2_L3.pdf Graphic file (type pdf)
 <use ./images/M_M_Study_2_L3.pdf>
 Package pdftex.def Info: ./images/M_M_Study_2_L3.pdf  used on input line 880.
-(pdftex.def)             Requested size: 172.8493pt x 169.69794pt.
-<./images/M_M_Study_2_L4.pdf, id=1042, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 150.84659pt.
+<./images/M_M_Study_2_L4.pdf, id=1145, 361.35pt x 361.35pt>
 File: ./images/M_M_Study_2_L4.pdf Graphic file (type pdf)
 <use ./images/M_M_Study_2_L4.pdf>
 Package pdftex.def Info: ./images/M_M_Study_2_L4.pdf  used on input line 886.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_M_Study_2_L5.pdf, id=1043, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_M_Study_2_L5.pdf, id=1146, 361.35pt x 361.35pt>
 File: ./images/M_M_Study_2_L5.pdf Graphic file (type pdf)
 <use ./images/M_M_Study_2_L5.pdf>
 Package pdftex.def Info: ./images/M_M_Study_2_L5.pdf  used on input line 892.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-[50] [51]
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+[53] [54 <./images/M_M_Study_1_Extrav.pdf> <./images/M_M_Study_1_Agreeab.pdf> <
+./images/M_M_Study_1_Consc.pdf> <./images/M_M_Study_1_Neurot.pdf> <./images/M_M
+_Study_1_Open.pdf>] [55] [56 <./images/M_M_Study_2_L1.pdf> <./images/M_M_Study_
+2_L2.pdf> <./images/M_M_Study_2_L3.pdf> <./images/M_M_Study_2_L4.pdf> <./images
+/M_M_Study_2_L5.pdf>]
 Overfull \hbox (2.07996pt too wide) in paragraph at lines 989--989
 []|\T1/ppl/b/n/10.95 Min| 
  []
@@ -4725,37 +4736,37 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 1000--1001
 []|\T1/ppl/m/n/10.95 (-20) 3.8| 
  []
 
-<./images/M_T_Study_1_Extrav.pdf, id=1072, 361.35pt x 361.35pt>
+<./images/M_T_Study_1_Extrav.pdf, id=1240, 361.35pt x 361.35pt>
 File: ./images/M_T_Study_1_Extrav.pdf Graphic file (type pdf)
 <use ./images/M_T_Study_1_Extrav.pdf>
 Package pdftex.def Info: ./images/M_T_Study_1_Extrav.pdf  used on input line 10
 12.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_T_Study_1_Agreeab.pdf, id=1073, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_T_Study_1_Agreeab.pdf, id=1241, 361.35pt x 361.35pt>
 File: ./images/M_T_Study_1_Agreeab.pdf Graphic file (type pdf)
 <use ./images/M_T_Study_1_Agreeab.pdf>
 Package pdftex.def Info: ./images/M_T_Study_1_Agreeab.pdf  used on input line 1
 018.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_T_Study_1_Consc.pdf, id=1074, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_T_Study_1_Consc.pdf, id=1242, 361.35pt x 361.35pt>
 File: ./images/M_T_Study_1_Consc.pdf Graphic file (type pdf)
 <use ./images/M_T_Study_1_Consc.pdf>
 Package pdftex.def Info: ./images/M_T_Study_1_Consc.pdf  used on input line 102
 4.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_T_Study_1_Neurot.pdf, id=1075, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_T_Study_1_Neurot.pdf, id=1243, 361.35pt x 361.35pt>
 File: ./images/M_T_Study_1_Neurot.pdf Graphic file (type pdf)
 <use ./images/M_T_Study_1_Neurot.pdf>
 Package pdftex.def Info: ./images/M_T_Study_1_Neurot.pdf  used on input line 10
 30.
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_T_Study_1_Open.pdf, id=1076, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_T_Study_1_Open.pdf, id=1244, 361.35pt x 361.35pt>
 File: ./images/M_T_Study_1_Open.pdf Graphic file (type pdf)
 <use ./images/M_T_Study_1_Open.pdf>
 Package pdftex.def Info: ./images/M_T_Study_1_Open.pdf  used on input line 1036
 .
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-[52]
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+[57]
 Overfull \hbox (2.07996pt too wide) in paragraph at lines 1129--1129
 []|\T1/ppl/b/n/10.95 Min| 
  []
@@ -5160,58 +5171,46 @@ Overfull \hbox (3.81328pt too wide) in paragraph at lines 1140--1141
 []|\T1/ppl/m/n/10.95 (-20) 3.8| 
  []
 
-<./images/M_T_Study_2_Yel.pdf, id=1093, 361.35pt x 361.35pt>
+<./images/M_T_Study_2_Yel.pdf, id=1262, 361.35pt x 361.35pt>
 File: ./images/M_T_Study_2_Yel.pdf Graphic file (type pdf)
 <use ./images/M_T_Study_2_Yel.pdf>
 Package pdftex.def Info: ./images/M_T_Study_2_Yel.pdf  used on input line 1152.
 
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_T_Study_2_Oran.pdf, id=1094, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_T_Study_2_Oran.pdf, id=1263, 361.35pt x 361.35pt>
 File: ./images/M_T_Study_2_Oran.pdf Graphic file (type pdf)
 <use ./images/M_T_Study_2_Oran.pdf>
 Package pdftex.def Info: ./images/M_T_Study_2_Oran.pdf  used on input line 1158
 .
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_T_Study_2_Tur.pdf, id=1095, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_T_Study_2_Tur.pdf, id=1264, 361.35pt x 361.35pt>
 File: ./images/M_T_Study_2_Tur.pdf Graphic file (type pdf)
 <use ./images/M_T_Study_2_Tur.pdf>
 Package pdftex.def Info: ./images/M_T_Study_2_Tur.pdf  used on input line 1164.
 
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_T_Study_2_Blr.pdf, id=1096, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_T_Study_2_Blr.pdf, id=1265, 361.35pt x 361.35pt>
 File: ./images/M_T_Study_2_Blr.pdf Graphic file (type pdf)
 <use ./images/M_T_Study_2_Blr.pdf>
 Package pdftex.def Info: ./images/M_T_Study_2_Blr.pdf  used on input line 1170.
 
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-<./images/M_T_Study_2_Pin.pdf, id=1097, 361.35pt x 361.35pt>
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+<./images/M_T_Study_2_Pin.pdf, id=1266, 361.35pt x 361.35pt>
 File: ./images/M_T_Study_2_Pin.pdf Graphic file (type pdf)
 <use ./images/M_T_Study_2_Pin.pdf>
 Package pdftex.def Info: ./images/M_T_Study_2_Pin.pdf  used on input line 1176.
 
-(pdftex.def)             Requested size: 172.8493pt x 172.85054pt.
-) (./sections/discussions.tex [53] [54] [55 <./images/M_S_Study_1_Extrav.pdf> <
-./images/M_S_Study_1_Agreeab.pdf> <./images/M_S_Study_1_Consc.pdf> <./images/M_
-S_Study_1_Neurot.pdf> <./images/M_S_Study_1_Open.pdf>] [56 <./images/M_S_Study_
-2_Sop.pdf> <./images/M_S_Study_2_Con.pdf> <./images/M_S_Study_2_Unp.pdf>]
-[57 <./images/M_L_Study_1_Extrav.pdf> <./images/M_L_Study_1_Agreeab.pdf> <./ima
-ges/M_L_Study_1_Consc.pdf> <./images/M_L_Study_1_Neurot.pdf> <./images/M_L_Stud
-y_1_Open.pdf>] [58 <./images/M_L_Study_2_Yel.pdf> <./images/M_L_Study_2_Oran.pd
-f> <./images/M_L_Study_2_Turq.pdf> <./images/M_L_Study_2_Blr.pdf> <./images/M_L
-_Study_2_Pin.pdf>] [59 <./images/M_M_Study_1_Extrav.pdf> <./images/M_M_Study_1_
-Agreeab.pdf> <./images/M_M_Study_1_Consc.pdf> <./images/M_M_Study_1_Neurot.pdf>
- <./images/M_M_Study_1_Open.pdf>] [60 <./images/M_M_Study_2_L1.pdf> <./images/M
-_M_Study_2_L2.pdf> <./images/M_M_Study_2_L3.pdf> <./images/M_M_Study_2_L4.pdf> 
-<./images/M_M_Study_2_L5.pdf>] [61 <./images/M_T_Study_1_Extrav.pdf> <./images/
-M_T_Study_1_Agreeab.pdf> <./images/M_T_Study_1_Consc.pdf> <./images/M_T_Study_1
-_Neurot.pdf> <./images/M_T_Study_1_Open.pdf>] [62 <./images/M_T_Study_2_Yel.pdf
-> <./images/M_T_Study_2_Oran.pdf> <./images/M_T_Study_2_Tur.pdf> <./images/M_T_
-Study_2_Blr.pdf> <./images/M_T_Study_2_Pin.pdf>]
+(pdftex.def)             Requested size: 153.64253pt x 153.64064pt.
+) (./sections/discussions.tex [58] [59 <./images/M_T_Study_1_Extrav.pdf> <./ima
+ges/M_T_Study_1_Agreeab.pdf> <./images/M_T_Study_1_Consc.pdf> <./images/M_T_Stu
+dy_1_Neurot.pdf> <./images/M_T_Study_1_Open.pdf>] [60] [61 <./images/M_T_Study_
+2_Yel.pdf> <./images/M_T_Study_2_Oran.pdf> <./images/M_T_Study_2_Tur.pdf> <./im
+ages/M_T_Study_2_Blr.pdf> <./images/M_T_Study_2_Pin.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 11--15
 
  []
 
-[63
+[62
 
 
 ]
@@ -5234,7 +5233,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
 
-[64]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 72--81
 
  []
@@ -5259,11 +5258,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--110
 
  []
 
-[65]) (./sections/conclusion.tex [66] [67
+[64]) (./sections/conclusion.tex [65] [66
 
 
-] [68] [69])
-(./sections/appendices.tex [70]
+] [67] [68])
+(./sections/appendices.tex [69]
 Overfull \hbox (1.65736pt too wide) in paragraph at lines 18--18
 []|\T1/ppl/m/n/10.95 (-20) Contemporary| 
  []
@@ -5343,7 +5342,7 @@ Overfull \hbox (18.5246pt too wide) in paragraph at lines 57--96
  [] 
  []
 
-[71
+[70
 
 
 ]
@@ -5351,8 +5350,8 @@ Overfull \hbox (15.67958pt too wide) in paragraph at lines 425--476
  [] 
  []
 
-[72] [73] [74] [75] [76] [77] [78]
-<./images/Questionnare.pdf, id=1420, 550.42387pt x 610.37447pt>
+[71] [72] [73] [74] [75] [76] [77]
+<./images/Questionnare.pdf, id=1415, 550.42387pt x 610.37447pt>
 File: ./images/Questionnare.pdf Graphic file (type pdf)
 <use ./images/Questionnare.pdf>
 Package pdftex.def Info: ./images/Questionnare.pdf  used on input line 487.
@@ -5362,14 +5361,14 @@ Overfull \hbox (1.18188pt too wide) in paragraph at lines 487--488
  [][] 
  []
 
-) [79
+) [78
 
 
-] [80 <./images/Questionnare.pdf>] (./thesis.bbl [81
+] [79 <./images/Questionnare.pdf>] (./thesis.bbl [80
 
 
 
-] [82] [83]) [84]
+] [81] [82]) [83]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
 
@@ -5385,8 +5384,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 45068 strings out of 492649
- 945825 string characters out of 6129622
+ 45067 strings out of 492649
+ 945818 string characters out of 6129622
  1205721 words of memory out of 5000000
  47751 multiletter control sequences out of 15000+600000
  591198 words of font info for 244 fonts, out of 8000000 for 9000
@@ -5434,10 +5433,10 @@ a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 ocal/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texli
 ve/2018/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
 Output written on /Users/latifaabdullayeva/Desktop/Thesis_Template_DE_EN/Thesis
-/out/thesis.pdf (91 pages, 4172190 bytes).
+/out/thesis.pdf (90 pages, 4172308 bytes).
 PDF statistics:
- 1596 PDF objects out of 1728 (max. 8388607)
- 1341 compressed objects within 14 object streams
- 266 named destinations out of 1000 (max. 500000)
+ 1591 PDF objects out of 1728 (max. 8388607)
+ 1337 compressed objects within 14 object streams
+ 265 named destinations out of 1000 (max. 500000)
  35574 words of extra memory for PDF output out of 35830 (max. 10000000)
 
