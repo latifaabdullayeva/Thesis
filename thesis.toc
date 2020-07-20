@@ -25,7 +25,7 @@
 \vspace {-.05cm}
 \contentsline {section}{\numberline {2.6}Interaction design for SIoT}{10}{section.2.6}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {2.7}Definition of personality traits}{10}{section.2.7}
+\contentsline {section}{\numberline {2.7}Definition of personality traits}{11}{section.2.7}
 \vspace {-.175cm}
 \contentsline {chapter}{\numberline {3} Concept}{12}{chapter.3}
 \vspace {-.05cm}
@@ -38,36 +38,49 @@
 \contentsline {section}{\numberline {3.4}Identifying the music preferences based on the personality traits}{19}{section.3.4}
 \vspace {-.05cm}
 \contentsline {section}{\numberline {3.5}Identifying the color based on personality traits}{21}{section.3.5}
+\vspace {-.05cm}
+\contentsline {section}{\numberline {3.6}Overview of the system based on the applied concepts.}{24}{section.3.6}
+\vspace {-.05cm}
+\vspace {-.05cm}
+\vspace {-.05cm}
 \vspace {-.175cm}
-\contentsline {chapter}{\numberline {4} Implementation}{25}{chapter.4}
+\contentsline {chapter}{\numberline {4} Implementation}{26}{chapter.4}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {4.1}User Documentation}{25}{section.4.1}
+\contentsline {section}{\numberline {4.1}User Documentation}{26}{section.4.1}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {4.2}Project Presentation}{26}{section.4.2}
+\contentsline {section}{\numberline {4.2}Project Presentation}{27}{section.4.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {4.3}Configuration}{26}{section.4.3}
+\contentsline {section}{\numberline {4.3}Configuration}{27}{section.4.3}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {4.4}System Architecture}{27}{section.4.4}
+\contentsline {section}{\numberline {4.4}System Architecture}{28}{section.4.4}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {4.4.1}Module descriptions}{27}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Module descriptions}{28}{subsection.4.4.1}
 \vspace {-.05cm}
-\contentsline {subsection}{\numberline {4.4.2}Software Stacks}{29}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Software stack and protocols}{29}{subsection.4.4.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {4.5}Technical Requirements and Hardware}{31}{section.4.5}
+\contentsline {subsection}{\numberline {4.4.3}Service discovery.}{30}{subsection.4.4.3}
+\vspace {-.05cm}
+\contentsline {subsection}{\numberline {4.4.4}Measuring distance between devices.}{30}{subsection.4.4.4}
+\vspace {-.05cm}
+\contentsline {subsection}{\numberline {4.4.5}The communication between two mascots.}{30}{subsection.4.4.5}
+\vspace {-.05cm}
+\contentsline {subsection}{\numberline {4.4.6}Working with lights.}{31}{subsection.4.4.6}
+\vspace {-.05cm}
+\contentsline {section}{\numberline {4.5}Technical Requirements and Hardware}{32}{section.4.5}
 \vspace {-.175cm}
-\contentsline {chapter}{\numberline {5} User Study}{32}{chapter.5}
+\contentsline {chapter}{\numberline {5} User Study}{33}{chapter.5}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {5.1}Participants}{32}{section.5.1}
+\contentsline {section}{\numberline {5.1}Participants}{33}{section.5.1}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {5.2}Procedure and Tasks}{34}{section.5.2}
+\contentsline {section}{\numberline {5.2}Procedure and Tasks}{35}{section.5.2}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {5.3}Design of experiments}{36}{section.5.3}
+\contentsline {section}{\numberline {5.3}Design of experiments}{37}{section.5.3}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {5.4}Apparatus and Materials}{37}{section.5.4}
+\contentsline {section}{\numberline {5.4}Apparatus and Materials}{38}{section.5.4}
 \vspace {-.05cm}
 \contentsline {section}{\numberline {5.5}Design of a study}{38}{section.5.5}
 \vspace {-.05cm}
-\contentsline {section}{\numberline {5.6}Measures}{38}{section.5.6}
+\contentsline {section}{\numberline {5.6}Measures}{39}{section.5.6}
 \vspace {-.175cm}
 \contentsline {chapter}{\numberline {6} Results}{40}{chapter.6}
 \vspace {-.05cm}
@@ -122,4 +135,4 @@
 \contentsline {chapter}{\numberline {A} Tables and Figures}{70}{appendix.A}
 \vspace {-.175cm}
 \contentsline {chapter}{\numberline {B} Questionnaire for the user study}{78}{appendix.B}
-\contentsline {chapter}{Bibliography}{80}{section*.55}
+\contentsline {chapter}{Bibliography}{80}{section*.60}
