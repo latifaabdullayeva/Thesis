@@ -6,15 +6,17 @@ Section~\ref{sec:Identifying case studies and actions} describes the theory that
 to come up with the case-studies and the possible interactions of social devices.
 Section~\ref{sec:Identifying personality traits} identifies the mascots' personality traits
 that they will display during interactions described in previous section.
-From Section~\ref{sec:Identifying the vibration level based on the personality traits},
-based on the assigned personalities, we explore the possible actions that social devices
-can show while interacting with each other.
+In Section~\ref{sec:Identifying the vibration level based on the personality traits},
+based on the assigned personalities, we explore the possible actions
+that social devices show while interacting with each other.
 In Section~\ref{sec:Identifying the vibration level based on the personality traits},
 we identify the vibration levels that convey personality traits.
 In Section~\ref{sec:Identifying the music preferences based on the personality traits},
 we associate the music genre with personality traits.
 Section~\ref{sec:Identifying the color based on personality traits} describes
 colors that convey mascots' personality traits.
+Section~\ref{sec:overview-of-the-system-based-on-the-applied-concepts.} gives an overview of a system
+based on the concepts described in the previous sections of this chapter.
 
 \section{Identifying case studies and actions}
 \label{sec:Identifying case studies and actions}
@@ -22,7 +24,7 @@ colors that convey mascots' personality traits.
 In our research, we extended the "Autonomous Cooperation of Social Things" ~\cite{okada2016autonomous}
 by applying Proxemics Theory and Personality Traits Model.
 
-Based on Proxemics theory, we classify our devices in the following way:
+Based on the Proxemics theory, we classify our devices in the following way:
 mascot will belong to the intimate, tablet to a personal,
 lamp will be considered as a social and speakers as public distance.
 In this way, these objects represent cooperation among these distances.
@@ -31,29 +33,8 @@ relationship which affects the way how they interact with each other.
 Having understood how people use distance when interacting with each other,
 and then applying this concept to social devices, we can come up with four case studies:
 mascot-mascot, mascot-tablet, mascot-lamp and mascot-speakers interactions.
-
-\textbf{Intimate distance} has a very narrow range (i.e from 0 to 45 cm),
-and in the context of human-human interaction, this distance used for romantic partners or family members.
-Thus, by applying it in the context of a device-device interaction, we can come up with
-a device whose functionality is only visible and accessible for their owners such as phone vibration.
-In our study, we substitute a phone with a term mascot represented as a ubiquitous personal thing.
-
-\textbf{Personal distance} varied from 45 to 122 cm can be presented by tablet.
-In comparison to phone vibration where information is only available for owners,
-the size of tablet allows to display information for more members.
-
-\textbf{Social distance} covers from 122 to 370 cm and can be reflected by lighting of the lamp.
-Our prototype contains only one lamp which can be visible for the large number of members.
-
-\textbf{Public distance} is used for public speaking situations.
-In the context of SIoT, we can use speakers as a representative of this distance.
-We suppose that the functionality of speakers (i.e music play) will be available for everyone in the room.
-In comparison to the visibility of the lamp light which is limited due to the size of the lamp,
-speakers with the fixed volume of music play will be available for larger members.
-
-Thus, Proxemics Theory helps us to choose devices, conceptualise their interactions,
-come up with case-studies and possible actions that these devices represent.
-
+Figure~\ref{fig:Proxemics} shows the visual representation of selected devices based on
+four distances introduced by the theory of proxemics.
 \begin{figure}[hbt!]
     \centering
     \includegraphics[scale=0.30]{Proxemics.pdf}
@@ -62,14 +43,36 @@ come up with case-studies and possible actions that these devices represent.
     \label{fig:Proxemics}
 \end{figure}
 
+\textbf{Intimate distance} has a very narrow range - up to 45 cm,
+and in the context of human-human interaction, this distance used for romantic partners or family members.
+Thus, by applying it in the context of a device-device interaction, we can come up with
+a device whose functionality is only visible and accessible for their owners such as phone vibration.
+In our study, we substitute a phone with a term mascot represented as a ubiquitous personal thing.
+
+\textbf{Personal distance} varied from 45 to 121 cm can be presented by tablet.
+In comparison to phone vibration where information is only available for owners,
+the size of tablet allows to display information for more members.
+
+\textbf{Social distance} covers from 122 to 370 cm and can be reflected by lighting of the lamp.
+Our prototype contains only one lamp which can be visible for the large number of members.
+
+\textbf{Public distance} ranging for more than 3.7 meters is used for public speaking situations.
+In the context of SIoT, we can use speakers as a representative of this distance.
+We suppose that the functionality of speakers (i.e music play) will be available for everyone in the room.
+In comparison to the visibility of the lamp light which is limited due to the size of the lamp,
+speakers with the fixed volume of music play will be available for larger members.
+
+Thus, Proxemics Theory helps us to choose devices, conceptualise their interactions,
+come up with case-studies and possible actions that these devices represent.
+
 After identifying case-studies, we apply the concept of personality in the context of
 social devices by assigning personality trait to each mascot.
-In our prototype, mascots are dynamic and tablet, lamp and speakers are static devices.
+In our system, mascots are dynamic objevts and tablet, lamp and speakers are static devices.
 The movements of dynamic devices, interacting with all other
 devices effect the environment (i.e the state of interacted devices).
 Thus, we assigned a unique personality to each dynamic device which we cover in the following section.
 
-We now can take a closer look at the interactions represented by each case study:
+We now can take a closer look at the interaction types of our system represented by each case study:
 \begin{itemize}
   \item \textbf{Mascot - mascot} interaction, as mascot approaches another,
         they both start to vibrate where the duration of vibration depends on the personality of approaching mascot.
@@ -78,7 +81,7 @@ We now can take a closer look at the interactions represented by each case study
    \item \textbf{Mascot - lamp} interaction, as mascot goes close to the lamp,
         the lights start to change their colors based on the personality of approaching mascot.
    \item \textbf{Mascot - speakers} interaction, as mascot approaches speakers,
-        the music start to play the genre based on the personality of approaching mascot.
+        it starts to play the genre of music based on the personality of approaching mascot.
 \end{itemize}
 
 Each of these interaction types are characterized by actions such as phone vibration,
@@ -548,9 +551,47 @@ mascot-tablet and mascot-lamp interaction are the following:
 \item Pink color is assigned to the mascot with agreeableness personality trait
 \end{itemize}
 
+\section{Overview of the system based on the applied concepts.}
+\label{sec:overview-of-the-system-based-on-the-applied-concepts.}
+In this system, mascot is a dynamic device which effects the state of other
+devices and the environment by its location in a space.
+The tablet, smart lamps and speakers are static devices with a fixed location.
+Since the mascot has an impact on the state of the interacted devices,
+the concept of personality is applied to each mascot.
+Figure~\ref{fig:ConceptInteraction} shows the interaction between social devices in a system.
 \begin{figure}[hbt!]
     \centering
-    \includegraphics[scale=0.32]{Concept.pdf}
+    \includegraphics[scale=0.25]{ConceptInteraction.pdf}
+    \caption{The visual representation of the interactions between social devices.}
+    \label{fig:ConceptInteraction}
+\end{figure}
+
+\subsection*{Mascot-mascot interaction.}
+When a person holding a mascot comes close to another mascot, they both start to vibrate with
+the specific duration of a vibration based on the personality of an approaching mascot.
+Figure~\ref{fig:Concept} shows the duration of vibrations in milliseconds associated with
+the specific personality traits.
+
+\subsection*{Mascot-speakers interaction.}
+When a mascot approaches the speakers, it starts to play a song according to the personality of the approaching mascot.
+All types of music are associated with the personality traits described in Figure~\ref{fig:Concept}.
+
+\subsection*{Mascot-lamp and mascot-tablet interactions.}
+When a mascot approaches the lamp or a tablet, they change the lighting or screen color according to the
+personality of the interacted mascot.
+The associations between colors and personality traits are depicted in Figure~\ref{fig:Concept}.
+
+\begin{figure}[hbt!]
+    \centering
+    \includegraphics[scale=0.30]{Concept.pdf}
     \caption{The assignment of all personality traits with corresponding actions.}
     \label{fig:Concept}
 \end{figure}
+
+Figure~\ref{fig:Concept} is a summary of
+all five personality traits with associated actions that we assigned to each mascot.
+The assigned personalities with associated actions are used purely for the implementation part in order
+to have a consistent system.
+In this study, we do not compare the executed system with the user's mental model.
+During a user study, we investigated the impact of predefined actions on the way how people
+perceive and associate with the personality traits.
