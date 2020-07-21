@@ -7,4 +7,6 @@ Supervisor: Donald Degraen, German Research Center for Artificial Intelligence, 
 
 * The presentation for thesis is at [GitHub Thesis Presentation](https://github.com/latifaabdullayeva/Thesis/tree/master/Thesis%20Presentation)
 
+* The publication of the thesis is at [GitHub Thesis Publication](https://github.com/latifaabdullayeva/Thesis/tree/master/Thesis%20Paper)
+
 * The source code in R and the data from experiments are at [GitHub Thesis Statistical Analysis](https://github.com/latifaabdullayeva/ThesisStatisticalAnalysis)
