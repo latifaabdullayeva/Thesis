@@ -5,6 +5,8 @@ Understanding Autonomous Device Behavior in a Social Internet of Things environm
 
 * The presentation for thesis is at [GitHub Thesis Presentation](https://github.com/latifaabdullayeva/AutonomousSystemThesis/tree/master/Thesis%20Presentation)
 
+* The source code in R and the data from experiments are at [GitHub Thesis Statistical Analysis] (https://github.com/latifaabdullayeva/ThesisStatisticalAnalysis/commits/master)
+
 # Building the document
 
 # Tools
