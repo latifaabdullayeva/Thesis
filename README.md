@@ -1,4 +1,5 @@
-# Understanding Autonomous Device Behavior in a Social Internet of Things environment though Personality Traits
+# Master Thesis
+Understanding Autonomous Device Behavior in a Social Internet of Things environment though Personality Traits
 
 * The source code repository of a project is at [GitHub Thesis Scripts](https://github.com/latifaabdullayeva/AutonomousSystemThesis)
 
