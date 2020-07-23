@@ -6,12 +6,12 @@ minimum height=2em]
 
 \chapter{Implementation}
 \label{ch:implementation}
-Section~\ref{sec:user-documentation} assists the end users to use the system.
+Section~\ref{sec:user-documentation} assists the end-users to use the system.
 In Section~\ref{sec:project-presentation} we will take a look at the project structure.
 Section~\ref{sec:configuration} describes how the project can be deployed and configured.
 Section~\ref{sec:system-architecture} covers system architecture, namely the
-communication protocols, frameworks and APIs that are used in the system.
-Finally, in Section~\ref{sec:technical-requirements-and-hardware}, we describe technical
+communication protocols, frameworks, and APIs that are used in the system.
+Finally, in Section~\ref{sec:technical-requirements-and-hardware}, we describe the technical
 requirements and hardware used in the system.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -29,24 +29,24 @@ For that, the user needs to follow the steps:
 
 After pressing the next button, such information as beacon ID,
 the type, name and the personality of the device send to the server and saved in the database.
-Starting from here, no further user interaction with mobile phone is needed, the user can walk
-around and approaching other devices such as other phones, lamps, speakers and tablets.
-The application start to measure the distance to all other beacons according to the users's
+Starting from here, no further user interaction with the mobile phone is needed, the user can walk
+around and approaching other devices such as other phones, lamps, speakers, and tablets.
+The application starts to measure the distance to all other beacons according to the userss'
 movements and sends this information to a server.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Project Presentation}
 \label{sec:project-presentation}
-The project consists of the client side with two Android applications for mascot i.e.\ phone and tablet.
+The project consists of the client-side with two Android applications for mascot i.e.\ phone and tablet.
 The server side maintains the decision point for the whole system.
 
 The \texttt{AutonomousSystemThesis} consists of three directories:
 
 \begin{itemize}
     \item \texttt{MyMascotApp}: The android application registers the phone in the system and measures the distance
-    from phone and to all beacon tags located in the room.
+    from the phone and to all beacon tags located in the room.
     \item \texttt{MyTabletApp}: The android application that is registering the tablet in the system and displaying colors according to the personality of approaching mascot
-    \item \texttt{server}: allows the managements of all devices and beacons and maintains the decision point
+    \item \texttt{server}: allows the management of all devices and beacons and maintains the decision point
 \end{itemize}
 
 The project structure is demonstrated in Figure~\ref{lst:library-structure}.
@@ -124,11 +124,11 @@ To run the server, we pass the following arguments in the terminal:
 \end{lstlisting}
 
 The Spring Boot Maven Plugin is used to run spring boot applications and generate build information.
-Here, \emph{<hue\_ip\_address>} is a IP address assigned to our Philips Hue bridge.
-Since you will have your own smart lamps, you need to discover the IP address of your bridge.
+Here, \emph{<hue\_ip\_address>} is an IP address assigned to our Philips Hue bridge.
+Since you will have your smart lamps, you need to discover the IP address of your bridge.
 The quickest way to discover it is to visit this website \footnote{\url{https://discovery.meethue.com}} which
-will display the internal ip address of your bridge.
-The more detailed instruction of how to discover IP address and username of your bridge you can
+will display the internal IP address of your bridge.
+The more detailed instruction on how to discover the IP address and username of your bridge you can
 find in the official Philips Hue Documentation\footnote{\url{https://developers.meethue.com/develop/get-started-2/}}.
 
 The \emph{<music\_folder\_path>} is the path to all songs played when mascot approaches the speakers.
@@ -137,9 +137,9 @@ This path can be configurable and depends on where the project is saved.
 
 \section{System Architecture}
 \label{sec:system-architecture}
-For multi-device support used centralised architecture, where all devices inform the server about their state in real-time.
-Subsequently, server changes the states of all other devices accordingly.
-Moreover, centralised system has a simpler design which excludes any consensus problem.
+For multi-device support used centralized architecture, where all devices inform the server about their state in real-time.
+Subsequently, the server changes the states of all other devices accordingly.
+Moreover, the centralized system has a simpler design that excludes any consensus problem.
 All devices communicate with each other through the server that makes decisions.
 
 \subsection{Module descriptions}
@@ -147,9 +147,9 @@ All devices communicate with each other through the server that makes decisions.
 \textbf{\texttt{MyMascotApp}} is an Android application that has the following responsibilities:
 \begin{itemize}
     \item The application registers the phone in the system, namely the ID of a beacon that it is attached,
-    mascot custom name and the personality of a mascot.
+    mascot custom name, and the personality of a mascot.
     \item The application measures the distance from the device-phone to all other beacons in the system.
-    \item The application vibrates the phone with the vibration duration that server sent to it.
+    \item The application vibrates the phone with the vibration duration that the server sent to it.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -157,16 +157,16 @@ All devices communicate with each other through the server that makes decisions.
 \begin{itemize}
     \item The application registers the tablet in the system, namely ID of a beacon that it is attached to it.
     \item Every second, the tablet application polls data from the server, where as a response it gets specific color code.
-    \item The application changes the background color of a screen to a color that it retrieved from server.
+    \item The application changes the background color of a screen to a color that is retrieved from the server.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{\texttt{server}} is an server application that has the following features:
+\textbf{\texttt{server}} is a server application that has the following features:
 \begin{itemize}
     \item Manages a database that consists of three tables (devices, distances and personality).
-    \item Implements controllers that handle the client requests such as post requests of device initialisation,
+    \item Implements controllers that handle the client requests such as post requests of device registration,
     distances and get requests of required data from database.
-    \item Server checks with if else statements whether the distance of all devices falls into the predefined distance range of the Proxemics theory.
+    \item Server checks whether the distance of all devices falls into the predefined distance range of the Proxemics theory.
     \item When the user reaches the lamp, the server requests Philips Hue API to change color based on the personality retrieved from the database.
     \item When the user approaches speakers, play audio files concurrently using the Audio File Play
     utility ors \texttt{afplay}.
@@ -240,9 +240,9 @@ The folder structure of the server application is demonstrated in Figure~\ref{ls
 \subsection{Software stack and protocols}
 \label{subsec:software-stacks}
 
-The following programming languages, frameworks and APIs were used to implement the system.
+The following programming languages, frameworks, and APIs were used to implement the system.
 
-For the client applications:
+For client applications:
 \begin{itemize}
     \item Android framework with Java language.
     \begin{itemize}
@@ -251,7 +251,7 @@ For the client applications:
     \item AltBeacon Library.
 \end{itemize}
 
-For the server side:
+For the server-side:
 \begin{itemize}
     \item Spring Framework with Java language.
     \item DNS-SD\@.
@@ -261,7 +261,7 @@ For the server side:
 
 \subsection{Service discovery.}
 \label{subsec:service-discovery.}
-The way android clients discover server is by using mDNS implementation on Android called NSD API.
+The way android clients discover a server is by using mDNS implementation on Android called NSD API.
 
 \textbf{NSD API} (Network Service Discovery) is an Android implementation of Multicast DNS\@.
 In order to make requests the Android applications need to know the IP address and port of services.
@@ -271,7 +271,7 @@ services that clients are interested in.
 
 \textbf{DNS-SD} is an implementation of mDNS protocol on macOS\@.
 In this project, it is used to register and publish the server information, such as the port number and the service name.
-Here is an example how it can be used to setup the \texttt{AutonamousThesisProject}:
+Here is an example of how it can be used to set up the \texttt{AutonamousThesisProject}:
 \begin{lstlisting}
     @\textcolor{green!40!black}{dns-sd -R mythesis \_socialiot.\_tcp local 8080}@
 \end{lstlisting}
@@ -284,24 +284,25 @@ In the command specified above, \textbf{\emph{mythesis}} is a service name;
 \textbf{AltBeacon Library} is a library that provides APIs to interact with beacon tags.
 Beacon tags are broadcast-only which communicate by transmitting their proximity to the Android applications.
 With the help of AltBeacon Library, \texttt{MyMascotApp} detects beacon tags nearby
-and use this information to measure the distance.
+and uses this information to measure the distance.
 The accuracy precision that \texttt{MyMascotApp} can measure the distance is around a half meter
-with a 10 second margin for new positions.
+with a ten-second margin for new positions.
 
 \subsection{The communication between two mascots.}
 \label{subsec:the-communication-between-two-mascots.}
 The communication between devices and the workflow of the system is described in Figure~\ref{fig:Workflow}.
-The figure describes the interaction between two phones and step by step including requests that client and server send each other.
+The figure describes the interaction between two phones and step by step including requests
+that clients and a server send each other.
 
-After client find the server in a local network, it looks for all nearby beacon tags.
-When the user types the custom name for his mascot, the personality and the beacon, the client
+After the client application finds the server in a local network, it looks for all nearby beacon tags.
+When the user types the custom name for his mascot, the personality, and the beacon, the client
 application registers all this information in the system.
-Client application starts to measure the distance to all beacon tags that are located near other devices.
+The client application starts to measure the distance to all beacon tags that are located near other devices.
 The distance information is constantly sent to the server, where as soon as mascot approaches the other mascot within
 45 cm, the server retrieves the personality information of approaching mascot with the associated vibration duration
 from a database.
-Afterwards, the server passes the vibration information to the client, which in turns triggers the
-phone to vibrate with a invoked vibration level.
+Afterward, the server passes the vibration information to the client, which in turn triggers the
+phone to vibrate with an invoked vibration level.
 
 \tikzstyle{startstop} = [rectangle, minimum width=3cm, minimum height=1cm,
 text width=8cm, text centered, draw=black, fill=orange!30]
@@ -343,20 +344,20 @@ The interaction between mascot and lamp happens using Philips Hue API\@.
 \textbf{Philips Hue API} helps the server to control the hue system.
 The workflow of the mascot-lamp interaction is similar to the mascot-mascot interaction (see Figure~\ref{fig:Workflow})
 and all other interaction types.
-Client measures the distance from Android application to all beacons
+The client measures the distance from the Android application to all beacons
 in the system and constantly sends this information to the server.
 The only difference is the use of Philips Hue API\@.
-When server encounters that the distance between mascot and lamp fits the Proxemics theory - i.e.\ 122<x<370, it
-retrieves such parameters as hue, brightness and saturation from database and sends them
+When the server encounters that the distance between mascot and lamp fits the Proxemics theory - i.e.\ 122<x<370, it
+retrieves such parameters as hue, brightness, and saturation from database and sends them
 to the Hue bridge through Philips Hue API\@.
-With the help of API it can directly input commands such as changing light color which in turn will trigger the lamp to
+With the help of API, it can directly input commands such as changing light color which in turn will trigger the lamp to
 change its lighting color.
-All philips hue lamps in the system needs to be connected to the Philips Hue Bridge which in turns help them
-to communicate with each other via internet.
+All Philips Hue lamps in the system need to be connected to the Philips Hue Bridge which in turn helps them
+to communicate with each other via the internet.
 Figure~\ref{fig:InteractionMl} shows the visual representation of the mascot interacting with the lamp.
 
 The important note for the implementation part is that all devices such as Philips Hue Bridge, server,
-phones and tablet have to be connected to the same network.
+phones, and tablet have to be connected to the same network.
 \begin{figure}[hbt!]
     \centering
     \includegraphics[scale=0.28]{InteractionM-L.pdf}
@@ -367,7 +368,7 @@ phones and tablet have to be connected to the same network.
 \section{Technical Requirements and Hardware}
 \label{sec:technical-requirements-and-hardware}
 The system comprises of the following devices: the phone with an attached beacon tag,
-the lamp with a beacon tag, the tablet with a beacon tag and speakers with a beacon tag.
+the lamp with a beacon tag, the tablet with a beacon tag, and speakers with a beacon tag.
 Using the beacon tags that are located right next to devices, Android applications
 measure the distance from themselves to all other devices.
 
@@ -379,10 +380,10 @@ Additionally, the following pre-requisites have to be met:
     \item The server must be running on macOS to use \texttt{afplay} utility.
 \end{itemize}
 
-In order to setup the system the following instruction are given:
+In order to set up the system the following instruction are given:
 \begin{itemize}
     \item Run the DNS-SD in the terminal to broadcast the server so that clients can find and use provided services.
-    \item Run the server by passing required parameters such as hue related information and music folder path.
+    \item Run the server and pass required parameters such as hue related information and music folder path.
 \end{itemize}
 For more information about the set up the system visit the link in the
 footnote\footnote{\url{https://github.com/latifaabdullayeva/AutonomousSystemThesis}}.
