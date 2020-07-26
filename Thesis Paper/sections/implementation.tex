@@ -27,6 +27,14 @@ For that, the user needs to follow the steps:
     \item Choose one out of five personalities displayed on the screen.
 \end{itemize}
 
+Figure~\ref{fig:MascotRegistrationUI:} shows the user interface of the mascot application during the device registration.
+\begin{figure}[hbt!]
+    \centering
+    \includegraphics[scale=0.10]{MascotRegistrationUI.png}
+    \caption{The screen capture of the user interface of the device registration page in mascot application.}
+    \label{fig:MascotRegistrationUI}
+\end{figure}
+
 After pressing the next button, such information as beacon ID,
 the type, name and the personality of the device send to the server and saved in the database.
 Starting from here, no further user interaction with the mobile phone is needed, the user can walk
@@ -112,27 +120,6 @@ The project structure is demonstrated in Figure~\ref{lst:library-structure}.
     \caption{The folder structure of the whole system}
     \label{lst:library-structure}
 \end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Configuration}
-\label{sec:configuration}
-The \texttt{AutonomousSystemThesis} can be configured in the following way.
-
-To run the server, we pass the following arguments in the terminal:
-\begin{lstlisting}
-    @\textcolor{green!40!black}{mvn spring-boot:run -e -X -Dspring-boot.run.arguments= --hueUsername=<hue\_username>, --hueIPAddress=<hue\_ip\_address>, --musicFolderPath=<music\_folder\_path>}@
-\end{lstlisting}
-
-The Spring Boot Maven Plugin is used to run spring boot applications and generate build information.
-Here, \emph{<hue\_ip\_address>} is an IP address assigned to our Philips Hue bridge.
-Since you will have your smart lamps, you need to discover the IP address of your bridge.
-The quickest way to discover it is to visit this website \footnote{\url{https://discovery.meethue.com}} which
-will display the internal IP address of your bridge.
-The more detailed instruction on how to discover the IP address and username of your bridge you can
-find in the official Philips Hue Documentation\footnote{\url{https://developers.meethue.com/develop/get-started-2/}}.
-
-The \emph{<music\_folder\_path>} is the path to all songs played when mascot approaches the speakers.
-This path can be configurable and depends on where the project is saved.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{System Architecture}
@@ -259,6 +246,21 @@ For the server-side:
     \item Music Playback component.
 \end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Database and server.}
+\label{subsec:database-and-server}
+Network requests are handled by controllers using Spring framework on the server side.
+It also allows an easy data access to simply connecting and working with the database.
+
+For a database management, we use an open-source relational database system known as PostgreSQL\@.
+
+Database schema and models are defined using Hibernate - an ORM (object relation mapping) framework
+which makes a better communication between Java server and relational database.
+Hibernate is also responsible for generating a database instance in PostgreSQL\@.
+For the detailed instructions on how to set up the database and run the server
+see Appendix~\ref{sec:setting-up-the-server.}-~\ref{sec:starting-the-server.}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Service discovery.}
 \label{subsec:service-discovery.}
 The way android clients discover a server is by using mDNS implementation on Android called NSD API.
@@ -268,6 +270,7 @@ In order to make requests the Android applications need to know the IP address a
 NSD API helps the client to discover the server.
 \texttt{NSDHelper.java} module allows the client-applications to find an HTTP server in the local network that supports
 services that clients are interested in.
+In our case, we specified \_socialiot.\_tcp type of a service.
 
 \textbf{DNS-SD} is an implementation of mDNS protocol on macOS\@.
 In this project, it is used to register and publish the server information, such as the port number and the service name.
@@ -278,7 +281,47 @@ Here is an example of how it can be used to set up the \texttt{AutonamousThesisP
 In the command specified above, \textbf{\emph{mythesis}} is a service name;
 \textbf{\emph{\_socialiot.\_tcp}} is a service type;
 \textbf{\emph{8080}} is a port number with domain type \textbf{\emph{local}}.
+The parameter \_socialiot.\_tcp must match, since the client applications using NSD API
+will start looking for this specific service type.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Registering devices in the system.}
+\label{subsec:registering-devices-in-the-system.}
+Every user can register its mascot in the system by running \texttt{MyMascotApp} and following the instructions on the screen.
+The detailed description on how to configure the smartphone for the mascot application is given in
+Section~\ref{sec:user-documentation}.
+
+The registration of such devices as the tablet, the lamp, and the speakers must be performed
+by the developers using \texttt{MyTabletApp}.
+So, the tablet application is the device that registers all social devices with a fixed location.
+Also, the tablet application registers in the system all five personality traits with their
+associated actions such as color, music type, and the vibration level.
+The registration of all devices and the personality traits can be performed by following the instructions on the screen.
+Figure~\ref{fig:PersInit} is the screenshot of the tablet application that shows the information of the data that will
+be send to the server about the personality traits and associated actions.
+
+You can also find the step-by-step instructions on how to run both the mascot and the tablet applications in the
+Appendix~\ref{sec:setting-up-the-client-applications.}.
+
+\begin{figure}[hbt!]
+    \centering
+    \begin{subfigure}{.40\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{PersInit1.png}
+        \caption{The top of the page.}
+        \label{fig:sub1}
+    \end{subfigure}\hfill%
+    \begin{subfigure}{.40\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{PersInit2.png}
+        \caption{The bottom of the page.}
+        \label{fig:sub2}
+    \end{subfigure}\hfill
+    \caption{The screen capture of the user interface of the personality registration in tablet application.}
+    \label{fig:PersInit}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Measuring distance between devices.}
 \label{subsec:measuring-distance-between-devices.}
 \textbf{AltBeacon Library} is a library that provides APIs to interact with beacon tags.
@@ -319,14 +362,19 @@ text width=4cm, text centered, draw=black, fill=green!30]
         \node (start) [startstop] {Client searches for a server using NSD API};
         \node (pro) [process, below of=start] {Client looks for beacon tags using AltBeacon Library};
         \node (in1) [io, below of=pro] {Client registers device};
-        \node (pro2) [process, below of=in1] {Client starts measuring the distance to all beacon tags};
+        \node (pro1) [process, below of=in1] {Client sends requests to the server to check if the device is registered};
+        \node (dec1) [decision, below of=pro1, yshift=-0.5cm] {Server checks if the device is in database};
+        \node (pro2) [process, below of=dec1, yshift=-0.5cm] {Client starts measuring the distance to all beacon tags};
         \node (pro3) [process, below of=pro2] {Client sends distance information to server};
-        \node (dec2) [decision, below of=pro3, yshift=-0.5cm] {Server checks distance < 45cm};
+        \node (dec2) [decision, below of=pro3, yshift=-0.5cm] {Server checks distance between both mascots < 45cm};
         \node (pro4) [process, below of=dec2, yshift=-0.5cm] {Client gets vibration level from server};
         \node (pro5) [process, below of=pro4] {Client triggers vibration with specific duration};
         \draw [arrow] (start) -- (pro);
         \draw [arrow] (pro) -- (in1);
-        \draw [arrow] (in1) -- (pro2);
+        \draw [arrow] (in1) -- (pro1);
+        \draw [arrow] (pro1) -- (dec1);
+        \draw [arrow] (dec1.east) -- ++(2em,0) node[above] {no} -- ++(2em,0) |- (in1.east);
+        \draw [arrow] (dec1) -- node[anchor=east] {yes} (pro2);
         \draw [arrow] (pro2) -- (pro3);
         \draw [arrow] (pro3) -- (dec2);
         \draw [arrow] (dec2.east) -- ++(2em,0) node[above] {no} -- ++(2em,0) |- (pro2.east);
@@ -347,7 +395,7 @@ and all other interaction types.
 The client measures the distance from the Android application to all beacons
 in the system and constantly sends this information to the server.
 The only difference is the use of Philips Hue API\@.
-When the server encounters that the distance between mascot and lamp fits the Proxemics theory - i.e.\ 122<x<370, it
+When the server encounters that the distance between mascot and lamp fits the Proxemics theory - i.e.\ x<45, it
 retrieves such parameters as hue, brightness, and saturation from database and sends them
 to the Hue bridge through Philips Hue API\@.
 With the help of API, it can directly input commands such as changing light color which in turn will trigger the lamp to
@@ -379,15 +427,38 @@ Additionally, the following pre-requisites have to be met:
     \item The android application the operating system in order to use Bluetooth BLE must be higher than 6+.
     \item The server must be running on macOS to use \texttt{afplay} utility.
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In order to set up the system the following instruction are given:
-\begin{itemize}
-    \item Run the DNS-SD in the terminal to broadcast the server so that clients can find and use provided services.
-    \item Run the server and pass required parameters such as hue related information and music folder path.
-\end{itemize}
-For more information about the set up the system visit the link in the
-footnote\footnote{\url{https://github.com/latifaabdullayeva/AutonomousSystemThesis}}.
+\section{Configuration}
+\label{sec:configuration}
+The \texttt{AutonomousSystemThesis} can be configured in the following way:
 
+To run the server, we pass the following arguments in the terminal:
+\begin{lstlisting}
+    @\textcolor{green!40!black}{mvn spring-boot:run -e -X -Dspring-boot.run.arguments=--hueUsername=<hue\_username>,--hueIPAddress=<hue\_ip\_address>,--musicFolderPath=<music\_folder\_path>}@
+\end{lstlisting}
+
+The Spring Boot Maven Plugin is used to run spring boot applications and generate build information.
+
+Here, \emph{<hue\_ip\_address>} is an IP address assigned to our Philips Hue bridge.
+Since you will have your smart lamps, you need to discover the IP address of your bridge.
+The quickest way to discover it is to visit this website \footnote{\url{https://discovery.meethue.com}} which
+will display the internal IP address of your bridge.
+The username can be obtained by visiting the following website:
+
+\url{https://<bridge ip address>/debug/clip.html}
+
+where \emph{<bridge ip address>} is the internal IP address of your bridge.
+The step-by-step instructions of how to get username and ip address of the philips hue bridge is described in
+Appendix~\ref{sec:setting-up-the-philips-hue-bridge.}.
+The more detailed guideline on how to discover the IP address and username of your bridge you can
+find in the official Philips Hue Documentation\footnote{\url{https://developers.meethue.com/develop/get-started-2/}}.
+
+The \emph{<music\_folder\_path>} is the path to all songs played when mascot approaches the speakers.
+This path can be configurable and depends on where the project is saved.
+
+The fully documented configuration of the database, server, and client applications are described in
+Appendix~\ref{ch:the-instructions-of-the-system.}.
 
 %\begin{figure}[H]
 %    \centering
