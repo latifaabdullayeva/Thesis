@@ -1,3 +1,117 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{System setup}
+\label{ch:the-instructions-of-the-system.}
+
+\section{Setting up the server.}
+\label{sec:setting-up-the-server.}
+To set up the Spring server fo the first time perform the following instructions:
+\begin{itemize}
+    \item Install JDK version 1.8.
+    \item Install Maven.
+
+    We used "brew" package manager on the macOS:
+    \begin{lstlisting}
+        @\textcolor{green!40!black}{brew install maven}@
+    \end{lstlisting}
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Setting up the database}
+\label{sec:setting-up-the-databse.}
+To set up the server for the first time perform the following steps:
+\begin{itemize}
+    \item Download pgAdmin tool EDB installer from the link in the
+    footnote \footnote{\url{https://www.enterprisedb.com/downloads/postgres-postgresql-downloads}}.
+
+    You can choose the alternative methods on how to install the postgres.
+    \item When installing the database, specify the superusername and the password
+    \begin{itemize}
+        \item Default port is \emph{5432}
+        \item Default hostname is \emph{localhost}
+    \end{itemize}
+    \item When connected to the postgresql server in pgAdmin, create a new database with \emph{autonomousSystem} name.
+    The database name must match to the name specified in \texttt{application.properties} file of a server.
+    When you choose a custom name for a database, specify it in a server configuration file.
+    \item Specify the database username and password in \texttt{application.properties}.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Setting up the Philips Hue bridge}
+\label{sec:setting-up-the-philips-hue-bridge.}
+To set up the Philips Hue bridge for the first time perform the the following steps:
+\begin{itemize}
+    \item Visit the following website to get the internal ip address of the Philips Hue bridge:
+
+    \url{https://discovery.meethue.com}
+    \item Visit the following website by using the above-mentioned ip address:
+
+    \url{https://<bridge ip address>/debug/clip.html}
+    \item Create a randomly generated username for your philips hue bridge by:
+    \begin{itemize}
+        \item changing the URL to api/
+        \item inserting a Body such as {"devicetype":"hueApp"}
+        \item pressing the POST button to create a new device
+    \end{itemize}
+    \item The response that you will get is depicted in Figure~\ref{fig:PhilipsHue}.
+    \item Press the round button on your hue bridge device and then press the POST button again on the website.
+    \item As a response you will get a username that Philips Hue bridge created for you.
+\end{itemize}
+
+\begin{figure}[hbt!]
+    \centering
+    \includegraphics[scale=0.55]{PhilipsHue.png}
+    \caption{The screen capture of the response with unauthorised user while setting up Philips Hue bridge.}
+    \label{fig:PhilipsHue}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Starting the server}
+\label{sec:starting-the-server.}
+To run the server for the first time perform the following steps:
+\begin{itemize}
+    \item Start the server from \texttt{AutonomousSystemThesis/server} folder with the following
+    command and the hibernate will generate all necessary tables for the system:
+    \begin{lstlisting}
+        @\textcolor{green!40!black}{mvn spring-boot:run -e -X -Dspring-boot.run.arguments=--hueUsername=<hue\_username>,--hueIPAddress=<hue\_ip\_address>,--musicFolderPath=<music\_folder\_path>}@
+    \end{lstlisting}
+    \item Start the server broadcast with the following command:
+    \begin{lstlisting}
+        @\textcolor{green!40!black}{dns-sd -R mythesis \_socialiot.\_tcp local 8080}@
+    \end{lstlisting}
+\end{itemize}
+When running the server for the second time, you do not need to perform steps for setting
+up the database.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Setting up the client applications}
+\label{sec:setting-up-the-client-applications.}
+To set up the client application for the first time perform the following steps:
+\begin{itemize}
+    \item Turn on the Bluetooth and the location on your tablet.
+    \item Start the tablet application by running \texttt{MyTabletApp}.
+    \item Grant the required permission for the tablet application.
+    \item Register a tablet, a lamp, and the speakers in the system by following the instructions on the screen.
+    \item Turn on the Bluetooth and the location on your smartphone.
+    \item Start the mascot application by running \texttt{MyMascotApp}.
+    \item Grant the required permission for the mascot application.
+    \item Register your mascot in the system by following the instructions on the screen.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Questionnaire for the user study}
+\label{ch:questionnaire-for-the-user-study}
+\begin{figure}[hbt!]
+    \centering
+    \includegraphics[scale=0.7]{Questionnare.pdf}
+    \caption{The questionnaires given for each video during the experiments.}
+    \label{fig:Questionnare}
+\end{figure}
+
+\begin{figure}[hbt!]
+    \centering
+    \includegraphics[scale=0.8]{Demographics.pdf}
+    \caption{Demographics questionnaire used during the experiments.}
+    \label{fig:Questionnare}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
 \chapter{Tables and Figures}
 \label{ch:tables-and-figures}
 
@@ -490,120 +604,7 @@
 \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Questionnaire for the user study}
-\label{ch:questionnaire-for-the-user-study}
-\begin{figure}[hbt!]
-    \centering
-    \includegraphics[scale=0.7]{Questionnare.pdf}
-    \caption{The questionnaires given for each video during the experiments.}
-    \label{fig:Questionnare}
-\end{figure}
 
-\begin{figure}[hbt!]
-    \centering
-    \includegraphics[scale=0.8]{Demographics.pdf}
-    \caption{Demographics questionnaire used during the experiments.}
-    \label{fig:Questionnare}
-\end{figure}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{System set up.}
-\label{ch:the-instructions-of-the-system.}
-
-\section{Setting up the server.}
-\label{sec:setting-up-the-server.}
-To set up the Spring server fo the first time perform the following instructions:
-\begin{itemize}
-    \item Install JDK version 1.8.
-    \item Install Maven.
-
-    We used "brew" package manager on the macOS:
-    \begin{lstlisting}
-        @\textcolor{green!40!black}{brew install maven}@
-    \end{lstlisting}
-\end{itemize}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Setting up the database.}
-\label{sec:setting-up-the-databse.}
-To set up the server for the first time perform the following steps:
-\begin{itemize}
-    \item Download pgAdmin tool EDB installer from the link in the
-    footnote \footnote{\url{https://www.enterprisedb.com/downloads/postgres-postgresql-downloads}}.
-
-    You can choose the alternative methods on how to install the postgres.
-    \item When installing the database, specify the superusername and the password
-    \begin{itemize}
-        \item Default port is \emph{5432}
-        \item Default hostname is \emph{localhost}
-    \end{itemize}
-    \item When connected to the postgresql server in pgAdmin, create a new database with \emph{autonomousSystem} name.
-    The database name must match to the name specified in \texttt{application.properties} file of a server.
-    When you choose a custom name for a database, specify it in a server configuration file.
-    \item Specify the database username and password in \texttt{application.properties}.
-\end{itemize}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Setting up the Philips Hue bridge.}
-\label{sec:setting-up-the-philips-hue-bridge.}
-To set up the Philips Hue bridge for the first time perform the the following steps:
-\begin{itemize}
-    \item Visit the following website to get the internal ip address of the Philips Hue bridge:
-
-    \url{https://discovery.meethue.com}
-    \item Visit the following website by using the above-mentioned ip address:
-
-    \url{https://<bridge ip address>/debug/clip.html}
-    \item Create a randomly generated username for your philips hue bridge by:
-    \begin{itemize}
-        \item changing the URL to api/
-        \item inserting a Body such as {"devicetype":"hueApp"}
-        \item pressing the POST button to create a new device
-    \end{itemize}
-    \item The response that you will get is depicted in Figure~\ref{fig:PhilipsHue}.
-    \item Press the round button on your hue bridge device and then press the POST button again on the website.
-    \item As a response you will get a username that Philips Hue bridge created for you.
-\end{itemize}
-
-\begin{figure}[hbt!]
-    \centering
-    \includegraphics[scale=0.55]{PhilipsHue.png}
-    \caption{The screen capture of the response with unauthorised user while setting up Philips Hue bridge.}
-    \label{fig:PhilipsHue}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Starting the server.}
-\label{sec:starting-the-server.}
-To run the server for the first time perform the following steps:
-\begin{itemize}
-    \item Start the server from \texttt{AutonomousSystemThesis/server} folder with the following
-    command and the hibernate will generate all necessary tables for the system:
-    \begin{lstlisting}
-        @\textcolor{green!40!black}{mvn spring-boot:run -e -X -Dspring-boot.run.arguments=--hueUsername=<hue\_username>,--hueIPAddress=<hue\_ip\_address>,--musicFolderPath=<music\_folder\_path>}@
-    \end{lstlisting}
-    \item Start the server broadcast with the following command:
-    \begin{lstlisting}
-        @\textcolor{green!40!black}{dns-sd -R mythesis \_socialiot.\_tcp local 8080}@
-    \end{lstlisting}
-\end{itemize}
-When running the server for the second time, you do not need to perform steps for setting
-up the database.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Setting up the client applications.}
-\label{sec:setting-up-the-client-applications.}
-To set up the client application for the first time perform the following steps:
-\begin{itemize}
-    \item Turn on the Bluetooth and the location on your tablet.
-    \item Start the tablet application by running \texttt{MyTabletApp}.
-    \item Grant the required permission for the tablet application.
-    \item Register a tablet, a lamp, and the speakers in the system by following the instructions on the screen.
-    \item Turn on the Bluetooth and the location on your smartphone.
-    \item Start the mascot application by running \texttt{MyMascotApp}.
-    \item Grant the required permission for the mascot application.
-    \item Register your mascot in the system by following the instructions on the screen.
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 %\begin{table}[H]
 %\renewcommand{\arraystretch}{1.7}
 %\begin{center}
