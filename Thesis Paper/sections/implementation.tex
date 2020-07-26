@@ -27,7 +27,7 @@ For that, the user needs to follow the steps:
     \item Choose one out of five personalities displayed on the screen.
 \end{itemize}
 
-Figure~\ref{fig:MascotRegistrationUI:} shows the user interface of the mascot application during the device registration.
+Figure~\ref{fig:MascotRegistrationUI} shows the user interface of the mascot application during the device registration.
 \begin{figure}[hbt!]
     \centering
     \includegraphics[scale=0.10]{MascotRegistrationUI.png}
@@ -36,17 +36,17 @@ Figure~\ref{fig:MascotRegistrationUI:} shows the user interface of the mascot ap
 \end{figure}
 
 After pressing the next button, such information as beacon ID,
-the type, name and the personality of the device send to the server and saved in the database.
+the type, name, and the personality of the device are sent to the server and saved in the database.
 Starting from here, no further user interaction with the mobile phone is needed, the user can walk
 around and approaching other devices such as other phones, lamps, speakers, and tablets.
-The application starts to measure the distance to all other beacons according to the userss'
+The application starts to measure the distance to all other beacons according to the users'
 movements and sends this information to a server.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Project Presentation}
 \label{sec:project-presentation}
 The project consists of the client-side with two Android applications for mascot i.e.\ phone and tablet.
-The server side maintains the decision point for the whole system.
+The server is responsible for coordinating client applications.
 
 The \texttt{AutonomousSystemThesis} consists of three directories:
 
@@ -54,7 +54,7 @@ The \texttt{AutonomousSystemThesis} consists of three directories:
     \item \texttt{MyMascotApp}: The android application registers the phone in the system and measures the distance
     from the phone and to all beacon tags located in the room.
     \item \texttt{MyTabletApp}: The android application that is registering the tablet in the system and displaying colors according to the personality of approaching mascot
-    \item \texttt{server}: allows the management of all devices and beacons and maintains the decision point
+    \item \texttt{server}: allows the management of all devices and beacons, and the coordination of all client applications.
 \end{itemize}
 
 The project structure is demonstrated in Figure~\ref{lst:library-structure}.
@@ -150,13 +150,13 @@ All devices communicate with each other through the server that makes decisions.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \textbf{\texttt{server}} is a server application that has the following features:
 \begin{itemize}
-    \item Manages a database that consists of three tables (devices, distances and personality).
+    \item Manages a database that consists of three tables (devices, distances, and personality).
     \item Implements controllers that handle the client requests such as post requests of device registration,
-    distances and get requests of required data from database.
+    distances, and get requests of required data from the database.
     \item Server checks whether the distance of all devices falls into the predefined distance range of the Proxemics theory.
     \item When the user reaches the lamp, the server requests Philips Hue API to change color based on the personality retrieved from the database.
     \item When the user approaches speakers, play audio files concurrently using the Audio File Play
-    utility ors \texttt{afplay}.
+    utility or \texttt{afplay}.
 \end{itemize}
 
 The folder structure of the server application is demonstrated in Figure~\ref{lst:library-structure-server}.
@@ -211,7 +211,7 @@ The folder structure of the server application is demonstrated in Figure~\ref{ls
         [Server
         [controller, label=right:- Responsible for handling the client requests.
         ]
-        [database, label=right:- Database management system using PostgreSQL\@.
+        [database, label=right:- Database models and table definitions.
         ]
         [ServerApplication.java, file, label=right:- The entry point to the server application.
         ]
@@ -247,30 +247,29 @@ For the server-side:
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Database and server.}
+\subsection{Database and server}
 \label{subsec:database-and-server}
-Network requests are handled by controllers using Spring framework on the server side.
-It also allows an easy data access to simply connecting and working with the database.
+Network requests are handled by controllers using the Spring framework on the server-side.
+It also allows easy data access to simply connecting and working with the database.
 
-For a database management, we use an open-source relational database system known as PostgreSQL\@.
+For database management, we use an open-source relational database system known as PostgreSQL\@.
 
-Database schema and models are defined using Hibernate - an ORM (object relation mapping) framework
-which makes a better communication between Java server and relational database.
-Hibernate is also responsible for generating a database instance in PostgreSQL\@.
+Database schema and models are defined using Hibernate - an ORM (object relation mapping) framework.
+Hibernate is also responsible for managing database tables in PostgreSQL\@.
 For the detailed instructions on how to set up the database and run the server
 see Appendix~\ref{sec:setting-up-the-server.}-~\ref{sec:starting-the-server.}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Service discovery.}
+\subsection{Service discovery}
 \label{subsec:service-discovery.}
-The way android clients discover a server is by using mDNS implementation on Android called NSD API.
+The way android clients discover a server is by using mDNS implementation on Android called NSD API\@.
 
 \textbf{NSD API} (Network Service Discovery) is an Android implementation of Multicast DNS\@.
 In order to make requests the Android applications need to know the IP address and port of services.
 NSD API helps the client to discover the server.
 \texttt{NSDHelper.java} module allows the client-applications to find an HTTP server in the local network that supports
 services that clients are interested in.
-In our case, we specified \_socialiot.\_tcp type of a service.
+In our case, we specified \_socialiot.\_tcp type of service.
 
 \textbf{DNS-SD} is an implementation of mDNS protocol on macOS\@.
 In this project, it is used to register and publish the server information, such as the port number and the service name.
@@ -285,10 +284,10 @@ The parameter \_socialiot.\_tcp must match, since the client applications using 
 will start looking for this specific service type.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Registering devices in the system.}
+\subsection{Registering devices in the system}
 \label{subsec:registering-devices-in-the-system.}
 Every user can register its mascot in the system by running \texttt{MyMascotApp} and following the instructions on the screen.
-The detailed description on how to configure the smartphone for the mascot application is given in
+The detailed description of how to configure the smartphone for the mascot application is given in
 Section~\ref{sec:user-documentation}.
 
 The registration of such devices as the tablet, the lamp, and the speakers must be performed
@@ -298,9 +297,9 @@ Also, the tablet application registers in the system all five personality traits
 associated actions such as color, music type, and the vibration level.
 The registration of all devices and the personality traits can be performed by following the instructions on the screen.
 Figure~\ref{fig:PersInit} is the screenshot of the tablet application that shows the information of the data that will
-be send to the server about the personality traits and associated actions.
+be sent to the server about the personality traits and associated actions.
 
-You can also find the step-by-step instructions on how to run both the mascot and the tablet applications in the
+You can also find the step-by-step instructions on how to run both the mascot and the tablet applications in
 Appendix~\ref{sec:setting-up-the-client-applications.}.
 
 \begin{figure}[hbt!]
@@ -322,7 +321,7 @@ Appendix~\ref{sec:setting-up-the-client-applications.}.
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Measuring distance between devices.}
+\subsection{Measuring distance between devices}
 \label{subsec:measuring-distance-between-devices.}
 \textbf{AltBeacon Library} is a library that provides APIs to interact with beacon tags.
 Beacon tags are broadcast-only which communicate by transmitting their proximity to the Android applications.
@@ -331,7 +330,7 @@ and uses this information to measure the distance.
 The accuracy precision that \texttt{MyMascotApp} can measure the distance is around a half meter
 with a ten-second margin for new positions.
 
-\subsection{The communication between two mascots.}
+\subsection{The communication between two mascots}
 \label{subsec:the-communication-between-two-mascots.}
 The communication between devices and the workflow of the system is described in Figure~\ref{fig:Workflow}.
 The figure describes the interaction between two phones and step by step including requests
@@ -356,7 +355,7 @@ text width=4.5cm, text centered, draw=black, fill=blue!30]
 \tikzstyle{decision} = [diamond, minimum width=1cm, minimum height=0.5cm, aspect=3.5,
 text width=4cm, text centered, draw=black, fill=green!30]
 \tikzstyle{arrow} = [thick,->,>=stealth]
-\begin{figure}[H]
+\begin{figure}[hbt!]
     \centering
     \begin{tikzpicture}[node distance=1.7cm]
         \node (start) [startstop] {Client searches for a server using NSD API};
@@ -385,7 +384,7 @@ text width=4cm, text centered, draw=black, fill=green!30]
     \label{fig:Workflow}
 \end{figure}
 
-\subsection{Working with lights.}
+\subsection{Working with lights}
 \label{subsec:working-with-lights.}
 The interaction between mascot and lamp happens using Philips Hue API\@.
 
@@ -396,7 +395,7 @@ The client measures the distance from the Android application to all beacons
 in the system and constantly sends this information to the server.
 The only difference is the use of Philips Hue API\@.
 When the server encounters that the distance between mascot and lamp fits the Proxemics theory - i.e.\ x<45, it
-retrieves such parameters as hue, brightness, and saturation from database and sends them
+retrieves such parameters as hue, brightness, and saturation from the database and sends them
 to the Hue bridge through Philips Hue API\@.
 With the help of API, it can directly input commands such as changing light color which in turn will trigger the lamp to
 change its lighting color.
@@ -420,7 +419,7 @@ the lamp with a beacon tag, the tablet with a beacon tag, and speakers with a be
 Using the beacon tags that are located right next to devices, Android applications
 measure the distance from themselves to all other devices.
 
-Additionally, the following pre-requisites have to be met:
+Additionally, the following prerequisites have to be met:
 \begin{itemize}
     \item Philips Hue lamps to be connected to the local network.
     \item The android application with the location and the Bluetooth permissions granted.
@@ -446,10 +445,10 @@ The quickest way to discover it is to visit this website \footnote{\url{https://
 will display the internal IP address of your bridge.
 The username can be obtained by visiting the following website:
 
-\url{https://<bridge ip address>/debug/clip.html}
+\url{https://<bridge IP address>/debug/clip.html}
 
 where \emph{<bridge ip address>} is the internal IP address of your bridge.
-The step-by-step instructions of how to get username and ip address of the philips hue bridge is described in
+The step-by-step instructions on how to get username and IP address of the Philips Hue bridge is described in
 Appendix~\ref{sec:setting-up-the-philips-hue-bridge.}.
 The more detailed guideline on how to discover the IP address and username of your bridge you can
 find in the official Philips Hue Documentation\footnote{\url{https://developers.meethue.com/develop/get-started-2/}}.
