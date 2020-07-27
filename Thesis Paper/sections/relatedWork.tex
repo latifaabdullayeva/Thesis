@@ -22,7 +22,7 @@ Ubiquitous Computing such as location and scale.
 
 The traditional computers which existed before the introduction of this
 paradigm had no idea about their location.
-The location-aware system may have information about how far or close it is from other
+The location-aware system has an information about how far or close it is from other
 objects and may even later be able to adapt its behavior accordingly.
 An example application that leveraged the location-aware paradigm was introduced by
 Hupfeld and Berge in their RAUM system ~\cite{hupfeld2000spatially}.
@@ -34,12 +34,12 @@ With the help of the concept of Ubiquitous Computing, the system presented in ou
 research uses the location information to select a communication partner.
 
 Another issue related to the concept of Ubiquitous Computing is the scale,
-that is, systems of various sizes serve different purposes.
+that is, systems of various sizes serve different purposes~\cite{weiser1999computer}.
 In the context of our system, mascot, tablet, lamp, and speakers are all in
 different sizes and, therefore, perform different tasks.
 Moreover, the size of objects is also reflected in its location, for example, a lamp, compared
 to other devices has a larger size, which limits its location to one point, whereas the mascot
-which is a pocket-size phone allows changing the location depending on the location of its owner.
+which is a pocket-size smartphone allows changing the location depending on the location of its owner.
 
 \section{Internet of Things}
 \label{sec:Internet of Things}
@@ -53,8 +53,8 @@ between humans and devices but also on the devices themselves.
 
 The idea of IoT was first proposed by Kevin Ashton in 1999 ~\cite{ashton2009internet}
 by linking the idea of RFID (Radio Frequency Identification) to the topic of the Internet.
-We can characterize IoT as one big network where all devices can share information about their status with
-each other allowing us to achieve deeper automation and integration within a system.
+IoT can be characterized as one big network where all devices can share information about their status with
+each other allowing to achieve deeper automation and integration within a system.
 In the “Internet of Things: A Literature Review” paper~\cite{madakam2015internet}, authors describe
 the genesis of the term “IoT” which help us to understand the general concept behind it and
 corresponding key technologies that it uses.
@@ -70,10 +70,9 @@ Also, this paper provides key technology of IoT such as Radio Frequency Identifi
 Electronic Product Code, ZigBee, etc.
 From the technical point of view, RFID is primarily relevant to the unique identification of
 a “thing” to communicate with other objects.
-Moreover, ZigBee is widely used, short-range, low-rate wireless network technology, so in our
+ZigBee is widely used, short-range, low-rate wireless network technology, thus, in our
 system, the communication between mascot and lamp is built with the help of the Zigbee Lighting protocol.
-Additionally, an inexpensive radio technology Bluetooth Low Energy is also very useful
-for our research for proximity sensing.
+Additionally, an inexpensive radio technology Bluetooth Low Energy is also very useful for proximity sensing.
 In addition to these technologies which are considered as a pillar for the communication between
 objects, the more detailed description of their usage can be found in the implementation chapter (see chapter 4).
 
@@ -96,26 +95,25 @@ features of devices and therefore for the things-to-things interaction.
 \section{Social Internet of Things}
 \label{sec:Social Internet of Things}
 According to the “The Internet of Things: A survey” paper ~\cite{atzori2010internet},
-there are many research issues related to the IoT that require further
+there are many issues related to the IoT that require further
 research and need to be addressed.
 One of them is that people still cannot be sure about the privacy of the transferred data
 through IoT technologies.
 Another issue is network navigability which must ensure that the discovery of objects can be
-performed effectively and a better reaction to the state changes of objects.
+performed effectively and the reaction to the state of other objects is enhanced.
 Atzori et al ~\cite{atzori2011siot} formalized a new paradigm of Social Internet of Things (SIoT)
-where the interaction among smart objects is based on the notion of Social
-Relationship of things rather than their owners.
+where the interaction among smart objects is based on the notion of Social Relationship of things.
 Thus, the application of this concept to the IoT can lead to the improvement
 of the network navigability and scalability.
 The architectural model of SIoT describes the establishment of the social relationships
 among objects in a fashion that is relatively similar to the human social network relationship.
 
-Applying a new paradigm to the IoT concept can lead to the following advantages:
+Applying a new paradigm to the IoT concept can lead to the following advantages~\cite{atzori2011siot, atzori2012social}:
 \begin{itemize}
   \item Establishing the level of trustworthiness by leveraging relationship types and by
         supporting services usable among things that are “friends”.
   \item Improvements in network navigability.
-  \item A guarantee of higher scalability and efficiency~\cite{atzori2012social}.
+  \item A guarantee of higher scalability and efficiency.
 \end{itemize}
 
 By integrating social networking concepts into the Internet of Things, intelligent things
@@ -132,7 +130,7 @@ the devices in order to advertise information about their current state and prov
 \section{Autonomous interaction of things}
 \label{sec:Autonomous interaction of things}
 Most devices using the concept of IoT are designed to involve the user in the process
-where the user's actions trigger certain functions of a system in order to effects the behavior of objects.
+where the user's explicit instructions trigger certain functions of a system in order to effects the behavior of objects.
 This design contradicts the concept of a fully automated system where objects
 can cooperate with each other beyond the control of a human.
 The following paper ~\cite{okada2016autonomous}, which is an inspiration for our work,
@@ -153,7 +151,7 @@ In our work, goals and the combination of actions that will be triggered
 depending on the received information, are all predefined.
 
 As a case study, the authors developed a system with two devices.
-One of them is the mascot - is a small keychain of three colors:
+One of them is the mascot - a small keychain of three colors:
 red, green and blue presented in the form of a personal object that the user can carry with him everywhere.
 Another device is a bench with built-in lamps presented as a more static device for public use.
 In our system, the device that is called mascot is a user's smartphone and as an
@@ -163,9 +161,9 @@ in Section~\ref{sec:Identifying case studies and actions}.
 
 Besides, in the system described in the paper~\cite{okada2016autonomous}, two scenarios are considered:
 \begin{itemize}
-  \item \textbf{Mascot - mascot} interaction, as one mascot approaches another, they both start to blink where the
+  \item \textbf{Mascot - mascot interaction}, as one mascot approaches another, they both start to blink where the
         intensity of blink depends on the distance objects are from each other.
-  \item \textbf{Mascot - bench} interaction, as mascot goes close to the bench, the lights
+  \item \textbf{Mascot - bench interaction}, as mascot goes close to the bench, the lights
         start to change their colors based on the color of the mascot that is approaching.
 \end{itemize}
 
@@ -174,7 +172,8 @@ system where mascot and bench represented as private and public things.
 Moreover, authors also considered proximity-based cooperation: devices blink more often when
 approaching closer than 30 cm and blink with less intensity when approaching more than 150 cm.
 By using the concept presented in this study, namely, autonomous interaction between objects-things
-achieved with the help of the SIoT concept, we are planning to expand the system by adding more objects.
+achieved with the help of the SIoT concept, we are planning to expand the system by adding more objects,
+and therefore case-studies.
 Afterward, we are going to apply the theory of proxemics and the concept of the personality
 traits which will be covered in the following sections.
 In addition to the two categories that authors described in their paper i.e.\ private and public "things"
@@ -186,13 +185,13 @@ we are planning to look at more detailed divisions.
 Edward Hall ~\cite{hall1966hidden,hall1963system} conceptualized the idea of a
 personal space bubble by creating a whole system of notation to understand
 and record how people navigate shared space.
-He correlated physical distance to social distance.
+He correlated a physical distance to a social distance.
 According to these papers, Hall identified four distances which are measured horizontally:
 \begin{itemize}
   \item \textbf{Intimate distance} which varies from 0 to 45 cm is a distance used for romantic partners and family members.
   \item \textbf{Personal distance} varies from 46 to 121 cm is a space bubble which allows your extended family
         members and close friends to enter this zone.
-  \item \textbf{Social distance} varies from 122 to 369 cm is often used for acquaintances and colloquies
+  \item \textbf{Social distance} varies from 122 to 369 cm is often used for acquaintances and colloquies.
   \item \textbf{Public distance}, having a range of 370 cm and more, is often used in public speaking
         situation and with strangers, you want to maintain your distance from.
 \end{itemize}
