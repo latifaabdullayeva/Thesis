@@ -112,7 +112,7 @@ When the experiment started, the following aspects were described to the partici
 \footnotetext{Note: Decimal points are omitted.}
 
 In general, we have 4 phases for each interaction type such as mascot-mascot,
-mascot-lamps, mascot-tablet, mascot-speakers.
+mascot-lamps, mascot-tablet, and mascot-speakers.
 The order of all phases was counterbalanced by using Latin Square.
 Each phase consists of 5 videos with a duration of 20 seconds, except for mascot-speakers
 interactions where we have 9 videos with duration 40 seconds long.
@@ -131,7 +131,7 @@ on a scale of 'Strongly Inaccurate' to 'Strongly Accurate'.
 When this is done, the experiment continues to the next video.
 After accomplishing watching all the videos in one phase, we move forward to the next phase.
 
-In addition, the only phase where the participants are given an extra phone
+In addition, the only phase where the participants are given an extra smartphone
 is the mascot-mascot interaction phase, where two mascots start to vibrate
 with a different duration based on the personality of approaching mascot.
 Since it is difficult to see or hear the vibration from the videos, the phone runs an
@@ -175,7 +175,7 @@ The main reason for that was the distraction of participants on various factors.
 
 From an implementation perspective, the application using BLE - low-energy Bluetooth
 technology measures the distance between objects with high accuracy and precision.
-It can measure the distance from the phone to the beacon tag with
+It can measure the distance from the smartphone to the beacon tag with
 a margin error of 0.5 meters which is a
 very good result\footnote{\url{https://altbeacon.github.io/android-beacon-library/distance-calculations.html}}.
 However, the step of a person covers several centimeters at once, and the
@@ -185,9 +185,17 @@ them by focusing on their behavior rather than on the assessment of the
 mascot's personality, we decided to use videos in our experiments.
 Moreover, these limitations are present in other applications that use BLE for calculating the distance.
 
+Another factor that affects the study might be the vibration level during the mascot-mascot interaction.
+In this study, we focus only on the duration of the vibration varying from 100 to 500 milliseconds per time.
+Whenever a user interacts with the other mascot, the smartphone starts to vibrate with a particular duration.
+Restricting participants to interact with the mascots with a specific number of times, might also shift
+their focus, i.e\ instead of paying attention to the mascot's behavior, they will try to control their behavior.
+Thus, to eliminate possible distracting factors, we decided to film all interactions between a
+user and social devices, and show these videos to the participants.
+
 Another design decision was instead of showing one video with all interaction types,
-we split it into 5 short videos for mascot-lamp, mascot-table, mascot-mascot,
-and into 9 short videos for mascot-speakers interaction.
+we split it into five short videos for mascot-lamp, mascot-table, mascot-mascot,
+and into nine short videos for mascot-speakers interaction.
 Despite the fact that the system supports multidimensional device interactions
 i.e\ multiple mascots can interact with a lamp, a tablet, speakers, and other mascots at the same time,
 we decided to split interaction types into four phases.
@@ -199,20 +207,21 @@ it easier for them to evaluate the personality of mascot based on a specific int
 The experiment’s setup consisted of the following devices:
 \begin{itemize}
   \item MacBook Pro running Mac OS Catalina (Version 10.15.2).
-  \item 55-inch monitor with built-in speakers for music play.
+  \item 55-inch monitor for displaying all videos.
   \item Tablet to fill the questionnaire in the google forms.
-  \item Nexus One for simulating the vibration during mascot-mascot interaction.
+  \item Nexus One smartphone for simulating the vibration during mascot-mascot interaction.
 \end{itemize}
 
 As a survey tool for collecting data from participants, we used Google Form which consisted
 of the thirty Likert scale type questions scaling from 'Strongly Inaccurate' to 'Strongly Accurate' scales.
 Subsequently, in order to use obtained data in our statistical analysis, the questions
-from our survey tool were transformed in a more permanent form (i.e four CSV files were generated, one for each phase).
+from our survey tool were transformed in a more permanent form (i.e four CSV files were generated, one for each phase,
+and two CSV files for demographic questionnaire).
 
 \section{Design of a study}
 \label{sec:design-of-a-study}
 
-The study consists of four case-studies: mascot-lamp, mascot-table, mascot-mascot and mascot-speakers
+The study consists of four case-studies: mascot-lamp, mascot-table, mascot-mascot, and mascot-speakers
 interactions which, therefore, designed as four phases during experiments.
 The experiment was a within-subjects design where each participant tests all conditions within each phase.
 For example, for the mascot-lamp phase, each participant watches all five videos and
@@ -221,7 +230,7 @@ The within-subjects in comparison to the between-subjects design can help us to
 reduce errors associated with individual differences.
 Individual participants have different backgrounds, contexts, levels of concentration, and so on.
 The same participant interacting with all 4 phases will affect the result in the same way
-which can lower the probability that individual differences will skew the results.
+and can lower the probability that individual differences will skew the results.
 Moreover, the within-subject design requires fewer participants, which may lead
 us to the streamlined process of an experiment.
 
@@ -230,9 +239,9 @@ For each case-study, we have a different number of IVs aka factors which are the
 \begin{itemize}
   \item For mascot-lamp case-study, there are five variables: turquoise, blood-red,
   yellow, orange, and pink lighting colors.
-  \item For mascot-mascot case-study, five vibration levels are varying from 100 to 500 milliseconds per time.
+  \item For mascot-mascot case-study, five vibration levels: 100, 200, 300, 400, and 500 milliseconds per time.
   \item For mascot-speakers case-study, there are nine songs categorized into three variables:
-        Sophisticated, Contemporary, and Unpretentious categories.
+        Sophisticated, Contemporary, and Unpretentious music categories.
    \item For mascot-tablet case-study, there are five variables: yellow, orange, turquoise,
         blood-red and pink background screen colors.
 \end{itemize}
@@ -255,7 +264,7 @@ Overall, there were 24 questionnaires with five questionnaires in three phases a
 for the mascot-speakers interaction phase.
 Each questionnaire consists of 30 questions portraying six facets of each personality based on the NEO-PIP survey.
 The questionnaire items were answered using a Likert-scale
-i.e.\ Very inaccurate, Inaccurate, neutral, Accurate, Very accurate.
+i.e.\ 'Very inaccurate', 'Inaccurate', 'Neutral', 'Accurate', 'Very accurate' rates.
 
 
 
