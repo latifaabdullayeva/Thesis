@@ -324,7 +324,8 @@ Appendix~\ref{sec:setting-up-the-client-applications.}.
 \subsection{Measuring distance between devices}
 \label{subsec:measuring-distance-between-devices.}
 \textbf{AltBeacon Library} is a library that provides APIs to interact with beacon tags.
-Beacon tags are broadcast-only which communicate by transmitting their proximity to the Android applications.
+Beacon tags are broadcast-only Bluetooth Low Energy (BLE) radio transmitters which communicate by
+transmitting their proximity to the Android applications that supports BLE technology.
 With the help of AltBeacon Library, \texttt{MyMascotApp} detects beacon tags nearby
 and uses this information to measure the distance.
 The accuracy precision that \texttt{MyMascotApp} can measure the distance is around a half meter
@@ -353,7 +354,7 @@ text width=8cm, text centered, draw=black, fill=orange!30]
 \tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm,
 text width=4.5cm, text centered, draw=black, fill=blue!30]
 \tikzstyle{decision} = [diamond, minimum width=1cm, minimum height=0.5cm, aspect=3.5,
-text width=4cm, text centered, draw=black, fill=green!30]
+text width=5cm, text centered, draw=black, fill=green!30]
 \tikzstyle{arrow} = [thick,->,>=stealth]
 \begin{figure}[hbt!]
     \centering
@@ -394,13 +395,13 @@ and all other interaction types.
 The client measures the distance from the Android application to all beacons
 in the system and constantly sends this information to the server.
 The only difference is the use of Philips Hue API\@.
-When the server encounters that the distance between mascot and lamp fits the Proxemics theory - i.e.\ x<45, it
+When the server encounters that the distance between mascot and lamp fits the Proxemics theory i.e.\ x<45, it
 retrieves such parameters as hue, brightness, and saturation from the database and sends them
 to the Hue bridge through Philips Hue API\@.
 With the help of API, it can directly input commands such as changing light color which in turn will trigger the lamp to
 change its lighting color.
-All Philips Hue lamps in the system need to be connected to the Philips Hue Bridge which in turn helps them
-to communicate with each other via the internet.
+All Philips Hue lamps need to be connected to the Philips Hue Bridge via an open
+standards protocol called ZigBee Light Link which in turn helps devices to communicate with each other via the internet.
 Figure~\ref{fig:InteractionMl} shows the visual representation of the mascot interacting with the lamp.
 
 The important note for the implementation part is that all devices such as Philips Hue Bridge, server,
