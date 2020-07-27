@@ -10,7 +10,7 @@ In Section~\ref{sec:Identifying the vibration level based on the personality tra
 based on the assigned personalities, we explore the possible actions
 that social devices show while interacting with each other.
 In Section~\ref{sec:Identifying the vibration level based on the personality traits},
-we identify the vibration levels that convey personality traits.
+we identify the vibration levels that convey certain personality traits.
 In Section~\ref{sec:Identifying the music preferences based on the personality traits},
 we associate the music genre with personality traits.
 Section~\ref{sec:Identifying the color based on personality traits} describes
@@ -20,8 +20,7 @@ based on the concepts described in the previous sections of this chapter.
 
 \section{Identifying case studies and actions}
 \label{sec:Identifying case studies and actions}
-
-In our research, we extended the "Autonomous Cooperation of Social Things" ~\cite{okada2016autonomous}
+We extended the concept described in the "Autonomous Cooperation of Social Things" paper~\cite{okada2016autonomous}
 by applying Proxemics Theory and Personality Traits Model.
 
 Based on the Proxemics theory~\cite{hall1966hidden, hall1963system}, we classify our devices in the following way:
@@ -32,7 +31,7 @@ According to this theory, the distance between people represents their
 relationship which affects the way how they interact with each other.
 Having understood how people use distance when interacting with each other,
 and then applying this concept to social devices, we can come up with four case studies:
-mascot-mascot, mascot-tablet, mascot-lamp and mascot-speakers interactions.
+mascot-mascot, mascot-tablet, mascot-lamp, and mascot-speakers interactions.
 Figure~\ref{fig:Proxemics} shows the visual representation of selected devices based on
 four distances introduced by the theory of proxemics.
 \begin{figure}[hbt!]
@@ -47,14 +46,15 @@ four distances introduced by the theory of proxemics.
 and in the context of human-human interaction, this distance used for romantic partners or family members.
 Thus, by applying it in the context of a device-device interaction, we can come up with
 a device whose functionality is only visible and accessible for their owners such as phone vibration.
-In our study, we substitute a phone with a term mascot represented as a ubiquitous personal thing.
+In our study, we substitute a smartphone with a term mascot represented as a ubiquitous personal thing.
 
-\textbf{Personal distance} varied from 45 to 121 cm can be presented by tablet.
-In comparison to phone vibration where information is only available for owners,
+\textbf{Personal distance} varied from 45 to 121 cm can be presented by a tablet.
+In comparison to the vibration where information is only available for owners,
 the size of the tablet allows displaying information for more members.
 
 \textbf{Social distance} covers from 122 to 370 cm and can be reflected by the lighting of the lamp.
-Our system contains only one lamp which can be visible for a large number of members.
+Our system contains only one lamp which can be visible for a large number of members,
+i.e.\ more than the number of people seeing the change of screen color in the tablet.
 
 \textbf{Public distance} ranging to more than 3.7 meters is used for public speaking situations.
 In the context of SIoT, we can use speakers as a representative of this distance.
@@ -67,21 +67,21 @@ come up with case-studies, and possible actions that these devices represent.
 
 After identifying case-studies, we apply the concept of personality in the context of
 social devices by assigning personality traits to each mascot.
-In our system, mascots are dynamic objects and tablets, lamps and speakers are static devices.
+In our system, mascots are dynamic objects, whereas the tablets, lamps and speakers are static devices.
 The movements of dynamic devices, interacting with all other
 devices affect the environment (i.e the state of interacted devices).
 Thus, we assigned a unique personality to each dynamic device that we cover in the following section.
 
 We now can take a closer look at the interaction types of our system represented by each case study:
 \begin{itemize}
-  \item \textbf{Mascot - mascot} interaction, as mascot approaches another,
-        they both start to vibrate where the duration of vibration depends on the personality of approaching mascot.
-  \item \textbf{Mascot - tablet} interaction, as mascot goes close to the tablet, the background
-        color of a screen starts to change based on the personality of approaching mascot.
-   \item \textbf{Mascot - lamp} interaction, as mascot goes close to the lamp,
-        the lights start to change their colors based on the personality of approaching mascot.
-   \item \textbf{Mascot - speakers} interaction, as mascot approaches speakers,
-        it starts to play the genre of music based on the personality of approaching mascot.
+    \item \textbf{Mascot- mascot interaction}, as mascot approaches another,
+    they both start to vibrate where the duration of vibration depends on the personality of approaching mascot.
+    \item \textbf{Mascot - tablet interaction}, as mascot goes close to the tablet, the background
+    color of a screen starts to change based on the personality of approaching mascot.
+    \item \textbf{Mascot - lamp interaction}, as mascot goes close to the lamp,
+    the lights start to change their colors based on the personality of approaching mascot.
+    \item \textbf{Mascot - speakers interaction}, as mascot approaches speakers,
+    it starts to play the genre of music based on the personality of approaching mascot.
 \end{itemize}
 
 Each of these interaction types is characterized by actions such as phone vibration,
@@ -104,28 +104,28 @@ Moreover, their enhanced scheme forms the basis of the "NEO-Personality Inventor
 which is a widely used measurement scale ~\cite{costa2008revised}.
 The NEO-PI-R constitutes five personality traits which we also refer to as personality dimensions or domains.
 These personality traits are \textbf{O}penness, \textbf{C}onscientiousness,
-\textbf{E}xtraversion, \textbf{A}greeableness, and \textbf{N}euroticism (also known as  OCEAN Model).
+\textbf{E}xtraversion, \textbf{A}greeableness, and \textbf{N}euroticism (also known as OCEAN Model).
 Each of these personality dimensions is composed of six facets which are described in Table~\ref{table:personality}.
 
 \begin{table} [h]
-\centering
-\begin{tabular}{ | m{8em} | m{25em}| }
-\hline
-\textbf{Personality Traits} & \textbf{Personality Facets}  \\
-\hline
-\textbf{O}penness & Fantasy, aesthetics, feelings, actions, ideas, values  \\
-\hline 
-\textbf{C}onscientiousness & Competence, order, dutifulness, achievement striving, self-discipline, deliberation  \\
-\hline 
-\textbf{E}xtraversion & Warmth, gregariousness, assertiveness, activity, excitement seeking, positive emotions \\
-\hline 
-\textbf{A}greeableness & Trust, straightforwardness, altruism, compliance, modesty, tender-mindedness  \\
-\hline 
-\textbf{N}euroticism & Anxiety, angry hostility, depression, self-consciousness, impulsiveness, vulnerability \\
-\hline
-\end{tabular}
-\caption{Personality facets associated with the five dimensions of the Costa and McCrae five factor model of personality~\cite{costa2008revised, matthews2003personality}}
-\label{table:personality}
+    \centering
+    \begin{tabular}{ | m{8em} | m{25em}| }
+        \hline
+        \textbf{Personality Traits} & \textbf{Personality Facets}  \\
+        \hline
+        \textbf{O}penness & Fantasy, aesthetics, feelings, actions, ideas, values  \\
+        \hline
+        \textbf{C}onscientiousness & Competence, order, dutifulness, achievement striving, self-discipline, deliberation  \\
+        \hline
+        \textbf{E}xtraversion & Warmth, gregariousness, assertiveness, activity, excitement seeking, positive emotions \\
+        \hline
+        \textbf{A}greeableness & Trust, straightforwardness, altruism, compliance, modesty, tender-mindedness  \\
+        \hline
+        \textbf{N}euroticism & Anxiety, angry hostility, depression, self-consciousness, impulsiveness, vulnerability \\
+        \hline
+    \end{tabular}
+    \caption{Personality facets associated with the five dimensions of the Costa and McCrae five factor model of personality~\cite{costa2008revised, matthews2003personality}}
+    \label{table:personality}
 \end{table}
 
 In addition, the enhanced scheme of Costa and McCrae (see Table~\ref{table:personality})
@@ -151,9 +151,9 @@ in different proportions (facets of conscientiousness personality).
 Thus, since human personality has a more complex pattern while
 applying this concept to social devices, we decided to simplify it.
 That means, If the mascot is assigned agreeable personality, we are planning to consider only this trait,
-by making this device, for example, highly trustworthy, and extremely modest and neglecting all other personality traits.
+by making this device, for example, highly trustworthy, and extremely modest by neglecting all other personality traits.
 
-\section{Identifying the vibration level based on the personality traits} 
+\section{Identifying the vibration level based on the personality traits}
 \label{sec:Identifying the vibration level based on the personality traits}
 
 First, we can consider the case of vibrating mascots, where the vibration level
@@ -183,26 +183,26 @@ The factors of agreeableness and openness to experience have shown
 no significant relationship in predicting assertiveness.
 
 \begin{table} [h]
-\centering
-\begin{tabular}{c c c c c c} 
-\\
- \hline \hline
-						& \textbf{N} 			&\textbf{E}		&\textbf{O}		&\textbf{A}		&\textbf{C}	\\ [0.5ex]
- \hline
- N 						& 1.000 				&				&				&				&	\\ 
- E 						& -.423** 			&1.000			&				&				&	\\
- O 						& -.047 			&-.001			&1.000			&				&	\\
- A 						& -.253** 			&.351**			&.057			&1.000			&	\\
- C 						& -.356** 			&.387**			&.091			&.0263**		&1.000	\\ [1ex]
- \hline
- \textbf{asseriveness}  		& \textbf{-.253**}		&\textbf{.241**}	&\textbf{-.002}		&\textbf{.064}		&\textbf{.225**}	\\
- \hline \hline
- \end{tabular}
-\caption[]{Correlation Coefficients between personality traits and assertiveness~\cite{bagherian2016relationship}\footnotemark}
- \label{table:assertiveness}
- \end{table}
+    \centering
+    \begin{tabular}{c c c c c c}
+        \\
+        \hline \hline
+        & \textbf{N}            &\textbf{E}        &\textbf{O}        &\textbf{A}        &\textbf{C}    \\ [0.5ex]
+        \hline
+        N & 1.000 & & & &    \\
+        E & -.423** &1.000 & & &    \\
+        O & -.047 &-.001 &1.000 & &    \\
+        A & -.253** &.351** &.057 &1.000 &    \\
+        C & -.356** &.387** &.091 &.0263** &1.000    \\ [1ex]
+        \hline
+        \textbf{asseriveness}        & \textbf{-.253**}        &\textbf{.241**}    &\textbf{-.002}        &\textbf{.064}        &\textbf{.225**}    \\
+        \hline \hline
+    \end{tabular}
+    \caption[]{Correlation Coefficients between personality traits and assertiveness~\cite{bagherian2016relationship}\footnotemark}
+    \label{table:assertiveness}
+\end{table}
 \footnotetext{The abbreviations for stars: $^{**}$ p<.01 and $^{*}$ p<.05}
- 
+
 Based on Table~\ref{table:assertiveness}, there is a linear correlation between
 extraversion and conscientiousness with assertiveness.
 Conversely, the inverse relationship between neuroticism and assertiveness
@@ -230,7 +230,7 @@ these two personality dimensions, we need to refer to other factors.
 For example, in addition to assertiveness, we can also consider which motives or needs these
 individuals pursue and therefore, make an assumption based on this additional factor.
 The authors of the following papers~\cite{costa1988catalog} studied the relationship between
-personality traits and needs and provided us PRF (The Personality Research Form) pattern,
+personality traits and needs and provided PRF (Personality Research Form) pattern,
 which measures 20 needs that each personality trait may have.
 Before we study the PRF pattern, let us examine what are the characteristic features
 inherent in these two types of personalities.
@@ -250,44 +250,44 @@ All these scales demonstrate the types of behaviors that openness personality ma
 Consequently, we assume that individuals high in openness
 personality traits generally behave in a relatively assertive manner
 (i.e they take the initiative, lead discussions) to broaden their knowledge.
-By relatively, we mean that the level of assertiveness needs to be less than the in
-extravert and conscientiousness and more than neuroticism personality since they are the
+By relatively, we mean that the level of assertiveness needs to be less than in the case of the
+extravert and conscientiousness and more than in case of the neuroticism personality since they are the
 main predictors of assertiveness and the results have high significant value.
 The level of vibration that we can assign to our mascot with this personality trait is L3.
- 
+
 
 \begin{table} [h]
-\centering
-\begin{tabular}{c c c} 
-\\
- \hline \hline
-PRF	scores				& \textbf{O} 	&\textbf{A}	\\ [0.5ex] 
- \hline
- Social Recognition (SR)		& -10 		& -19		\\ 
- Defendence (DE)			& -13		& \textbf{-48}	\\
- Succorance (SU)			& \textbf{-34}	& 18			\\
- Affiliation (AF)				& -13  		& 19			\\
- Exhibition (EX)				& 23			& \textbf{-31}	\\
- Play (PL)					& 07			& -06		\\
- Understanding (UN)			& \textbf{64}	& 10			\\
- Change (CH)				& \textbf{60}	& -12		\\
- Sentience (SE)				& \textbf{53}	& 13			\\
- Autonomy (AU)			& \textbf{47}	& -26		\\
- Harmavoidance (HA)		& \textbf{-52}	& \textbf{32}	\\
- Abasement (AB)			& 12			& \textbf{58}	\\
- Nurturance (NU)			& 10			& \textbf{55}	\\
- Dominance (DO)			& \textbf{45}	& \textbf{-46}	\\
- Aggression (AG)			& 14			& \textbf{-68}	\\
- Achievement (AC)			& \textbf{46}	& 02			\\
- Order (OR)				& -25		& -17		\\
- Endurance (EN)			& \textbf{33}	& 15			\\
- Impulsivity (IM)				& 24			& 03			\\
- Desirability (DY)			& 07			& 10			\\ [1ex] 
- \hline \hline		
- \end{tabular}
-\caption[]{Joint Factor Loadings for NEO-PI Factors and PRF Scales~\cite{costa1988catalog}\footnotemark.}
- \label{table:2}
- \end{table}
+    \centering
+    \begin{tabular}{c c c}
+        \\
+        \hline \hline
+        PRF scores & \textbf{O}    &\textbf{A}    \\ [0.5ex]
+        \hline
+        Social Recognition (SR)        & -10 & -19        \\
+        Defendence (DE)            & -13 & \textbf{-48}    \\
+        Succorance (SU)            & \textbf{-34}    & 18            \\
+        Affiliation (AF)                & -13 & 19            \\
+        Exhibition (EX)                & 23 & \textbf{-31}    \\
+        Play (PL)                    & 07 & -06        \\
+        Understanding (UN)            & \textbf{64}    & 10            \\
+        Change (CH)                & \textbf{60}    & -12        \\
+        Sentience (SE)                & \textbf{53}    & 13            \\
+        Autonomy (AU)            & \textbf{47}    & -26        \\
+        Harmavoidance (HA)        & \textbf{-52}    & \textbf{32}    \\
+        Abasement (AB)            & 12 & \textbf{58}    \\
+        Nurturance (NU)            & 10 & \textbf{55}    \\
+        Dominance (DO)            & \textbf{45}    & \textbf{-46}    \\
+        Aggression (AG)            & 14 & \textbf{-68}    \\
+        Achievement (AC)            & \textbf{46}    & 02            \\
+        Order (OR)                & -25 & -17        \\
+        Endurance (EN)            & \textbf{33}    & 15            \\
+        Impulsivity (IM)                & 24 & 03            \\
+        Desirability (DY)            & 07 & 10            \\ [1ex]
+        \hline \hline
+    \end{tabular}
+    \caption[]{Joint Factor Loadings for NEO-PI Factors and PRF Scales~\cite{costa1988catalog}\footnotemark.}
+    \label{table:2}
+\end{table}
 
 Agreeableness is described as a personality trait that is perceived as sympathetic,
 kind, warm, generous, helpful, forgiving, friendly, unselfish, and gentle personality~\cite{matthews2003personality}.
@@ -308,15 +308,15 @@ The level of vibration that we can assign for this personality trait is L2.
 \footnotetext{Note. These are varimax-rotated principal components. Decimal points are omitted; loadings above .30
 are given in boldface. NEO-PI = NEO Personality Inventory; PRF = Personality Research Form.}
 
-To summarize, the vibration level values that we assigned for each personality traits in our system are the following:
+To summarize, the vibration level values that we assigned for each personality traits in the system are the following:
 \begin{itemize}
-\item L1 is assigned to the mascot with neuroticism personality trait where the
-      vibration has the lowest level of amplitude (i.e 100 milliseconds per time).
-\item L2 is assigned to agreeableness (i.e 200 milliseconds per time).
-\item L3 is assigned to openness to experience (i.e 300 milliseconds per time).
-\item L4 is assigned to conscientiousness (i.e 400 milliseconds per time).
-\item L5 which represents the highest vibration level and the longest duration
-      is assigned to extravert personality trait (i.e 500 milliseconds per time).
+    \item L1 is assigned to the mascot with neuroticism personality trait where the
+    vibration has the lowest level of duration (i.e 100 milliseconds per time).
+    \item L2 is assigned to agreeableness (i.e 200 milliseconds per time).
+    \item L3 is assigned to openness to experience (i.e 300 milliseconds per time).
+    \item L4 is assigned to conscientiousness (i.e 400 milliseconds per time).
+    \item L5 which represents the highest vibration level and the longest duration
+    is assigned to extravert personality trait (i.e 500 milliseconds per time).
 \end{itemize}
 
 
@@ -367,17 +367,17 @@ We, now, take a close look at each dimension of the MUSIC pattern.
 The factor analysis of the music preferences from each of three studies proposed five dimensions:
 \textbf{m}ellow, \textbf{u}npretentious, \textbf{s}ophisticated, \textbf{i}ntense, and \textbf{c}ontemporary:
 \begin{itemize}
-\item The first factor features the following attributes: romantic, relaxing, quiet, slow, sad, unaggressive.
-      Examples of music genres that might describe this category are smooth jazz, R B/soul, soft rock,
-      adult contemporary, electronica, mainstream country, and so on.
-\item The second factor is described with uncomplicated, soft, acoustic pieces of music and is from a new country,
-      bluegrass, rock-n-roll, mainstream country, soft rock, religious, pop music genres.
-\item The third factor is perceived as inspiring, intelligent, complex, and dynamic including
-      avant-grade classic, classical, traditional jazz, world beat, electronica, adult contemporary genres.
-\item The fourth factor features loud, aggressive, and not relaxing attributes.
-      The music genres that describe this factor are punk, classic rock, heavy metal, and power pop.
-\item The fifth factor is defined as not sad, percussive, and electric pieces of
-      music and are from rap, R B/soul, europop, electronica genres.
+    \item The first factor features the following attributes: romantic, relaxing, quiet, slow, sad, unaggressive.
+    Examples of music genres that might describe this category are smooth jazz, R B/soul, soft rock,
+    adult contemporary, electronica, mainstream country, and so on.
+    \item The second factor is described with uncomplicated, soft, acoustic pieces of music and is from a new country,
+    bluegrass, rock-n-roll, mainstream country, soft rock, religious, pop music genres.
+    \item The third factor is perceived as inspiring, intelligent, complex, and dynamic including
+    avant-grade classic, classical, traditional jazz, world beat, electronica, adult contemporary genres.
+    \item The fourth factor features loud, aggressive, and not relaxing attributes.
+    The music genres that describe this factor are punk, classic rock, heavy metal, and power pop.
+    \item The fifth factor is defined as not sad, percussive, and electric pieces of
+    music and are from rap, R B/soul, europop, electronica genres.
 \end{itemize}
 
 Given the description of each of the musical dimensions, we can now correlate them to personality traits.
@@ -403,26 +403,26 @@ conscientiousness and neuroticism are inclined to enjoy Unpretentious and Contem
 In addition, the results across all these papers suggest the negative correlation between
 neuroticism and conscientiousness with the Intense dimension.
 We believe that the knowledge of the negative relationship between these variables will aid us to eliminate
-the possibility that participants during experiments might assign these personality traits to this music genre.
+the possibility that people might assign these personality traits to this music genre.
 
 To summarise the categories that we decided to assign to each personality trait in our system are the following:
 \begin{itemize}
-\item Openness to experience will be linked with the Sophisticated dimension.
-      Meaning that when the mascot with this personality trait will approach the speakers,
-      the avant-grade classic, classical, traditional jazz, world beat, electronica, adult
-      contemporary music genres will be played.
-\item Extraversion which will be linked with Contemporary music will imply that as soon as the extravert
-      mascot will come close to the speakers, the rap, R B/soul, europop, electronica music genres will be played.
-\item Agreeableness will be linked to the Unpretentious dimension which consists of a new country,
-      bluegrass, rock-n-roll, mainstream country, soft rock, religious, pop music genres.
-\item Conscientiousness will be linked Unpretentious
-\item Neuroticism will be linked Contemporary
+    \item Openness to experience will be linked with the Sophisticated dimension.
+    Meaning that when the mascot with this personality trait will approach the speakers,
+    the avant-grade classic, classical, traditional jazz, world beat, electronica, adult
+    contemporary music genres will be played.
+    \item Extraversion which will be linked with Contemporary music will imply that as soon as the extravert
+    mascot will come close to the speakers, the rap, R B/soul, europop, electronica music genres will be played.
+    \item Agreeableness will be linked to the Unpretentious dimension which consists of a new country,
+    bluegrass, rock-n-roll, mainstream country, soft rock, religious, pop music genres.
+    \item Conscientiousness will be linked Unpretentious
+    \item Neuroticism will be linked Contemporary
 \end{itemize}
 
-\par Additionally, we assume that assigning a music category to each personality trait,
+Additionally, we assume that assigning a music category to each personality trait,
 as opposed to assigning a particular genre, will help participants to broaden the understanding of music preferences.
 Therefore, with the help of the arrangement of these genres into categories,
-the correlation between personality traits and Music categories will be less varied.
+the correlation between personality traits and music categories will be less varied.
 Moreover, to help participants to better understand the system and the personality of a mascot,
 instead of giving to them a questionnaire with the list of songs and with the genres that they
 belong to, our system plays the music from each dimension category.
@@ -454,45 +454,45 @@ Herman Cerratto in his work ~\cite{cerrato2012meaning} characterizes colors by
 dividing them into their positive and negative aspects.
 The following table~\ref{table:color} is adapted from various research
 papers ~\cite{luscher1971luscher,cerrato2012meaning,schaie1964color} and
-summarizes the characteristics of the colors that we later apply to the design of our system.
+summarizes the characteristics of the colors that we later apply to the design of the system.
 
 \begin{table} [h]
-\centering
-\begin{tabular}{ | m{8em} | m{25em}| } 
-\hline
-\textbf{Colors} & \textbf{Affective Aspects}  \\
-\hline
-Red & energy, strength, attention-seeking, exciting, warm, spontaneous, assertive and confident,
-aggression and anger, quick-tempered, ruthless, fearful, intolerant, pain  \\
-\hline 
-Black & depressing and pessimistic, secretive and withholding, conservative and serious,
-sadness and negativity  \\
-\hline 
-Yellow & cheerful, happy, playful, fun, optimistic, uplifting, illuminating, logical, mental clarity,
-aids decision-making, originality, creativity, challenging, academic and analytical, communication of new ideas   \\
-\hline 
-Orange & warm, sociable, optimistic, enthusiastic, cheerful, adventurous, risk-taking, vibrant,
-flamboyant, stimulating to the senses,  self-confident, independent, extroverted and uninhibited,
-attention-seeking, encourages to socialize  \\
-\hline 
-Pink & compassion and understanding, nurturing, warmth, hope, calming, sweetness,
-naiveté, innocence and inexperience  \\
-\hline
-White & innocence, purity, cleanliness, simplicity, self-sufficient, pristine and open, new beginnings  \\
-\hline
-Turquoise &  communication, clarity of thought, balance and harmony, calmness,
-idealism and inspiration, self-expression \\
-\hline
-Green & growth and vitality, renewal and restoration, self-reliance, reliability,
-being tactful, emotionally balanced and calm, practical and down to earth, generous, kind and loyal
-with a high moral sense, adaptable and flexible  \\
-\hline
-Blue &  loyalty, trust and integrity, tactful, caring and concerned, reliability, responsibility,
-perseverance, idealistic and orderly, authority, devotion and contemplation, peace and calm \\
-\hline
-\end{tabular}
-\caption{The meaning of colors adapted from the ~\cite{luscher1971luscher,cerrato2012meaning, alschuler1943easel,schaie1961scaling} publications.}
-\label{table:color}
+    \centering
+    \begin{tabular}{ | m{8em} | m{25em}| }
+        \hline
+        \textbf{Colors} & \textbf{Affective Aspects}  \\
+        \hline
+        Red & energy, strength, attention-seeking, exciting, warm, spontaneous, assertive and confident,
+        aggression and anger, quick-tempered, ruthless, fearful, intolerant, pain  \\
+        \hline
+        Black & depressing and pessimistic, secretive and withholding, conservative and serious,
+        sadness and negativity  \\
+        \hline
+        Yellow & cheerful, happy, playful, fun, optimistic, uplifting, illuminating, logical, mental clarity,
+        aids decision-making, originality, creativity, challenging, academic and analytical, communication of new ideas   \\
+        \hline
+        Orange & warm, sociable, optimistic, enthusiastic, cheerful, adventurous, risk-taking, vibrant,
+        flamboyant, stimulating to the senses, self-confident, independent, extroverted and uninhibited,
+        attention-seeking, encourages to socialize  \\
+        \hline
+        Pink & compassion and understanding, nurturing, warmth, hope, calming, sweetness,
+        naiveté, innocence and inexperience  \\
+        \hline
+        White & innocence, purity, cleanliness, simplicity, self-sufficient, pristine and open, new beginnings  \\
+        \hline
+        Turquoise & communication, clarity of thought, balance and harmony, calmness,
+        idealism and inspiration, self-expression \\
+        \hline
+        Green & growth and vitality, renewal and restoration, self-reliance, reliability,
+        being tactful, emotionally balanced and calm, practical and down to earth, generous, kind and loyal
+        with a high moral sense, adaptable and flexible  \\
+        \hline
+        Blue & loyalty, trust and integrity, tactful, caring and concerned, reliability, responsibility,
+        perseverance, idealistic and orderly, authority, devotion and contemplation, peace and calm \\
+        \hline
+    \end{tabular}
+    \caption{The meaning of colors adapted from the ~\cite{luscher1971luscher,cerrato2012meaning, alschuler1943easel,schaie1961scaling} publications.}
+    \label{table:color}
 \end{table}
 
 Based on the characteristics describes in Table~\ref{table:personality},
@@ -504,7 +504,7 @@ Some of these facets ~\cite{costa1988catalog} belong to the neuroticism personal
 Thus, in order to convey the \textbf{neuroticism personality trait}, we decided to apply the
 mixture of these two colors which lead us to the dark shade of the red which we refer to as blood-red color.
 
-Herman Cerrato in his paper explains the meaning of turquoise color as a separate color, whereas
+Herman Cerrato in his paper~\cite{cerrato2012meaning} explains the meaning of turquoise color as a separate color, whereas
 all other research papers concentrate on blue and green colors.
 Since turquoise is a mixture of pale blue and green colors, we decided to combine
 these colors and refer them as turquoise.
@@ -547,11 +547,11 @@ Therefore, we hope that pink color (i.e soft pink) connotes agreeableness person
 To summarise the colors that we decided to assign to personality traits in our
 mascot-tablet and mascot-lamp interaction are the following:
 \begin{itemize}
-\item Blood-red color is assigned to the mascot with the neuroticism personality trait
-\item Turquoise color is assigned to the mascot with conscientiousness personality trait
-\item Yellow color is assigned to the mascot with openness personality trait
-\item Orange color is assigned to the mascot with extraversion personality trait
-\item Pink color is assigned to the mascot with agreeableness personality trait
+    \item Blood-red color is assigned to the mascot with the neuroticism personality trait
+    \item Turquoise color is assigned to the mascot with conscientiousness personality trait
+    \item Yellow color is assigned to the mascot with openness personality trait
+    \item Orange color is assigned to the mascot with extraversion personality trait
+    \item Pink color is assigned to the mascot with agreeableness personality trait
 \end{itemize}
 
 
@@ -565,29 +565,57 @@ the concept of personality is applied to each mascot.
 Figure~\ref{fig:ConceptInteraction} shows the interaction between social devices in a system.
 \begin{figure}[hbt!]
     \centering
-    \includegraphics[scale=0.25]{ConceptInteraction.pdf}
+    \includegraphics[scale=0.27]{ConceptInteraction.pdf}
     \caption{The visual representation of the interactions between social devices.}
     \label{fig:ConceptInteraction}
 \end{figure}
 
 \subsection*{Mascot-mascot interaction.}
-When a person holding a mascot comes close to another mascot, they both start to vibrate with
+When a person holding a mascot comes close to another mascot within 45 centimeters, they both start to vibrate with
 the specific duration of vibration based on the personality of an approaching mascot.
 Figure~\ref{fig:Concept} shows the duration of vibrations in milliseconds associated with
 specific personality traits.
 
 \subsection*{Mascot-speakers interaction.}
-When a mascot approaches the speakers, it starts to play a song according to the personality of the approaching mascot.
+When a mascot approaches the speakers within less than half meter, it starts to play a song according
+to the personality of the approaching mascot.
 All types of music are associated with the personality traits described in Figure~\ref{fig:Concept}.
+Also, since the experiments covered all other interaction types, we tested three songs from each music category.
+Because of the scale of an experiment and that participants had to fill 30 questions for each song,
+we kept the list of songs not too long to not overwhelm participants.
+The list of songs representing these music types are the following:
+\begin{itemize}
+    \item Sophisticated:
+    \begin{itemize}
+        \item Louis Armstrong - Panama. Released: 1946.
+        \item Frederic Chopin played by Rousseau - Nocturne In E Flat Major, Op. 9-No.2. Released: 2018.
+        \item Pink - Walk Me Home. Released: 2019.
+    \end{itemize}
+    \item Contemporary:
+    \begin{itemize}
+        \item Marvin Gaye - Let's Get It On. Released: 1973.
+        \item Eminem - Lose Yourself. Released: 2005.
+        \item Dj Suede - Thankful. Released: 2018.
+    \end{itemize}
+    \item Unpretentious:
+    \begin{itemize}
+        \item Bob Delevante - Penny Black. Released: 1999.
+        \item Tennessee River Authority - Sweet Home Alabama. Released: 2013.
+        \item OneRepublic - Counting Stars. Released: 2015.
+    \end{itemize}
+\end{itemize}
 
 \subsection*{Mascot-lamp and mascot-tablet interactions.}
-When a mascot approaches the lamp or a tablet, they change the lighting or screen color according to the
+When a mascot approaches the lamp or a tablet within 45 centimeters, they change the lighting or screen color according to the
 personality of the interacted mascot.
 The associations between colors and personality traits are depicted in Figure~\ref{fig:Concept}.
+The corresponding HEX color codes are the following:
+blood-red - '\#d90001', pink - '\#ffbfc8',
+yellow - '\#fdac22', turquoise - '\#50ffab', and orange - '\#fb4c0c'.
 
 \begin{figure}[hbt!]
     \centering
-    \includegraphics[scale=0.30]{Concept.pdf}
+    \includegraphics[width=13.5cm, height=7cm]{Concept.pdf}
     \caption{The assignment of all personality traits with corresponding actions.}
     \label{fig:Concept}
 \end{figure}
