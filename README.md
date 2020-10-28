@@ -1,4 +1,4 @@
-# Master Thesis
+# master-thesis
 Understanding Autonomous Device Behavior in a Social Internet of Things environment though Personality Traits
 
 Advisor: Donald Degraen, German Research Center for Artificial Intelligence, Saarbrücken, Germany
